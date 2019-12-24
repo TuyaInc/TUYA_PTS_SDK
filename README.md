@@ -16,5 +16,5 @@ Tuya Smart Production test SDK provides the interface package for the communicat
 
 ## Doc
 
-Refer to details: [Tuya Smart Doc - iOS SDK](https://tuyainc.github.io/tuyasmart_home_ios_sdk_doc/en/)
+Refer to details: [Tuya Production Test SDK Doc](https://github.com/TuyaInc/TUYA_PTS_SDK/tree/master/doc)
 

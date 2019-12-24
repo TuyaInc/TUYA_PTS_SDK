@@ -16,5 +16,5 @@
 
 ## 开发文档
 
-更多请参考: [Tuya Smart Doc - iOS SDK](https://tuyainc.github.io/tuyasmart_home_ios_sdk_doc/en/)
+更多参考: [涂鸦产测SDK文档](https://github.com/TuyaInc/TUYA_PTS_SDK/tree/master/doc)
 
