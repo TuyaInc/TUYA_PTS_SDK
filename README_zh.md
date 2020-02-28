@@ -12,9 +12,11 @@
 - 硬件设备相关(进产测模式，读写MAC，GPIO测试，授权测试等)
 - 涂鸦设备RF测试接口封装
 
+## SDK下载地址
 
+[https://github.com/TuyaInc/TUYA_PTS_SDK/tree/master/TuyaCloudLib]
 
 ## 开发文档
 
-更多参考: [涂鸦产测SDK文档](https://github.com/TuyaInc/TUYA_PTS_SDK/tree/master/doc)
+更多参考: [涂鸦产测SDK文档](<https://docs.tuya.com/zh/iot/smart-production/production-test-solution/production-testing-service-scope/production-test-sdk/wifi-device-sdk>)
 
