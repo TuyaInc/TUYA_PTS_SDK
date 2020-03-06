@@ -1,0 +1,579 @@
+0000,成功
+1001,校准单载波频偏 Fail
+1002,校准调制信号频偏 Fail
+1003,校准功率 Fail
+1004,TX Verify Power Fail
+1005,TX Verify EVM Fail
+1006,TX Verify FreqOffset Fail
+1007,TX Verify Mask Fail
+1008,TX Verify Carrier LeaKage Fail
+1009,TX Verify IQ Imb.Amp Fail
+1010,TX Verify EVM Percent Fail
+1011,TX Verify PhaseErr Fail
+1012,TX Verify SymbolClockErr Fail
+1013,TX Verify Power Peak Fail
+1014,TX Verify OBW Fail
+1015,RX Verify PER Fail
+1016,RX Verify 最小接收灵敏度 Fail
+1017,RX Verify 最大接收电平 Fail
+1018,TX Verify MASK Margins Fail
+1019,TX Verify IQ Imb.Phase
+1020,TX Verify Phase Noise RMS Fail
+1021,RX Calibration Fail
+1022,RX Verify Sensitivity Fail
+1023,TX Verify Max Power Fail
+1024,TX Verify Ramp On Time Fail
+1025,TX Verify Ramp On Off Fail
+2001,校准单载波频偏 Fail
+2002,校准调制信号频偏 Fail
+2003,校准功率 Fail
+2004,TX Verify Power Fail
+2005,TX Verify EVM Fail
+2006,TX Verify FreqOffset Fail
+2007,TX Verify Mask Fail
+2008,TX Verify Carrier LeaKage Fail
+2009,TX Verify AmpErr Fail
+2010,TX Verify EVM Percent Fail
+2011,TX Verify PhaseErr Fail
+2012,TX Verify SymbolClockErr Fail
+2013,TX Verify Power Peak Fail
+2014,TX Verify OBW Fail
+2015,TX Verify Flatness Fail
+2016,RX Verify PER Fail
+2017,RX Verify 最小接收灵敏度 Fail
+2018,RX Verify 最大接收电平 Fail
+2019,TX Verify MASK Margins Fail
+2020,TX Verify IQ Imb.Phase
+2021,TX Verify Phase Noise RMS Fail
+2022,RX Calibration Fail
+2023,RX Verify Sensitivity Fail
+2024,TX Verify Max Power Fail
+3001,校准单载波频偏 Fail
+3002,校准调制信号频偏 Fail
+3003,校准功率 Fail
+3004,TX Verify Power Fail
+3005,TX Verify EVM Fail
+3006,TX Verify FreqOffset Fail
+3007,TX Verify Mask Fail
+3008,TX Verify Carrier LeaKage Fail
+3009,TX Verify AmpErr Fail
+3010,TX Verify EVM Percent Fail
+3011,TX Verify PhaseErr Fail
+3012,TX Verify SymbolClockErr Fail
+3013,TX Verify Power Peak Fail
+3014,TX Verify OBW Fail
+3015,TX Verify Flatness Fail
+3016,RX Verify PER Fail
+3017,RX Verify 最小接收灵敏度 Fail
+3018,RX Verify 最大接收电平 Fail
+3019,TX Verify MASK Margins Fail
+3020,TX Verify IQ Imb.Phase
+3021,TX Verify Phase Noise RMS Fail
+3022,RX Calibration Fail
+3023,RX Verify Sensitivity Fail
+3024,TX Verify Max Power Fail
+4001,校准单载波频偏 Fail
+4002,校准调制信号频偏 Fail
+4003,校准功率 Fail
+4004,TX Verify Power Fail
+4005,TX Verify EVM Fail
+4006,TX Verify FreqOffset Fail
+4007,TX Verify Mask Fail
+4008,TX Verify Carrier LeaKage Fail
+4009,TX Verify AmpErr Fail
+4010,TX Verify EVM Percent Fail
+4011,TX Verify PhaseErr Fail
+4012,TX Verify SymbolClockErr Fail
+4013,TX Verify Power Peak Fail
+4014,TX Verify OBW Fail
+4015,TX Verify Flatness Fail
+4016,RX Verify PER Fail
+4017,RX Verify 最小接收灵敏度 Fail
+4018,RX Verify 最大接收电平 Fail
+4019,TX Verify MASK Margins Fail
+4020,TX Verify IQ Imb.Phase
+4021,TX Verify Phase Noise RMS Fail
+4022,RX Calibration Fail
+4023,RX Verify Sensitivity Fail
+4024,TX Verify Max Power Fail
+5001,校准单载波频偏 Fail
+5002,校准调制信号频偏 Fail
+5003,校准功率 Fail
+5004,TX Verify Power Fail
+5005,TX Verify EVM Fail
+5006,TX Verify FreqOffset Fail
+5007,TX Verify Mask Fail
+5008,TX Verify Carrier LeaKage Fail
+5009,TX Verify AmpErr Fail
+5010,TX Verify EVM Percent Fail
+5011,TX Verify PhaseErr Fail
+5012,TX Verify SymbolClockErr Fail
+5013,TX Verify Power Peak Fail
+5014,TX Verify OBW Fail
+5015,TX Verify Flatness Fail
+5016,RX Verify PER Fail
+5017,RX Verify 最小接收灵敏度 Fail
+5018,RX Verify 最大接收电平 Fail
+5019,TX Verify MASK Margins Fail
+5020,TX Verify IQ Imb.Phase
+5021,TX Verify Phase Noise RMS Fail
+5022,RX Calibration Fail
+5023,RX Verify Sensitivity Fail
+5024,TX Verify Max Power Fail
+6001,校准单载波频偏 Fail
+6002,校准调制信号频偏 Fail
+6003,校准功率 Fail
+6004,TX Verify Power Fail
+6005,TX Verify EVM Fail
+6006,TX Verify FreqOffset Fail
+6007,TX Verify Mask Fail
+6008,TX Verify Carrier LeaKage Fail
+6009,TX Verify AmpErr Fail
+6010,TX Verify EVM Percent Fail
+6011,TX Verify PhaseErr Fail
+6012,TX Verify SymbolClockErr Fail
+6013,TX Verify Power Peak Fail
+6014,TX Verify OBW Fail
+6015,TX Verify Flatness Fail
+6016,RX Verify PER Fail
+6017,RX Verify 最小接收灵敏度 Fail
+6018,RX Verify 最大接收电平 Fail
+6019,TX Verify MASK Margins Fail
+6020,TX Verify IQ Imb.Phase
+6021,TX Verify Phase Noise RMS Fail
+6022,RX Calibration Fail
+6023,RX Verify Sensitivity Fail
+6024,TX Verify Max Power Fail
+7001,校准单载波频偏 Fail
+7002,校准调制信号频偏 Fail
+7003,校准功率 Fail
+7004,TX Verify Power Fail
+7005,TX Verify EVM Fail
+7006,TX Verify FreqOffset Fail
+7007,TX Verify Mask Fail
+7008,TX Verify Carrier LeaKage Fail
+7009,TX Verify AmpErr Fail
+7010,TX Verify EVM Percent Fail
+7011,TX Verify PhaseErr Fail
+7012,TX Verify SymbolClockErr Fail
+7013,TX Verify Power Peak Fail
+7014,TX Verify OBW Fail
+7015,TX Verify Flatness Fail
+7016,RX Verify PER Fail
+7017,RX Verify 最小接收灵敏度 Fail
+7018,RX Verify 最大接收电平 Fail
+7019,TX Verify MASK Margins Fail
+7020,TX Verify IQ Imb.Phase
+7021,TX Verify Phase Noise RMS Fail
+7022,RX Calibration Fail
+7023,RX Verify Sensitivity Fail
+7024,TX Verify Max Power Fail
+8001,校准单载波频偏 Fail
+8002,校准调制信号频偏 Fail
+8003,校准功率 Fail
+8004,TX Verify Power Fail
+8005,TX Verify EVM Fail
+8006,TX Verify FreqOffset Fail
+8007,TX Verify Mask Fail
+8008,TX Verify Carrier LeaKage Fail
+8009,TX Verify AmpErr Fail
+8010,TX Verify EVM Percent Fail
+8011,TX Verify PhaseErr Fail
+8012,TX Verify SymbolClockErr Fail
+8013,TX Verify Power Peak Fail
+8014,TX Verify OBW Fail
+8015,TX Verify Flatness Fail
+8016,RX Verify PER Fail
+8017,RX Verify 最小接收灵敏度 Fail
+8018,RX Verify 最大接收电平 Fail
+8019,TX Verify MASK Margins Fail
+8020,TX Verify IQ Imb.Phase
+8021,TX Verify Phase Noise RMS Fail
+8022,RX Calibration Fail
+8023,RX Verify Sensitivity Fail
+8024,TX Verify Max Power Fail
+9001,校准单载波频偏 Fail
+9002,校准调制信号频偏 Fail
+9003,校准功率 Fail
+9004,TX Verify Power Fail
+9005,TX Verify EVM Fail
+9006,TX Verify FreqOffset Fail
+9007,TX Verify Mask Fail
+9008,TX Verify Carrier LeaKage Fail
+9009,TX Verify AmpErr Fail
+9010,TX Verify EVM Percent Fail
+9011,TX Verify PhaseErr Fail
+9012,TX Verify SymbolClockErr Fail
+9013,TX Verify Power Peak Fail
+9014,TX Verify OBW Fail
+9015,TX Verify Flatness Fail
+9016,RX Verify PER Fail
+9017,RX Verify 最小接收灵敏度 Fail
+9018,RX Verify 最大接收电平 Fail
+9019,TX Verify MASK Margins Fail
+9020,TX Verify IQ Imb.Phase
+9021,TX Verify Phase Noise RMS Fail
+9022,RX Calibration Fail
+9023,RX Verify Sensitivity Fail
+9024,TX Verify Max Power Fail
+10001,校准单载波频偏 Fail
+10002,校准调制信号频偏 Fail
+10003,校准功率 Fail
+10004,TX Verify Power Fail
+10005,TX Verify EVM Fail
+10006,TX Verify FreqOffset Fail
+10007,TX Verify Mask Fail
+10008,TX Verify Carrier LeaKage Fail
+10009,TX Verify AmpErr Fail
+10010,TX Verify EVM Percent Fail
+10011,TX Verify PhaseErr Fail
+10012,TX Verify SymbolClockErr Fail
+10013,TX Verify Power Peak Fail
+10014,TX Verify OBW Fail
+10015,TX Verify Flatness Fail
+10016,RX Verify PER Fail
+10017,RX Verify 最小接收灵敏度 Fail
+10018,RX Verify 最大接收电平 Fail
+10019,TX Verify MASK Margins Fail
+10020,TX Verify IQ Imb.Phase
+10021,TX Verify Phase Noise RMS Fail
+10022,RX Calibration Fail
+10023,RX Verify Sensitivity Fail
+10024,TX Verify Max Power Fail
+11001,校准单载波频偏 Fail
+11002,校准调制信号频偏 Fail
+11003,校准功率 Fail
+11004,TX Verify Power Fail
+11005,TX Verify EVM Fail
+11006,TX Verify FreqOffset Fail
+11007,TX Verify Mask Fail
+11008,TX Verify Carrier LeaKage Fail
+11009,TX Verify AmpErr Fail
+11010,TX Verify EVM Percent Fail
+11011,TX Verify PhaseErr Fail
+11012,TX Verify SymbolClockErr Fail
+11013,TX Verify Power Peak Fail
+11014,TX Verify OBW Fail
+11015,TX Verify Flatness Fail
+11016,RX Verify PER Fail
+11017,RX Verify 最小接收灵敏度 Fail
+11018,RX Verify 最大接收电平 Fail
+11019,TX Verify MASK Margins Fail
+11020,TX Verify IQ Imb.Phase
+11021,TX Verify Phase Noise RMS Fail
+11022,RX Calibration Fail
+11023,RX Verify Sensitivity Fail
+11024,TX Verify Max Power Fail
+12001,校准单载波频偏 Fail
+12002,校准调制信号频偏 Fail
+12003,校准功率 Fail
+12004,TX Verify Power Fail
+12005,TX Verify EVM Fail
+12006,TX Verify FreqOffset Fail
+12007,TX Verify Mask Fail
+12008,TX Verify Carrier LeaKage Fail
+12009,TX Verify AmpErr Fail
+12010,TX Verify EVM Percent Fail
+12011,TX Verify PhaseErr Fail
+12012,TX Verify SymbolClockErr Fail
+12013,TX Verify Power Peak Fail
+12014,TX Verify OBW Fail
+12015,TX Verify Flatness Fail
+12016,RX Verify PER Fail
+12017,RX Verify 最小接收灵敏度 Fail
+12018,RX Verify 最大接收电平 Fail
+12019,TX Verify MASK Margins Fail
+12020,TX Verify IQ Imb.Phase
+12021,TX Verify Phase Noise RMS Fail
+12022,RX Calibration Fail
+12023,RX Verify Sensitivity Fail
+12024,TX Verify Max Power Fail
+13001,校准单载波频偏 Fail
+13002,校准调制信号频偏 Fail
+13003,校准功率 Fail
+13004,TX Verify Power Fail
+13005,TX Verify EVM Fail
+13006,TX Verify FreqOffset Fail
+13007,TX Verify Mask Fail
+13008,TX Verify Carrier LeaKage Fail
+13009,TX Verify AmpErr Fail
+13010,TX Verify EVM Percent Fail
+13011,TX Verify PhaseErr Fail
+13012,TX Verify SymbolClockErr Fail
+13013,TX Verify Power Peak Fail
+13014,TX Verify OBW Fail
+13015,TX Verify Flatness Fail
+13016,RX Verify PER Fail
+13017,RX Verify 最小接收灵敏度 Fail
+13018,RX Verify 最大接收电平 Fail
+13019,TX Verify MASK Margins Fail
+13020,TX Verify IQ Imb.Phase
+13021,TX Verify Phase Noise RMS Fail
+13022,RX Calibration Fail
+13023,RX Verify Sensitivity Fail
+13024,TX Verify Max Power Fail
+14001,校准单载波频偏 Fail
+14002,校准调制信号频偏 Fail
+14003,校准功率 Fail
+14004,TX Verify Power Fail
+14005,TX Verify EVM Fail
+14006,TX Verify FreqOffset Fail
+14007,TX Verify Mask Fail
+14008,TX Verify Carrier LeaKage Fail
+14009,TX Verify AmpErr Fail
+14010,TX Verify EVM Percent Fail
+14011,TX Verify PhaseErr Fail
+14012,TX Verify SymbolClockErr Fail
+14013,TX Verify Power Peak Fail
+14014,TX Verify OBW Fail
+14015,TX Verify Flatness Fail
+14016,RX Verify PER Fail
+14017,RX Verify 最小接收灵敏度 Fail
+14018,RX Verify 最大接收电平 Fail
+14019,TX Verify MASK Margins Fail
+14020,TX Verify IQ Imb.Phase
+14021,TX Verify Phase Noise RMS Fail
+14022,RX Calibration Fail
+14023,RX Verify Sensitivity Fail
+14024,TX Verify Max Power Fail
+15001,校准单载波频偏 Fail
+15002,校准调制信号频偏 Fail
+15003,校准功率 Fail
+15004,TX Verify Power Fail
+15005,TX Verify EVM Fail
+15006,TX Verify FreqOffset Fail
+15007,TX Verify Mask Fail
+15008,TX Verify Carrier LeaKage Fail
+15009,TX Verify AmpErr Fail
+15010,TX Verify EVM Percent Fail
+15011,TX Verify PhaseErr Fail
+15012,TX Verify SymbolClockErr Fail
+15013,TX Verify Power Peak Fail
+15014,TX Verify OBW Fail
+15015,TX Verify Flatness Fail
+15016,RX Verify PER Fail
+15017,RX Verify 最小接收灵敏度 Fail
+15018,RX Verify 最大接收电平 Fail
+15019,TX Verify MASK Margins Fail
+15020,TX Verify IQ Imb.Phase
+15021,TX Verify Phase Noise RMS Fail
+15022,RX Calibration Fail
+15023,RX Verify Sensitivity Fail
+15024,TX Verify Max Power Fail
+16001,校准单载波频偏 Fail
+16002,校准调制信号频偏 Fail
+16003,校准功率 Fail
+16004,TX Verify Power Fail
+16005,TX Verify EVM Fail
+16006,TX Verify FreqOffset Fail
+16007,TX Verify Mask Fail
+16008,TX Verify Carrier LeaKage Fail
+16009,TX Verify AmpErr Fail
+16010,TX Verify EVM Percent Fail
+16011,TX Verify PhaseErr Fail
+16012,TX Verify SymbolClockErr Fail
+16013,TX Verify Power Peak Fail
+16014,TX Verify OBW Fail
+16015,TX Verify Flatness Fail
+16016,RX Verify PER Fail
+16017,RX Verify 最小接收灵敏度 Fail
+16018,RX Verify 最大接收电平 Fail
+16019,TX Verify MASK Margins Fail
+16020,TX Verify IQ Imb.Phase
+16021,TX Verify Phase Noise RMS Fail
+16022,RX Calibration Fail
+16023,RX Verify Sensitivity Fail
+16024,TX Verify Max Power Fail
+17001,TX Verify Power Fail
+17002,TX Verify Init Freq Err Fail
+17003,TX Verify Delta F1 Avg Fail
+17004,TX Verify Delta F2 Avg Fail
+17005,TX Verify Delta F2/F1 Fail
+17006,TX Verify Delta F2 Max Fail
+17007,TX Verify Fn Max Fail
+17008,TX Verify F0Fn Max Fail
+17009,TX Verify F1F0 Max Fail
+17010,TX Verify Power Peak Fail
+17011,TX Verify FnFn5 Max Fail
+17012,RX Verify PER Fail
+17013,RX Verify BER Fail
+17014,TX Verify Delta F1 Max Fail
+17015,TX Verify Delta F0F3 Fail
+17016,TX Verify Delta F0Fn3 Fail
+18001,TX Verify Power Fail
+18002,TX Verify Init Freq Err Fail
+18003,TX Verify Delta F1 Avg Fail
+18004,TX Verify Freq Drift Fail
+18005,TX Verify Freq Drift Rate Fail
+18006,TX Verify Delta F2 Avg Fail
+18007,TX Verify Delta F2/F1 Fail
+18008,TX Verify Delta F2 Max Fail
+18009,TX Verify Bandwidth 20DB Fail
+18010,TX Verify Power Peak Fail
+18011,RX Verify PER Fail
+18012,RX Verify BER Fail
+19001,TX Verify Power Fail
+19002,TX Verify Init Freq Err Fail
+19003,TX Verify Power Diff Fail
+19004,TX Verify DEVM Avg Fail
+19005,TX Verify DEVM Peak Fail
+19006,TX Verify DEVM 99PCT Fail
+19007,TX Verify Edr Omega I Fail
+19008,TX Verify Edr Omega 0 Fail
+19009,TX Verify Edr Omega I0 Fail
+19010,TX Verify Spec Mask Fail
+19011,TX Verify Power Peak Fail
+19012,RX Verify PER Fail
+19013,RX Verify BER Fail
+20001,TX Verify Power Fail
+20002,TX Verify EVM Fail
+20003,TX Verify FreqOffset Fail
+20004,TX Verify Mask Fail
+20005,RX Verify PER Fail
+20006,RX Verify BER Fail
+20007,Ping DUT Fail
+20008,Connect DUT Fail
+20009,DisConnect DUT Fail
+20010,DUT Operate Fail
+22001,Connect Tester Fail
+22002,DisConnect Tester Fail
+22003,Set Tester VSG Fail
+22004,Set Tester VSA Fail
+22005,Data capture Fail
+22006,Data analyze Fail
+23001,Wirte Data Fail
+23002,Wirte MAC  Fail
+23003,Wirte Flash Fail
+23004,Check Efuse Fail
+24001,WT_USER_COMMAND 调用 Fail
+24002,WT_USER_EXT_APP 调用 Fail
+24003,WT_OPETATE_EXTERNAL_DEV 调用 Fail
+24004,温补测试 Fail
+24005,Enable NIC Fail
+24005,Disable NIC Fail
+25001,文件配置错误
+25002,MES Operate Fail
+25003,输出 CSV LOG Fail
+26001,校准单载波频偏 Fail
+26002,校准调制信号频偏 Fail
+26003,校准功率 Fail
+26004,TX Verify Power Fail
+26005,TX Verify EVM Fail
+26006,TX Verify FreqOffset Fail
+26007,TX Verify Mask Fail
+26008,TX Verify Carrier LeaKage Fail
+26009,TX Verify AmpErr Fail
+26010,TX Verify EVM Percent Fail
+26011,TX Verify PhaseErr Fail
+26012,TX Verify SymbolClockErr Fail
+26013,TX Verify Power Peak Fail
+26014,TX Verify OBW Fail
+26015,TX Verify Flatness Fail
+26016,RX Verify PER Fail
+26017,RX Verify 最小接收灵敏度 Fail
+26018,RX Verify 最大接收电平 Fail
+26019,TX Verify MASK Margins Fail
+26020,TX Verify IQ Imb.Phase
+26021,TX Verify Phase Noise RMS Fail
+26022,RX Calibration Fail
+26023,RX Verify Sensitivity Fail
+26024,TX Verify Max Power Fail
+27001,校准单载波频偏 Fail
+27002,校准调制信号频偏 Fail
+27003,校准功率 Fail
+27004,TX Verify Power Fail
+27005,TX Verify EVM Fail
+27006,TX Verify FreqOffset Fail
+27007,TX Verify Mask Fail
+27008,TX Verify Carrier LeaKage Fail
+27009,TX Verify AmpErr Fail
+27010,TX Verify EVM Percent Fail
+27011,TX Verify PhaseErr Fail
+27012,TX Verify SymbolClockErr Fail
+27013,TX Verify Power Peak Fail
+27014,TX Verify OBW Fail
+27015,TX Verify Flatness Fail
+27016,RX Verify PER Fail
+27017,RX Verify 最小接收灵敏度 Fail
+27018,RX Verify 最大接收电平 Fail
+27019,TX Verify MASK Margins Fail
+27020,TX Verify IQ Imb.Phase
+27021,TX Verify Phase Noise RMS Fail
+27022,RX Calibration Fail
+27023,RX Verify Sensitivity Fail
+27024,TX Verify Max Power Fail
+28001,校准单载波频偏 Fail
+28002,校准调制信号频偏 Fail
+28003,校准功率 Fail
+28004,TX Verify Power Fail
+28005,TX Verify EVM Fail
+28006,TX Verify FreqOffset Fail
+28007,TX Verify Mask Fail
+28008,TX Verify Carrier LeaKage Fail
+28009,TX Verify AmpErr Fail
+28010,TX Verify EVM Percent Fail
+28011,TX Verify PhaseErr Fail
+28012,TX Verify SymbolClockErr Fail
+28013,TX Verify Power Peak Fail
+28014,TX Verify OBW Fail
+28015,TX Verify Flatness Fail
+28016,RX Verify PER Fail
+28017,RX Verify 最小接收灵敏度 Fail
+28018,RX Verify 最大接收电平 Fail
+28019,TX Verify MASK Margins Fail
+28020,TX Verify IQ Imb.Phase
+28021,TX Verify Phase Noise RMS Fail
+28022,RX Calibration Fail
+28023,RX Verify Sensitivity Fail
+28024,TX Verify Max Power Fail
+29001,校准单载波频偏 Fail
+29002,校准调制信号频偏 Fail
+29003,校准功率 Fail
+29004,TX Verify Power Fail
+29005,TX Verify EVM Fail
+29006,TX Verify FreqOffset Fail
+29007,TX Verify Mask Fail
+29008,TX Verify Carrier LeaKage Fail
+29009,TX Verify AmpErr Fail
+29010,TX Verify EVM Percent Fail
+29011,TX Verify PhaseErr Fail
+29012,TX Verify SymbolClockErr Fail
+29013,TX Verify Power Peak Fail
+29014,TX Verify OBW Fail
+29015,TX Verify Flatness Fail
+29016,RX Verify PER Fail
+29017,RX Verify 最小接收灵敏度 Fail
+29018,RX Verify 最大接收电平 Fail
+29019,TX Verify MASK Margins Fail
+29020,TX Verify IQ Imb.Phase
+29021,TX Verify Phase Noise RMS Fail
+29022,RX Calibration Fail
+29023,RX Verify Sensitivity Fail
+29024,TX Verify Max Power Fail
+30001,校准单载波频偏 Fail
+30002,校准调制信号频偏 Fail
+30003,校准功率 Fail
+30004,TX Verify Power Fail
+30005,TX Verify EVM Fail
+30006,TX Verify FreqOffset Fail
+30007,TX Verify Mask Fail
+30008,TX Verify Carrier LeaKage Fail
+30009,TX Verify AmpErr Fail
+30010,TX Verify EVM Percent Fail
+30011,TX Verify PhaseErr Fail
+30012,TX Verify SymbolClockErr Fail
+30013,TX Verify Power Peak Fail
+30014,TX Verify OBW Fail
+30015,TX Verify Flatness Fail
+30016,RX Verify PER Fail
+30017,RX Verify 最小接收灵敏度 Fail
+30018,RX Verify 最大接收电平 Fail
+30019,TX Verify MASK Margins Fail
+30020,TX Verify IQ Imb.Phase
+30021,TX Verify Phase Noise RMS Fail
+30022,RX Calibration Fail
+30023,RX Verify Sensitivity Fail
+30024,TX Verify Max Power Fail
+31001,RX Verify SNR Fail
+31002,RX Verify SNR Fail
+26025,Other Err

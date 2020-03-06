@@ -1,0 +1,591 @@
+//******************************************************************************
+//                      Wifi Limit Setup file
+//******************************************************************************
+
+//------------------------------------------------------------------------------
+// 频偏校准设置
+//------------------------------------------------------------------------------
+
+WT_FREQ_CAL_TARGET_2G			= 0    // 2.4G校准目标频偏值，ppm，取值范围(-1000-1000)  1ppm≈2.4kHz(2.4G Band)
+WT_FREQ_CAL_TOLERANC_2G                 = 2    // 频偏校准容限，取值范围(0-1000)
+
+WT_FREQ_CAL_TARGET_5G			= 0    // 5.8G校准目标频偏值，ppm，取值范围(-1000-1000)  1ppm≈5kHz  (5G Band)
+WT_FREQ_CAL_TOLERANC_5G			= 2    // 频偏校准容限，取值范围(0-1000)
+//------------------------------------------------------------------------------
+// 目标功率设置
+//------------------------------------------------------------------------------
+WT_TARGET_PWR_11B			= 16    // 11B目标功率，dBm，取值范围(-100-100)
+WT_TARGET_PWR_OFDM_2_4G			= 14	// 2.4G 11g 54M目标功率，dBm，取值范围(-100-100)
+WT_TARGET_PWR_HT20_2_4G			= 13	// 2.4G HT20目标功率，dBm，取值范围(-100-100)
+WT_TARGET_PWR_HT40_2_4G			= 12	// 2.4G HT40目标功率，dBm，取值范围(-100-100)
+WT_TARGET_PWR_AC20_2_4G			= 14	// 2.4G AC20目标功率，dBm，取值范围(-100-100)
+WT_TARGET_PWR_AC40_2_4G			= 14	// 2.4G AC40目标功率，dBm，取值范围(-100-100)
+WT_TARGET_PWR_AC80_2_4G      		= 14    // 2.4G AC80目标功率，dBm，取值范围(-100-100)
+WT_TARGET_PWR_AX20_2_4G			= 14    // 2.4G AX20目标功率，dBm，取值范围(-100-100)
+WT_TARGET_PWR_AX40_2_4G			= 14    // 2.4G AX40目标功率，dBm，取值范围(-100-100)
+WT_TARGET_PWR_AX80_2_4G			= 14    // 2.4G AX40目标功率，dBm，取值范围(-100-100)
+
+WT_TARGET_PWR_OFDM_5G			= 13	// 5G 11g 54M目标功率，dBm，取值范围(-100-100)
+WT_TARGET_PWR_HT20_5G			= 12	// 5G HT20目标功率，dBm，取值范围(-100-100)
+WT_TARGET_PWR_HT40_5G			= 12	// 5G HT40目标功率，dBm，取值范围(-100-100)
+WT_TARGET_PWR_AC20_5G			= 12	// 5G AC20目标功率，dBm，取值范围(-100-100)
+WT_TARGET_PWR_AC40_5G			= 12	// 5G AC40目标功率，dBm，取值范围(-100-100)
+WT_TARGET_PWR_AC80_5G      		= 12    // 5G AC80目标功率，dBm，取值范围(-100-100)
+WT_TARGET_PWR_AX20_5G			= 12    // 5G AX20目标功率，dBm，取值范围(-100-100)
+WT_TARGET_PWR_AX40_5G			= 12    // 5G AX40目标功率，dBm，取值范围(-100-100)
+WT_TARGET_PWR_AX80_5G			= 12    // 5G AX80目标功率，dBm，取值范围(-100-100)
+WT_TARGET_PWR_AX160_5G			= 12    // 5G AX160目标功率，dBm，取值范围(-100-100)
+WT_TARGET_PWR_AX8080_5G			= 12    // 5G AX80+80目标功率，dBm，取值范围(-100-100)
+
+//2.4GDataRate功率差异,dBm,取值范围(-30-30)
+//					54M	48M	36M	24M	18M	12M	9M	6M	11M	5.5M	2M	1M
+WT_TARGET_PWR_LEGACY_RATE_DIFF_2_4G	0	0	0	0	0	0	0	0	0	0	0	0
+
+//					MCS11	MCS10	MCS9	MCS8	MCS7	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TARGET_PWR_HT20_1S_MCS_DIFF_2_4G					0   	0   	0	0	0	0	0	0
+WT_TARGET_PWR_HT40_1S_MCS_DIFF_2_4G					0   	0   	0	0	0	0	0	0
+WT_TARGET_PWR_AC20_1S_MCS_DIFF_2_4G	0	0	0	0	0	0	0	0	0	0	0	0
+WT_TARGET_PWR_AC40_1S_MCS_DIFF_2_4G	0	0	0	0	0	0	0	0	0	0	0	0
+WT_TARGET_PWR_AC80_1S_MCS_DIFF_2_4G	0	0	0	0	0	0	0	0	0	0	0	0
+WT_TARGET_PWR_AX20_1S_MCS_DIFF_2_4G	0	0	0	0	0	0	0	0	0	0	0	0
+WT_TARGET_PWR_AX40_1S_MCS_DIFF_2_4G	0	0	0	0	0	0	0	0	0	0	0	0
+
+	
+//5GDataRate功率差异,dBm,取值范围(-30-30)
+//					54M	48M	36M	24M	18M	12M	9M	6M	11M	5.5M	2M	1M
+WT_TARGET_PWR_LEGACY_RATE_DIFF_5G	0	0	0	0	0	0	0	0	0	0	0	0
+
+//					MCS11	MCS10	MCS9	MCS8	MCS7	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TARGET_PWR_HT20_1S_MCS_DIFF_5G				   	0   	0	0	0	0	0	0	0
+WT_TARGET_PWR_HT40_1S_MCS_DIFF_5G				        0   	0   	0	0	0	0	0	0
+WT_TARGET_PWR_AC20_1S_MCS_DIFF_5G	0	0	0	0	0	0	0	0	0	0	0	0
+WT_TARGET_PWR_AC40_1S_MCS_DIFF_5G	0	0	0	0	0	0	0	0	0	0	0	0
+WT_TARGET_PWR_AC80_1S_MCS_DIFF_5G	0	0	0	0	0	0	0	0	0	0	0	0
+WT_TARGET_PWR_AX20_1S_MCS_DIFF_5G	0	0	0	0	0	0	0	0	0	0	0	0
+WT_TARGET_PWR_AX40_1S_MCS_DIFF_5G	0	0	0	0	0	0	0	0	0	0	0	0
+WT_TARGET_PWR_AX80_1S_MCS_DIFF_5G	0	0	0	0	0	0	0	0	0	0	0	0
+WT_TARGET_PWR_AX160_1S_MCS_DIFF_5G	0	0	0	0	0	0	0	0	0	0	0	0 
+WT_TARGET_PWR_AX8080_1S_MCS_DIFF_5G	0	0	0	0	0	0	0	0	0	0	0	0
+//------------------------------------------------------------------------------
+// 功率校准设置
+//------------------------------------------------------------------------------
+				
+WT_POWER_CAL_TOLERANCE_UP_2G	    = 0.5    // 功率校准的容限，dBm，取值范围(0-100)  
+WT_POWER_CAL_TOLERANCE_LOW_2G	    = 0.5
+
+WT_POWER_CAL_TOLERANCE_UP_5G	    = 0.5    // 功率校准的容限，dBm，取值范围(0-100)     
+WT_POWER_CAL_TOLERANCE_LOW_5G	    = 0.5
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//
+// Tx Verification settings
+//
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//------------------------------------------------------------------------------
+// 功率指标	
+//------------------------------------------------------------------------------
+//功率偏差容限，dBm，取值范围(0-100)		  
+//				    54M	  48M	36M	24M	18M	12M	9M	6M	11M	5.5M	2M	1M
+WT_TX_POWER_LEGACY_TOLERANCE_UP	    2.0	  2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0
+WT_TX_POWER_LEGACY_TOLERANCE_LOW    2.0	  2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0
+
+//				    54M	  48M	36M	24M	18M	12M	9M	6M	11M	5.5M	2M	1M
+WT_TX_POWER_5G_11A_TOLERANCE_UP	    2.0	  2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0
+WT_TX_POWER_5G_11A_TOLERANCE_LOW    2.0	  2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0
+                                           
+//				    MCS7  MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_POWER_HT20_1S_TOLERANCE_UP    2.0	  2.0	2.0	2.0	2.0	2.0	2.0	2.0
+WT_TX_POWER_HT20_1S_TOLERANCE_LOW   2.0	  2.0	2.0	2.0	2.0	2.0	2.0	2.0
+
+//				       MCS7     MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_POWER_5G_HT20_1S_TOLERANCE_UP    2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0
+WT_TX_POWER_5G_HT20_1S_TOLERANCE_LOW   2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0
+                                           
+//				    MCS7  MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_POWER_HT40_1S_TOLERANCE_UP    2.0	  2.0	2.0	2.0	2.0	2.0	2.0	2.0
+WT_TX_POWER_HT40_1S_TOLERANCE_LOW   2.0	  2.0	2.0	2.0	2.0	2.0	2.0	2.0
+
+//				       MCS7     MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_POWER_5G_HT40_1S_TOLERANCE_UP    2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0
+WT_TX_POWER_5G_HT40_1S_TOLERANCE_LOW   2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0
+ 
+ //				         MCS11	MCS10	MCS9   MCS8    MCS7    MCS6    MCS5    MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_POWER_2_4G_AC20_1S_TOLERANCE_UP    2.0    2.0     2.0    2.0     2.0     2.0     2.0	2.0	2.0	2.0	2.0	2.0
+WT_TX_POWER_2_4G_AC20_1S_TOLERANCE_LOW   2.0    2.0     2.0    2.0     2.0     2.0     2.0	2.0	2.0	2.0	2.0	2.0
+        
+//				         MCS11	MCS10	MCS9   MCS8    MCS7    MCS6    MCS5    MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_POWER_5G_AC20_1S_TOLERANCE_UP      2.0    2.0     2.0    2.0     2.0     2.0     2.0	2.0	2.0	2.0	2.0	2.0
+WT_TX_POWER_5G_AC20_1S_TOLERANCE_LOW     2.0    2.0     2.0    2.0     2.0     2.0     2.0	2.0	2.0	2.0	2.0	2.0
+       
+//				         MCS11	MCS10	MCS9   MCS8    MCS7    MCS6    MCS5    MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_POWER_2_4G_AC40_1S_TOLERANCE_UP    2.0    2.0     2.0    2.0     2.0     2.0     2.0	2.0	2.0	2.0	2.0	2.0
+WT_TX_POWER_2_4G_AC40_1S_TOLERANCE_LOW   2.0    2.0     2.0    2.0     2.0     2.0     2.0	2.0	2.0	2.0	2.0	2.0
+    
+//				         MCS11	MCS10	MCS9   MCS8    MCS7    MCS6    MCS5    MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_POWER_5G_AC40_1S_TOLERANCE_UP      2.0    2.0     2.0    2.0     2.0     2.0     2.0	2.0	2.0	2.0	2.0	2.0
+WT_TX_POWER_5G_AC40_1S_TOLERANCE_LOW     2.0    2.0     2.0    2.0     2.0     2.0     2.0	2.0	2.0	2.0	2.0	2.0
+  
+//				         MCS11	MCS10   MCS9   MCS8    MCS7    MCS6    MCS5    MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_POWER_2_4G_AC80_1S_TOLERANCE_UP    2.0    2.0     2.0    2.0     2.0     2.0     2.0	2.0	2.0	2.0	2.0	2.0
+WT_TX_POWER_2_4G_AC80_1S_TOLERANCE_LOW   2.0    2.0     2.0    2.0     2.0     2.0     2.0	2.0	2.0	2.0	2.0	2.0
+                                           
+//				         MCS11	MCS10   MCS9   MCS8    MCS7    MCS6    MCS5    MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_POWER_5G_AC80_1S_TOLERANCE_UP      2.0    2.0     2.0    2.0     2.0     2.0     2.0	2.0	2.0	2.0	2.0	2.0
+WT_TX_POWER_5G_AC80_1S_TOLERANCE_LOW     2.0    2.0     2.0    2.0     2.0     2.0     2.0	2.0	2.0	2.0	2.0	2.0
+
+//				         MCS11	MCS10	MCS9   MCS8    MCS7    MCS6    MCS5    MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_POWER_2_4G_AX20_1S_TOLERANCE_UP    2.0    2.0     2.0    2.0     2.0     2.0     2.0	2.0	2.0	2.0	2.0	2.0
+WT_TX_POWER_2_4G_AX20_1S_TOLERANCE_LOW   2.0    2.0     2.0    2.0     2.0     2.0     2.0	2.0	2.0	2.0	2.0	2.0
+                                           
+//				         MCS11	MCS10	MCS9   MCS8    MCS7    MCS6  	MCS5  	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_POWER_5G_AX20_1S_TOLERANCE_UP      2.0    2.0     2.0    2.0     2.0     2.0   	2.0	2.0	2.0	2.0	2.0	2.0
+WT_TX_POWER_5G_AX20_1S_TOLERANCE_LOW     2.0    2.0     2.0    2.0     2.0     2.0   	2.0	2.0	2.0	2.0	2.0	2.0
+
+//				         MCS11	MCS10	MCS9   MCS8    MCS7    MCS6    MCS5    MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_POWER_2_4G_AX40_1S_TOLERANCE_UP    2.0    2.0     2.0    2.0     2.0     2.0     2.0	2.0	2.0	2.0	2.0	2.0
+WT_TX_POWER_2_4G_AX40_1S_TOLERANCE_LOW   2.0    2.0     2.0    2.0     2.0     2.0     2.0	2.0	2.0	2.0	2.0	2.0
+                                           
+//				         MCS11	MCS10	MCS9   MCS8    MCS7    MCS6  	MCS5  	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_POWER_5G_AX40_1S_TOLERANCE_UP      2.0    2.0     2.0    2.0     2.0     2.0   	2.0	2.0	2.0	2.0	2.0	2.0
+WT_TX_POWER_5G_AX40_1S_TOLERANCE_LOW     2.0    2.0     2.0    2.0     2.0     2.0   	2.0	2.0	2.0	2.0	2.0	2.0
+                                         
+//				         MCS11	MCS10	MCS9   MCS8    MCS7    MCS6  	MCS5  	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_POWER_5G_AX80_1S_TOLERANCE_UP      2.0    2.0     2.0    2.0     2.0     2.0   	2.0	2.0	2.0	2.0	2.0	2.0
+WT_TX_POWER_5G_AX80_1S_TOLERANCE_LOW     2.0    2.0     2.0    2.0     2.0     2.0   	2.0	2.0	2.0	2.0	2.0	2.0
+                                   
+//				         MCS11	MCS10	MCS9   MCS8    MCS7    MCS6  	MCS5  	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_POWER_5G_AX160_1S_TOLERANCE_UP      2.0    2.0     2.0    2.0     2.0     2.0   	2.0	2.0	2.0	2.0	2.0	2.0
+WT_TX_POWER_5G_AX160_1S_TOLERANCE_LOW     2.0    2.0     2.0    2.0     2.0     2.0   	2.0	2.0	2.0	2.0	2.0	2.0
+                                          
+//				         MCS11	MCS10	MCS9   MCS8    MCS7    MCS6  	MCS5  	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_POWER_5G_AX8080_1S_TOLERANCE_UP      2.0    2.0     2.0    2.0     2.0     2.0   	2.0	2.0	2.0	2.0	2.0	2.0
+WT_TX_POWER_5G_AX8080_1S_TOLERANCE_LOW     2.0    2.0     2.0    2.0     2.0     2.0   	2.0	2.0	2.0	2.0	2.0	2.0
+
+
+//------------------------------------------------------------------------------
+// 频偏指标
+//------------------------------------------------------------------------------
+WT_TX_FREQ_ERR_TOLERANCE_UP_2G	    = 10        // 频偏指标上限，ppm，取值范围
+WT_TX_FREQ_ERR_TOLERANCE_LOW_2G     = -10        // 频偏指标下限，ppm，取值范围
+
+WT_TX_FREQ_ERR_TOLERANCE_UP_5G	    = 20        // 频偏指标上限，ppm，取值范围
+WT_TX_FREQ_ERR_TOLERANCE_LOW_5G     = -20        // 频偏指标下限，ppm，取值范围
+
+//------------------------------------------------------------------------------
+// EVM指标，dB，取值范围(-55-0)
+//------------------------------------------------------------------------------
+//				54M	48M	36M	24M	18M	12M	9M	6M	11M	5.5M	2M	1M
+WT_TX_EVM_LEGACY_LIMIT		-25	-22	-19	-16	-13	-10	-8	-5	-10	-10	-10	-10
+
+//				54M	48M	36M	24M	18M	12M	9M	6M	11M	5.5M	2M	1M
+WT_TX_EVM_5G_11A_LIMIT		-25	-22	-19	-16	-13	-10	-8	-5	-10	-10	-10	-10
+
+//				MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_HT20_1S_LIMIT		-27	-25	-22	-19	-16	-13	-10	-5
+
+//				MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_5G_HT20_1S_LIMIT	-27	-25	-22	-19	-16	-13	-10	-5
+
+//				MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_HT40_1S_LIMIT		-27	-25	-22	-19	-16	-13	-10	-5
+
+//				MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_5G_HT40_1S_LIMIT	-27	-25	-22	-19	-16	-13	-10	-5
+
+//				MCS11	MCS10  	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_2_4G_AC20_1S_LIMIT	-32	-32	-32	-30	-27	-25	-22	-19	-16	-13	-10	-5
+
+//				MCS11	MCS10  	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_5G_AC20_1S_LIMIT	-32	-32	-32	-30	-27	-25	-22	-19	-16	-13	-10	-5
+
+//				MCS11	MCS10  	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_2_4G_AC40_1S_LIMIT	-32	-32	-32	-30	-27	-25	-22	-19	-16	-13	-10	-5
+
+//				MCS11	MCS10  	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_5G_AC40_1S_LIMIT	-32	-32	-32	-30	-27	-25	-22	-19	-16	-13	-10	-5
+
+//				MCS11	MCS10  	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_2_4G_AC80_1S_LIMIT	-32	-32	-32	-30	-27	-25	-22	-19	-16	-13	-10	-5
+
+//				MCS11	MCS10  	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_5G_AC80_1S_LIMIT	-32	-32	-32	-30	-27	-25	-22	-19	-16	-13	-10	-5
+
+//				MCS11	MCS10  	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_2_4G_AX20_1S_LIMIT	-30	-30	-30	-30	-27	-25	-22	-19	-16	-13	-10	-5
+
+//				MCS11	MCS10  	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_5G_AX20_1S_LIMIT	-30	-30	-30	-30	-27	-25	-22	-19	-16	-13	-10	-5
+
+//				MCS11	MCS10  	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_2_4G_AX40_1S_LIMIT	-30	-30	-30	-30	-27	-25	-22	-19	-16	-13	-10	-5
+
+//				MCS11	MCS10  	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_5G_AX40_1S_LIMIT	-30	-30	-30	-30	-27	-25	-22	-19	-16	-13	-10	-5
+
+//				MCS11	MCS10  	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_5G_AX80_1S_LIMIT	-30	-30	-30	-30	-27	-25	-22	-19	-16	-13	-10	-5
+
+//				MCS11	MCS10  	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_5G_AX160_1S_LIMIT	-30	-30	-30	-30	-27	-25	-22	-19	-16	-13	-10	-5
+
+//				MCS11	MCS10  	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_5G_AX8080_1S_LIMIT	-30	-30	-30	-30	-27	-25	-22	-19	-16	-13	-10	-5
+
+//------------------------------------------------------------------------------
+// EVM Percent指标，%，取值范围(0-100)
+//------------------------------------------------------------------------------
+//					54M	48M	36M	24M	18M	12M	9M	6M	11M	5.5M	2M	1M
+WT_TX_EVM_PERCENT_LEGACY_LIMIT		5.7	8.0	11.3	15.9	22.4	31.7	39.9	56.3	31.7	31.7	31.7	31.7
+
+//					54M	48M	36M	24M	18M	12M	9M	6M	11M	5.5M	2M	1M
+WT_TX_EVM_PERCENT_5G_11A_LIMIT		5.7	8.0	11.3	15.9	22.4	31.7	39.9	56.3	31.7	31.7	31.7	31.7
+
+//					MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_PERCENT_HT20_1S_LIMIT		4.5	5.7	8.0	11.3	15.9	22.4	31.7	56.3
+
+//					MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_PERCENT_5G_HT20_1S_LIMIT	4.5	5.7	8.0	11.3	15.9	22.4	31.7	56.3
+
+//					MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_PERCENT_HT40_1S_LIMIT		4.5	5.7	8.0	11.3	15.9	22.4	31.7	56.3
+
+//					MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_PERCENT_5G_HT40_1S_LIMIT	4.5	5.7	8.0	11.3	15.9	22.4	31.7	56.3
+
+//					MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_PERCENT_2_4G_AC20_1S_LIMIT	3.2	4.5	5.7	3.2	4.5	5.7	8.0	11.3	15.9	22.4	31.7	56.3
+
+//					MCS11	MCS10	MCS9    MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_PERCENT_5G_AC20_1S_LIMIT	2.6	2.6	2.6	3.2	4.5	5.7	8.0	11.3	15.9	22.4	31.7	56.3
+
+//					MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_PERCENT_2_4G_AC40_1S_LIMIT	2.6	2.6	2.6	3.2	4.5	5.7	8.0	11.3	15.9	22.4	31.7	56.3
+
+//					MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_PERCENT_5G_AC40_1S_LIMIT	2.6	2.6	2.6	3.2	4.5	5.7	8.0	11.3	15.9	22.4	31.7	56.3
+
+//					MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_PERCENT_2_4G_AC80_1S_LIMIT	2.6	2.6	2.6	3.2	4.5	5.7	8.0	11.3	15.9	22.4	31.7	56.3
+
+//					MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_PERCENT_5G_AC80_1S_LIMIT	2.6	2.6	2.6	3.2	4.5	5.7	8.0	11.3	15.9	22.4	31.7	56.3
+
+//					MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_PERCENT_2_4G_AX20_1S_LIMIT	3.2	4.5	5.7	3.2	4.5	5.7	8.0	11.3	15.9	22.4	31.7	56.3
+
+//					MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_PERCENT_5G_AX20_1S_LIMIT	3.2	4.5	5.7	3.2	4.5	5.7	8.0	11.3	15.9	22.4	31.7	56.3
+
+//					MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_PERCENT_2_4G_AX40_1S_LIMIT	2.6	3.2	2.6	3.2	4.5	5.7	8.0	11.3	15.9	22.4	31.7	56.3
+
+//					MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_PERCENT_5G_AX40_1S_LIMIT	2.6	3.2	2.6	3.2	4.5	5.7	8.0	11.3	15.9	22.4	31.7	56.3
+
+//					MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_PERCENT_5G_AX80_1S_LIMIT	2.6	3.2	2.6	3.2	4.5	5.7	8.0	11.3	15.9	22.4	31.7	56.3
+
+//					MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_TX_EVM_PERCENT_5G_AX160_1S_LIMIT	2.6	3.2	2.6	3.2	4.5	5.7	8.0	11.3	15.9	22.4	31.7	56.3
+
+//------------------------------------------------------------------------------
+// 目标Power Peak设置  功率偏差容限的其他设置使用Power Fram的设置
+//------------------------------------------------------------------------------
+WT_TARGET_PWR_PEAK_11B				= 23    // 11B目标功率Peak，dBm，取值范围(-100-100)
+WT_TARGET_PWR_PEAK_OFDM_2_4G			= 19	// 2.4G 11g 54M目标功率Peak，dBm，取值范围(-100-100)
+WT_TARGET_PWR_PEAK_HT20_2_4G			= 19	// 2.4G HT20目标功率Peak，dBm，取值范围(-100-100)
+WT_TARGET_PWR_PEAK_HT40_2_4G			= 19	// 2.4G HT40目标功率Peak，dBm，取值范围(-100-100)
+WT_TARGET_PWR_PEAK_AC20_2_4G			= 19	// 2.4G AC20目标功率Peak，dBm，取值范围(-100-100)
+WT_TARGET_PWR_PEAK_AC40_2_4G			= 19	// 2.4G AC40目标功率Peak，dBm，取值范围(-100-100)
+WT_TARGET_PWR_PEAK_AC80_2_4G      		= 19    // 2.4G AC80目标功率Peak，dBm，取值范围(-100-100)
+
+WT_TARGET_PWR_PEAK_OFDM_5G			= 18	// 5G 11g 54M目标功率Peak，dBm，取值范围(-100-100)
+WT_TARGET_PWR_PEAK_HT20_5G			= 17	// 5G HT20目标功率Peak，dBm，取值范围(-100-100)
+WT_TARGET_PWR_PEAK_HT40_5G			= 17	// 5G HT40目标功率Peak，dBm，取值范围(-100-100)
+WT_TARGET_PWR_PEAK_AC20_5G			= 17	// 5G AC20目标功率Peak，dBm，取值范围(-100-100)
+WT_TARGET_PWR_PEAK_AC40_5G			= 17	// 5G AC40目标功率Peak，dBm，取值范围(-100-100)
+WT_TARGET_PWR_PEAK_AC80_5G      		= 17    // 5G AC80目标功率Peak，dBm，取值范围(-100-100)
+
+//-------------------------------------------------------------------------------
+// 频谱模板指标
+//------------------------------------------------------------------------------
+WT_SPA_FAIL_POINTS_LIMIT	 = 0.3		// 频谱模板指标容限，%，取值范围(0-100)
+
+//-------------------------------------------------------------------------------
+// 载波泄露指标，dB，取值范围(-99-0)
+//------------------------------------------------------------------------------
+WT_CARRIERLEAKAGE_11B_2_4G = -15
+WT_CARRIERLEAKAGE_OFDM_2_4G = -15
+WT_CARRIERLEAKAGE_HT20_2_4G = -15
+WT_CARRIERLEAKAGE_HT40_2_4G = -15
+WT_CARRIERLEAKAGE_AC20_2_4G = -15
+WT_CARRIERLEAKAGE_AC40_2_4G = -15
+WT_CARRIERLEAKAGE_AC80_2_4G = -15
+WT_CARRIERLEAKAGE_AX20_2_4G = -15
+WT_CARRIERLEAKAGE_AX40_2_4G = -15
+
+WT_CARRIERLEAKAGE_OFDM_5G = -15
+WT_CARRIERLEAKAGE_HT20_5G = -15
+WT_CARRIERLEAKAGE_HT40_5G = -15
+WT_CARRIERLEAKAGE_AC20_5G = -15
+WT_CARRIERLEAKAGE_AC40_5G = -15
+WT_CARRIERLEAKAGE_AC80_5G = -15
+WT_CARRIERLEAKAGE_AC160_5G = -15
+WT_CARRIERLEAKAGE_AC8080_5G = -15
+WT_CARRIERLEAKAGE_AX20_5G = -15
+WT_CARRIERLEAKAGE_AX40_5G = -15
+WT_CARRIERLEAKAGE_AX80_5G = -15
+WT_CARRIERLEAKAGE_AX160_5G = -15
+WT_CARRIERLEAKAGE_AX8080_5G = -15
+
+//-------------------------------------------------------------------------------
+// Symbol Clock Error指标，取值范围(-1000-1000)
+//------------------------------------------------------------------------------
+WT_SYMBOL_CLOCK_ERR_11B_2_4G_TOLERANCE_UP  = 20  	// Symbol Clock Error指标上限，ppm
+WT_SYMBOL_CLOCK_ERR_11B_2_4G_TOLERANCE_LOW = -20 	// Symbol Clock Error指标下限，ppm
+
+WT_SYMBOL_CLOCK_ERR_11G_2_4G_TOLERANCE_UP  = 20
+WT_SYMBOL_CLOCK_ERR_11G_2_4G_TOLERANCE_LOW = -20
+
+WT_SYMBOL_CLOCK_ERR_HT20_2_4G_TOLERANCE_UP  = 20
+WT_SYMBOL_CLOCK_ERR_HT20_2_4G_TOLERANCE_LOW = -20
+
+WT_SYMBOL_CLOCK_ERR_HT40_2_4G_TOLERANCE_UP  = 20
+WT_SYMBOL_CLOCK_ERR_HT40_2_4G_TOLERANCE_LOW = -20
+
+WT_SYMBOL_CLOCK_ERR_AC20_2_4G_TOLERANCE_UP  = 20
+WT_SYMBOL_CLOCK_ERR_AC20_2_4G_TOLERANCE_LOW = -20
+
+WT_SYMBOL_CLOCK_ERR_AC40_2_4G_TOLERANCE_UP  = 20
+WT_SYMBOL_CLOCK_ERR_AC40_2_4G_TOLERANCE_LOW = -20
+
+WT_SYMBOL_CLOCK_ERR_AC80_2_4G_TOLERANCE_UP  = 20
+WT_SYMBOL_CLOCK_ERR_AC80_2_4G_TOLERANCE_LOW = -20
+
+WT_SYMBOL_CLOCK_ERR_AX20_2_4G_TOLERANCE_UP  = 20
+WT_SYMBOL_CLOCK_ERR_AX20_2_4G_TOLERANCE_LOW = -20
+
+WT_SYMBOL_CLOCK_ERR_AX40_2_4G_TOLERANCE_UP  = 20
+WT_SYMBOL_CLOCK_ERR_AX40_2_4G_TOLERANCE_LOW = -20
+
+WT_SYMBOL_CLOCK_ERR_11A_5G_TOLERANCE_UP  = 20
+WT_SYMBOL_CLOCK_ERR_11A_5G_TOLERANCE_LOW = -20
+
+WT_SYMBOL_CLOCK_ERR_HT20_5G_TOLERANCE_UP = 25
+WT_SYMBOL_CLOCK_ERR_HT20_5G_TOLERANCE_LOW = -25
+
+WT_SYMBOL_CLOCK_ERR_HT40_5G_TOLERANCE_UP  = 25
+WT_SYMBOL_CLOCK_ERR_HT40_5G_TOLERANCE_LOW = -25
+
+WT_SYMBOL_CLOCK_ERR_AC20_5G_TOLERANCE_UP  = 20
+WT_SYMBOL_CLOCK_ERR_AC20_5G_TOLERANCE_LOW = -20
+
+WT_SYMBOL_CLOCK_ERR_AC40_5G_TOLERANCE_UP  = 20
+WT_SYMBOL_CLOCK_ERR_AC40_5G_TOLERANCE_LOW = -20
+
+WT_SYMBOL_CLOCK_ERR_AC80_5G_TOLERANCE_UP  = 20
+WT_SYMBOL_CLOCK_ERR_AC80_5G_TOLERANCE_LOW = -20
+
+WT_SYMBOL_CLOCK_ERR_AC160_5G_TOLERANCE_UP  = 20
+WT_SYMBOL_CLOCK_ERR_AC160_5G_TOLERANCE_LOW = -20
+
+WT_SYMBOL_CLOCK_ERR_AC8080_5G_TOLERANCE_UP  = 20
+WT_SYMBOL_CLOCK_ERR_AC8080_5G_TOLERANCE_LOW = -20
+
+WT_SYMBOL_CLOCK_ERR_AX20_5G_TOLERANCE_UP  = 20
+WT_SYMBOL_CLOCK_ERR_AX20_5G_TOLERANCE_LOW = -20
+
+WT_SYMBOL_CLOCK_ERR_AX40_5G_TOLERANCE_UP  = 20
+WT_SYMBOL_CLOCK_ERR_AX40_5G_TOLERANCE_LOW = -20
+
+WT_SYMBOL_CLOCK_ERR_AX80_5G_TOLERANCE_UP  = 20
+WT_SYMBOL_CLOCK_ERR_AX80_5G_TOLERANCE_LOW = -20
+
+WT_SYMBOL_CLOCK_ERR_AX160_5G_TOLERANCE_UP  = 20
+WT_SYMBOL_CLOCK_ERR_AX160_5G_TOLERANCE_LOW = -20
+
+WT_SYMBOL_CLOCK_ERR_AX8080_5G_TOLERANCE_UP  = 20
+WT_SYMBOL_CLOCK_ERR_AX8080_5G_TOLERANCE_LOW = -20
+
+//-------------------------------------------------------------------------------
+// OBW指标，取值范围(-1000-1000)
+//------------------------------------------------------------------------------
+WT_OBW_11B_2_4G_TOLERANCE_UP  = 20  	// OBW指标上限，MHz
+WT_OBW_11B_2_4G_TOLERANCE_LOW = -20 	// OBW指标下限，MHz
+
+WT_OBW_11G_2_4G_TOLERANCE_UP  = 20
+WT_OBW_11G_2_4G_TOLERANCE_LOW = -20
+
+WT_OBW_HT20_2_4G_TOLERANCE_UP  = 20
+WT_OBW_HT20_2_4G_TOLERANCE_LOW = -20
+
+WT_OBW_HT40_2_4G_TOLERANCE_UP  = 20
+WT_OBW_HT40_2_4G_TOLERANCE_LOW = -20
+
+WT_OBW_AC20_2_4G_TOLERANCE_UP  = 20
+WT_OBW_AC20_2_4G_TOLERANCE_LOW = -20
+
+WT_OBW_AC40_2_4G_TOLERANCE_UP  = 20
+WT_OBW_AC40_2_4G_TOLERANCE_LOW = -20
+
+WT_OBW_AC80_2_4G_TOLERANCE_UP  = 20
+WT_OBW_AC80_2_4G_TOLERANCE_LOW = -20
+
+WT_OBW_AX20_2_4G_TOLERANCE_UP  = 20
+WT_OBW_AX20_2_4G_TOLERANCE_LOW = -20
+
+WT_OBW_AX40_2_4G_TOLERANCE_UP  = 40
+WT_OBW_AX40_2_4G_TOLERANCE_LOW = -40
+
+WT_OBW_11A_5G_TOLERANCE_UP  = 20
+WT_OBW_11A_5G_TOLERANCE_LOW = -20
+
+WT_OBW_HT20_5G_TOLERANCE_UP = 20
+WT_OBW_HT20_5G_TOLERANCE_LOW = -20
+
+WT_OBW_HT40_5G_TOLERANCE_UP  = 20
+WT_OBW_HT40_5G_TOLERANCE_LOW = -20
+
+WT_OBW_AC20_5G_TOLERANCE_UP  = 20
+WT_OBW_AC20_5G_TOLERANCE_LOW = -20
+
+WT_OBW_AC40_5G_TOLERANCE_UP  = 20
+WT_OBW_AC40_5G_TOLERANCE_LOW = -20
+
+WT_OBW_AC80_5G_TOLERANCE_UP  = 20
+WT_OBW_AC80_5G_TOLERANCE_LOW = -20
+
+WT_OBW_AX20_5G_TOLERANCE_UP  = 20
+WT_OBW_AX20_5G_TOLERANCE_LOW = -20
+
+WT_OBW_AX40_5G_TOLERANCE_UP  = 40
+WT_OBW_AX40_5G_TOLERANCE_LOW = -40
+
+WT_OBW_AX80_5G_TOLERANCE_UP  = 80
+WT_OBW_AX80_5G_TOLERANCE_LOW = -80
+
+WT_OBW_AX160_5G_TOLERANCE_UP  = 160
+WT_OBW_AX160_5G_TOLERANCE_LOW = -160
+
+WT_OBW_AX8080_5G_TOLERANCE_UP  = 20
+WT_OBW_AX8080_5G_TOLERANCE_LOW = -20
+
+//------------------------------------------------------------------------------
+// Amp Error指标
+//------------------------------------------------------------------------------
+WT_AMP_ERR_LIMIT_TOLERANCE_UP 	  = 10		//Amp Error指标上限，dB
+WT_AMP_ERR_LIMIT_TOLERANCE_LOW 	  = -10		//Amp Error指标下限，dB
+
+//------------------------------------------------------------------------------
+// Imb Phase指标
+//------------------------------------------------------------------------------
+WT_IQ_IMB_PHASE_LIMIT_TOLERANCE_UP = 10		//Imb Phase指标上限，deg
+WT_IQ_IMB_PHASE_LIMIT_TOLERANCE_LOW = -10	//Imb Phase指标上限，deg
+
+//------------------------------------------------------------------------------
+// Phase Error指标
+//------------------------------------------------------------------------------
+WT_PHASE_ERR_LIMIT_TOLERANCE_UP   = 25		//Phase Error指标上限，deg
+WT_PHASE_ERR_LIMIT_TOLERANCE_LOW  = -25		//Phase Error指标下限，deg
+
+//------------------------------------------------------------------------------
+// MASK MARGINS指标
+//------------------------------------------------------------------------------
+WT_MASK_MARGAINS_LIMIT_TOLERANCE_1  = 2		//Mask Margins指标下限，deg
+WT_MASK_MARGAINS_LIMIT_TOLERANCE_2  = 2		//Mask Margins指标下限，deg
+WT_MASK_MARGAINS_LIMIT_TOLERANCE_3  = 2		//Mask Margins指标下限，deg
+WT_MASK_MARGAINS_LIMIT_TOLERANCE_4  = 2		//Mask Margins指标下限，deg
+WT_MASK_MARGAINS_LIMIT_TOLERANCE_5  = 2		//Mask Margins指标下限，deg
+
+//------------------------------------------------------------------------------
+// 11B RampOn指标，us
+//------------------------------------------------------------------------------
+WT_11B_RAMPON_LIMIT_TOLERANCE_UP  = 2		//11B RampOn指标指标上限，us
+WT_11B_RAMPON_LIMIT_TOLERANCE_LOW = 0		//11B RampOn指标指标下限，us
+
+//------------------------------------------------------------------------------
+// 11B RampOFF指标，us
+//------------------------------------------------------------------------------
+WT_11B_RAMPOFF_LIMIT_TOLERANCE_UP  = 2		//11B RampOff指标指标上限，us
+WT_11B_RAMPOFF_LIMIT_TOLERANCE_LOW = 0		//11B RampOff指标指标下限，us
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//
+// PER Test settings
+//
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//------------------------------------------------------------------------------
+// PER功率，取值范围(-100-0)
+//------------------------------------------------------------------------------
+//				54M	48M	36M	24M	18M	12M	9M	6M	11M	5.5M	2M	1M
+WT_PER_SENS_MIN_LEGACY		-67	-66	-70	-74	-77	-79	-81	-82	-82	-76	-76	-76
+
+//				54M	48M	36M	24M	18M	12M	9M	6M	11M	5.5M	2M	1M
+WT_PER_SENS_MIN_5G_11A		-65	-66	-70	-74	-77	-79	-81	-82	-76	-76	-76	-76
+
+//				MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_PER_SENS_MIN_HT20_1S		-64	-65	-66	-70	-74	-77	-79	-82
+
+//				MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_PER_SENS_MIN_5G_HT20_1S	-64	-65	-66	-70	-74	-77	-79	-82
+
+//				MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_PER_SENS_MIN_HT40_1S		-61	-62	-63	-67	-71	-74	-76	-79
+
+//				MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_PER_SENS_MIN_5G_HT40_1S	-61	-62	-63	-67	-71	-74	-76	-79
+
+//				MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_PER_SENS_MIN_2_4G_AC20_1S	-54	-54	-54	-59	-64	-65	-66	-70	-74	-77	-79	-82
+
+//				MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_PER_SENS_MIN_5G_AC20_1S	-54	-54	-54	-59	-64	-65	-66	-70	-74	-77	-79	-82
+
+//				MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_PER_SENS_MIN_2_4G_AC40_1S	-54	-54	-54	-56	-61	-62	-63	-67	-71	-74	-76	-79
+
+//				MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_PER_SENS_MIN_5G_AC40_1S	-54	-54	-54	-56	-61	-62	-63	-67	-71	-74	-76	-79
+
+//				MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_PER_SENS_MIN_2_4G_AC80_1S	-51	-51	-51	-53	-58	-59	-60	-64	-68	-71	-73	-76
+
+//				MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_PER_SENS_MIN_5G_AC80_1S	-51	-51	-51	-53	-58	-59	-60	-64	-68	-71	-73	-76
+
+//				MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_PER_SENS_MIN_2_4G_AX20_1S	-58	-51	-51	-59	-64	-65	-66	-70	-74	-77	-79	-90
+
+//				MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_PER_SENS_MIN_5G_AX20_1S	-58	-51	-51	-59	-64	-65	-66	-70	-74	-77	-79	-90
+
+//				MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_PER_SENS_MIN_2_4G_AX40_1S	-53	-51	-51	-59	-64	-65	-66	-70	-74	-77	-79	-87
+
+//				MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_PER_SENS_MIN_5G_AX40_1S	-55	-51	-51	-59	-64	-65	-66	-70	-74	-77	-79	-87
+
+//				MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_PER_SENS_MIN_5G_AX80_1S	-52	-51	-51	-59	-64	-65	-66	-70	-74	-77	-79	-84
+
+//				MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_PER_SENS_MIN_5G_AX160_1S	-51	-51	-51	-59	-64	-65	-66	-70	-74	-77	-79	-82
+
+//				MCS11	MCS10	MCS9	MCS8	MCS7  	MCS6	MCS5	MCS4	MCS3	MCS2	MCS1	MCS0
+WT_PER_SENS_MIN_5G_AX8080_1S	-49	-51	-51	-53	-58	-59	-60	-64	-68	-71	-73	-76
+
+//------------------------------------------------------------------------------
+// PER指标
+//------------------------------------------------------------------------------
+PER_MIN_PASS_LIMIT_DSSS		= 92		// 11b收包成功率下限，%，取值范围(0-100)
+
+PER_MIN_PASS_LIMIT_OFDM		= 90		// 11a.g.n.ac收包成功率下限，%，取值范围(0-100)
+
+//------------------------------------------------------------------------------
+// END of file
+//------------------------------------------------------------------------------
+
+	

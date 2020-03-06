@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<PluginCfg>
+    <TesterPlugin>
+        <FolderMap>
+            <FolderName type="WT160">Tester_Legacy</FolderName>
+            <FolderName type="WT200">Tester_Legacy</FolderName>
+            <FolderName type="WT208">Tester_Legacy</FolderName>
+            <FolderName type="WT208C">Tester_Legacy</FolderName>
+            <FolderName type="WT300">Tester_WT3XX</FolderName>
+            <FolderName type="WT328">Tester_WT3XX</FolderName>
+        </FolderMap>
+        <NameSet>
+            <Name>Tester_Legacy.dll</Name>
+        </NameSet>
+        <Folder>Tester_Legacy</Folder>
+    </TesterPlugin>
+    <DutPlugin>
+        <NameSet>
+            <Name>DutLib_BK7231U(7251).dll</Name>
+            <!-- <Name>DutTest.dll</Name> -->
+        </NameSet>
+        <Folder>DEFAULT</Folder>
+    </DutPlugin>
+    <CsvPlugin>
+        <NameSet>
+            <Name>WT_Csv.dll</Name>
+        </NameSet>
+        <Folder>DEFAULT</Folder>
+    </CsvPlugin>
+    <MesPlugin>
+        <NameSet>
+            <Name>WT_Mes.dll</Name>
+        </NameSet>
+        <Folder>DEFAULT</Folder>
+    </MesPlugin>
+    <MethodPlugin>
+        <NameSet>
+            <Name>MethodCommon.dll</Name>
+            <Name>MethodDut.dll</Name>
+            <Name>MethodWifi.dll</Name>
+            <Name>MethodWriteData.dll</Name>
+            <Name>MethodBt.dll</Name>
+            <Name>MethodZigbee.dll</Name>
+        </NameSet>
+        <Folder>DEFAULT</Folder>
+    </MethodPlugin>
+    <MethodExtPlugin>
+        <NameSet>
+            <Name>MethodExt.dll</Name>
+        </NameSet>
+        <Folder>DEFAULT</Folder>
+    </MethodExtPlugin>
+</PluginCfg>

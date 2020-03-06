@@ -1,0 +1,1930 @@
+2020-01-02 14:28:38  Error: net_verify_conn(2260): Connect sock: 628.
+2020-01-02 14:28:38  Error: net_verify_conn(2260): Connect sock: 640.
+2020-01-02 14:28:38  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 14:28:38  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 14:28:38  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 14:28:38  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 14:28:39  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:28:39  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 14:28:39  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:28:39  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 14:28:39  Error: net_verify_conn(2260): Connect sock: 688.
+2020-01-02 14:28:39  Error: net_verify_conn(2260): Connect sock: 356.
+2020-01-02 14:28:39  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 14:28:39  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 14:28:39  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 14:28:39  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 14:28:39  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:28:39  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 14:28:39  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:28:39  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 14:29:40  Error: net_verify_conn(2260): Connect sock: 692.
+2020-01-02 14:29:40  Error: net_verify_conn(2260): Connect sock: 688.
+2020-01-02 14:29:40  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 14:29:40  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 14:29:40  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 14:29:40  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 14:29:40  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:29:40  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 14:29:40  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:29:40  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 14:31:38  Error: net_verify_conn(2260): Connect sock: 724.
+2020-01-02 14:31:38  Error: net_verify_conn(2260): Connect sock: 728.
+2020-01-02 14:31:38  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 14:31:38  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 14:31:38  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 14:31:38  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 14:31:38  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:31:38  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 14:31:38  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:31:38  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 14:39:37  Error: net_verify_conn(2260): Connect sock: 1780.
+2020-01-02 14:39:37  Error: net_verify_conn(2260): Connect sock: 1800.
+2020-01-02 14:39:37  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 14:39:37  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 14:39:37  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 14:39:37  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 14:39:37  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:39:37  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 14:39:37  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:39:37  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 14:40:18  Error: net_verify_conn(2260): Connect sock: 1968.
+2020-01-02 14:40:18  Error: net_verify_conn(2260): Connect sock: 2000.
+2020-01-02 14:40:18  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 14:40:18  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 14:40:18  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 14:40:18  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 14:40:18  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:40:18  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 14:40:18  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:40:18  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 14:42:20  Error: net_verify_conn(2260): Connect sock: 356.
+2020-01-02 14:42:20  Error: net_verify_conn(2260): Connect sock: 612.
+2020-01-02 14:42:20  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 14:42:20  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 14:42:20  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 14:42:20  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 14:42:20  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:42:20  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 14:42:20  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:42:20  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 14:42:21  Error: net_verify_conn(2260): Connect sock: 660.
+2020-01-02 14:42:21  Error: net_verify_conn(2260): Connect sock: 632.
+2020-01-02 14:42:21  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 14:42:21  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 14:42:21  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 14:42:21  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 14:42:21  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:42:21  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 14:42:21  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:42:21  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 14:45:03  Error: net_verify_conn(2260): Connect sock: 1012.
+2020-01-02 14:45:03  Error: net_verify_conn(2260): Connect sock: 1796.
+2020-01-02 14:45:03  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 14:45:03  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 14:45:03  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 14:45:03  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 14:45:03  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:45:03  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 14:45:03  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:45:03  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 14:45:18  Error: net_verify_conn(2260): Connect sock: 2040.
+2020-01-02 14:45:18  Error: net_verify_conn(2260): Connect sock: 1996.
+2020-01-02 14:45:18  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 14:45:18  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 14:45:18  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 14:45:18  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 14:45:18  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:45:18  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 14:45:18  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:45:18  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 14:47:11  Error: net_verify_conn(2260): Connect sock: 2820.
+2020-01-02 14:47:11  Error: net_verify_conn(2260): Connect sock: 2792.
+2020-01-02 14:47:11  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 14:47:11  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 14:47:11  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 14:47:11  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 14:47:11  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:47:11  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 14:47:11  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:47:11  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 14:48:06  Error: net_verify_conn(2260): Connect sock: 3028.
+2020-01-02 14:48:06  Error: net_verify_conn(2260): Connect sock: 3064.
+2020-01-02 14:48:07  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 14:48:07  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 14:48:07  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 14:48:07  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 14:48:07  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:48:07  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 14:48:07  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 14:48:07  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 15:06:21  Error: net_verify_conn(2260): Connect sock: 1772.
+2020-01-02 15:06:21  Error: net_verify_conn(2260): Connect sock: 1792.
+2020-01-02 15:06:21  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 15:06:21  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 15:06:21  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 15:06:21  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 15:06:21  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:06:21  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 15:06:21  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:06:21  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 15:06:24  Error: net_verify_conn(2260): Connect sock: 1388.
+2020-01-02 15:06:24  Error: net_verify_conn(2260): Connect sock: 1964.
+2020-01-02 15:06:24  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 15:06:24  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 15:06:24  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 15:06:24  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 15:06:24  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:06:24  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 15:06:24  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:06:24  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 15:31:53  Error: net_verify_conn(2260): Connect sock: 604.
+2020-01-02 15:31:53  Error: net_verify_conn(2260): Connect sock: 600.
+2020-01-02 15:31:53  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 15:31:53  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 15:31:53  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 15:31:53  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 15:31:53  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:31:53  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 15:31:53  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:31:53  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 15:31:54  Error: net_verify_conn(2260): Connect sock: 628.
+2020-01-02 15:31:54  Error: net_verify_conn(2260): Connect sock: 648.
+2020-01-02 15:31:54  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 15:31:54  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 15:31:54  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 15:31:54  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 15:31:54  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:31:54  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 15:31:54  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:31:54  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 15:37:07  Error: net_verify_conn(2260): Connect sock: 292.
+2020-01-02 15:37:07  Error: net_verify_conn(2260): Connect sock: 328.
+2020-01-02 15:37:07  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 15:37:07  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 15:37:07  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 15:37:07  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 15:37:07  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:37:07  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 15:37:07  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:37:07  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 15:37:08  Error: net_verify_conn(2260): Connect sock: 656.
+2020-01-02 15:37:08  Error: net_verify_conn(2260): Connect sock: 624.
+2020-01-02 15:37:08  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 15:37:08  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 15:37:08  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 15:37:08  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 15:37:08  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:37:08  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 15:37:08  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:37:08  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 15:37:39  Error: net_verify_conn(2260): Connect sock: 676.
+2020-01-02 15:37:39  Error: net_verify_conn(2260): Connect sock: 708.
+2020-01-02 15:37:39  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 15:37:39  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 15:37:39  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 15:37:39  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 15:37:40  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:37:40  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 15:37:40  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:37:40  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 15:45:27  Error: net_verify_conn(2260): Connect sock: 352.
+2020-01-02 15:45:27  Error: net_verify_conn(2260): Connect sock: 628.
+2020-01-02 15:45:27  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 15:45:27  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 15:45:27  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 15:45:27  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 15:45:27  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:45:27  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 15:45:27  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:45:27  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 15:45:28  Error: net_verify_conn(2260): Connect sock: 648.
+2020-01-02 15:45:28  Error: net_verify_conn(2260): Connect sock: 204.
+2020-01-02 15:45:28  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 15:45:28  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 15:45:28  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 15:45:28  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 15:45:28  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:45:28  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 15:45:28  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:45:28  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 15:46:12  Error: net_verify_conn(2260): Connect sock: 372.
+2020-01-02 15:46:12  Error: net_verify_conn(2260): Connect sock: 704.
+2020-01-02 15:46:12  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 15:46:12  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 15:46:12  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 15:46:12  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 15:46:12  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:46:12  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 15:46:12  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:46:12  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 15:46:51  Error: net_verify_conn(2260): Connect sock: 368.
+2020-01-02 15:46:51  Error: net_verify_conn(2260): Connect sock: 616.
+2020-01-02 15:46:51  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 15:46:51  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 15:46:51  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 15:46:52  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 15:46:52  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:46:52  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 15:46:52  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:46:52  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 15:46:52  Error: net_verify_conn(2260): Connect sock: 668.
+2020-01-02 15:46:52  Error: net_verify_conn(2260): Connect sock: 632.
+2020-01-02 15:46:52  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 15:46:52  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 15:46:52  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 15:46:52  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 15:46:52  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:46:52  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 15:46:52  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 15:46:52  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 16:04:08  Error: net_Socket_send(1197): WSAGetLastError: 183, sock: 668
+2020-01-02 16:04:08  Error: net_pro_exchange_main(3410): send buff data fail! req: 20 , send: -1
+2020-01-02 16:04:08  Error: ThreadSocketTimerFun(382): net_set_timer fail, fail_cnt: 1, sock: 668.
+2020-01-02 16:04:08  Error: net_Socket_send(1197): WSAGetLastError: 183, sock: 632
+2020-01-02 16:04:08  Error: net_pro_exchange_main(3410): send buff data fail! req: 20 , send: -1
+2020-01-02 16:04:08  Error: ThreadSocketTimerFun(382): net_set_timer fail, fail_cnt: 1, sock: 632.
+2020-01-02 16:04:09  Error: net_Socket_send(1197): WSAGetLastError: 183, sock: 668
+2020-01-02 16:04:09  Error: net_pro_exchange_main(3410): send buff data fail! req: 20 , send: -1
+2020-01-02 16:04:09  Error: ThreadSocketTimerFun(382): net_set_timer fail, fail_cnt: 2, sock: 668.
+2020-01-02 16:04:09  Error: net_Socket_send(1197): WSAGetLastError: 183, sock: 632
+2020-01-02 16:04:09  Error: net_pro_exchange_main(3410): send buff data fail! req: 20 , send: -1
+2020-01-02 16:04:09  Error: ThreadSocketTimerFun(382): net_set_timer fail, fail_cnt: 2, sock: 632.
+2020-01-02 16:04:09  Error: net_Socket_send(1197): WSAGetLastError: 183, sock: 668
+2020-01-02 16:04:09  Error: net_pro_exchange_main(3410): send buff data fail! req: 20 , send: -1
+2020-01-02 16:04:09  Error: ThreadSocketTimerFun(382): net_set_timer fail, fail_cnt: 3, sock: 668.
+2020-01-02 16:04:09  Error: net_Socket_send(1197): WSAGetLastError: 183, sock: 632
+2020-01-02 16:04:09  Error: net_pro_exchange_main(3410): send buff data fail! req: 20 , send: -1
+2020-01-02 16:04:09  Error: ThreadSocketTimerFun(382): net_set_timer fail, fail_cnt: 3, sock: 632.
+2020-01-02 16:04:10  Error: net_Socket_send(1197): WSAGetLastError: 183, sock: 668
+2020-01-02 16:04:10  Error: net_pro_exchange_main(3410): send buff data fail! req: 20 , send: -1
+2020-01-02 16:04:10  Error: ThreadSocketTimerFun(382): net_set_timer fail, fail_cnt: 4, sock: 668.
+2020-01-02 16:04:10  Error: net_Socket_send(1197): WSAGetLastError: 183, sock: 632
+2020-01-02 16:04:10  Error: net_pro_exchange_main(3410): send buff data fail! req: 20 , send: -1
+2020-01-02 16:04:10  Error: ThreadSocketTimerFun(382): net_set_timer fail, fail_cnt: 4, sock: 632.
+2020-01-02 16:04:10  Error: net_Socket_send(1197): WSAGetLastError: 183, sock: 668
+2020-01-02 16:04:10  Error: net_pro_exchange_main(3410): send buff data fail! req: 20 , send: -1
+2020-01-02 16:04:10  Error: ThreadSocketTimerFun(382): net_set_timer fail, fail_cnt: 5, sock: 668.
+2020-01-02 16:04:10  Error: net_Socket_send(1197): WSAGetLastError: 183, sock: 632
+2020-01-02 16:04:10  Error: net_pro_exchange_main(3410): send buff data fail! req: 20 , send: -1
+2020-01-02 16:04:10  Error: ThreadSocketTimerFun(382): net_set_timer fail, fail_cnt: 5, sock: 632.
+2020-01-02 16:04:11  Error: net_Socket_send(1197): WSAGetLastError: 183, sock: 668
+2020-01-02 16:04:11  Error: net_pro_exchange_main(3410): send buff data fail! req: 20 , send: -1
+2020-01-02 16:04:11  Error: ThreadSocketTimerFun(382): net_set_timer fail, fail_cnt: 6, sock: 668.
+2020-01-02 16:04:11  Error: net_Socket_send(1197): WSAGetLastError: 183, sock: 632
+2020-01-02 16:04:11  Error: net_pro_exchange_main(3410): send buff data fail! req: 20 , send: -1
+2020-01-02 16:04:11  Error: ThreadSocketTimerFun(382): net_set_timer fail, fail_cnt: 6, sock: 632.
+2020-01-02 16:04:11  Error: net_Socket_send(1197): WSAGetLastError: 183, sock: 668
+2020-01-02 16:04:11  Error: net_pro_exchange_main(3410): send buff data fail! req: 20 , send: -1
+2020-01-02 16:04:11  Error: ThreadSocketTimerFun(382): net_set_timer fail, fail_cnt: 7, sock: 668.
+2020-01-02 16:04:11  Error: net_Socket_send(1197): WSAGetLastError: 183, sock: 632
+2020-01-02 16:04:11  Error: net_pro_exchange_main(3410): send buff data fail! req: 20 , send: -1
+2020-01-02 16:04:11  Error: ThreadSocketTimerFun(382): net_set_timer fail, fail_cnt: 7, sock: 632.
+2020-01-02 16:04:12  Error: net_Socket_send(1197): WSAGetLastError: 183, sock: 668
+2020-01-02 16:04:12  Error: net_pro_exchange_main(3410): send buff data fail! req: 20 , send: -1
+2020-01-02 16:04:12  Error: ThreadSocketTimerFun(382): net_set_timer fail, fail_cnt: 8, sock: 668.
+2020-01-02 16:04:12  Error: net_Socket_send(1197): WSAGetLastError: 183, sock: 632
+2020-01-02 16:04:12  Error: net_pro_exchange_main(3410): send buff data fail! req: 20 , send: -1
+2020-01-02 16:04:12  Error: ThreadSocketTimerFun(382): net_set_timer fail, fail_cnt: 8, sock: 632.
+2020-01-02 16:04:12  Error: net_Socket_send(1197): WSAGetLastError: 183, sock: 668
+2020-01-02 16:04:12  Error: net_pro_exchange_main(3410): send buff data fail! req: 20 , send: -1
+2020-01-02 16:04:12  Error: ThreadSocketTimerFun(382): net_set_timer fail, fail_cnt: 9, sock: 668.
+2020-01-02 16:04:12  Error: net_Socket_send(1197): WSAGetLastError: 183, sock: 632
+2020-01-02 16:04:13  Error: net_pro_exchange_main(3410): send buff data fail! req: 20 , send: -1
+2020-01-02 16:04:13  Error: ThreadSocketTimerFun(382): net_set_timer fail, fail_cnt: 9, sock: 632.
+2020-01-02 16:04:13  Error: net_Socket_send(1197): WSAGetLastError: 183, sock: 668
+2020-01-02 16:04:13  Error: net_pro_exchange_main(3410): send buff data fail! req: 20 , send: -1
+2020-01-02 16:04:13  Error: ThreadSocketTimerFun(382): net_set_timer fail, fail_cnt: 10, sock: 668.
+2020-01-02 16:04:13  Error: ThreadSocketTimerFun(392): net_set_timer error, sock: 668.
+2020-01-02 16:04:13  Error: net_Socket_send(1197): WSAGetLastError: 183, sock: 632
+2020-01-02 16:04:13  Error: net_pro_exchange_main(3410): send buff data fail! req: 20 , send: -1
+2020-01-02 16:04:13  Error: ThreadSocketTimerFun(382): net_set_timer fail, fail_cnt: 10, sock: 632.
+2020-01-02 16:04:13  Error: ThreadSocketTimerFun(392): net_set_timer error, sock: 632.
+2020-01-02 19:36:18  Error: net_verify_conn(2260): Connect sock: 336.
+2020-01-02 19:36:18  Error: net_verify_conn(2260): Connect sock: 340.
+2020-01-02 19:36:18  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 19:36:18  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 19:36:18  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 19:36:18  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 19:36:18  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 19:36:18  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 19:36:18  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 19:36:18  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-02 19:36:19  Error: net_verify_conn(2260): Connect sock: 340.
+2020-01-02 19:36:19  Error: net_verify_conn(2260): Connect sock: 364.
+2020-01-02 19:36:19  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-02 19:36:19  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-02 19:36:19  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-02 19:36:19  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-02 19:36:19  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 19:36:19  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-02 19:36:19  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-02 19:36:19  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 10:55:43  Error: net_verify_conn(2260): Connect sock: 624.
+2020-01-03 10:55:43  Error: net_verify_conn(2260): Connect sock: 640.
+2020-01-03 10:55:43  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 10:55:43  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 10:55:43  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 10:55:43  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 10:55:43  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 10:55:43  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 10:55:43  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 10:55:43  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 10:56:43  Error: net_verify_conn(2260): Connect sock: 216.
+2020-01-03 10:56:43  Error: net_verify_conn(2260): Connect sock: 224.
+2020-01-03 10:56:43  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 10:56:43  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 10:56:43  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 10:56:43  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 10:56:43  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 10:56:43  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 10:56:43  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 10:56:43  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 10:56:44  Error: net_verify_conn(2260): Connect sock: 652.
+2020-01-03 10:56:44  Error: net_verify_conn(2260): Connect sock: 656.
+2020-01-03 10:56:44  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 10:56:44  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 10:56:44  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 10:56:44  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 10:56:44  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 10:56:44  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 10:56:44  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 10:56:44  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:00:40  Error: net_verify_conn(2260): Connect sock: 604.
+2020-01-03 11:00:40  Error: net_verify_conn(2260): Connect sock: 620.
+2020-01-03 11:00:40  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:00:40  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:00:40  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:00:40  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:00:40  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:00:40  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:00:40  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:00:40  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:00:41  Error: net_verify_conn(2260): Connect sock: 644.
+2020-01-03 11:00:41  Error: net_verify_conn(2260): Connect sock: 656.
+2020-01-03 11:00:41  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:00:41  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:00:41  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:00:41  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:00:41  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:00:41  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:00:41  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:00:41  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:01:58  Error: net_verify_conn(2260): Connect sock: 364.
+2020-01-03 11:01:58  Error: net_verify_conn(2260): Connect sock: 384.
+2020-01-03 11:01:58  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:01:58  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:01:58  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:01:58  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:01:58  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:01:58  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:01:58  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:01:58  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:02:20  Error: net_verify_conn(2260): Connect sock: 712.
+2020-01-03 11:02:20  Error: net_verify_conn(2260): Connect sock: 428.
+2020-01-03 11:02:20  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:02:20  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:02:20  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:02:20  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:02:20  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:02:20  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:02:20  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:02:20  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:02:39  Error: net_verify_conn(2260): Connect sock: 1000.
+2020-01-03 11:02:39  Error: net_verify_conn(2260): Connect sock: 1004.
+2020-01-03 11:02:39  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:02:39  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:02:39  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:02:39  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:02:39  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:02:39  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:02:39  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:02:39  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:03:07  Error: net_verify_conn(2260): Connect sock: 404.
+2020-01-03 11:03:07  Error: net_verify_conn(2260): Connect sock: 956.
+2020-01-03 11:03:07  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:03:07  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:03:08  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:03:08  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:03:08  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:03:08  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:03:08  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:03:08  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:03:34  Error: net_verify_conn(2260): Connect sock: 936.
+2020-01-03 11:03:34  Error: net_verify_conn(2260): Connect sock: 872.
+2020-01-03 11:03:34  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:03:34  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:03:34  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:03:34  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:03:34  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:03:34  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:03:34  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:03:34  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:11:25  Error: net_verify_conn(2260): Connect sock: 592.
+2020-01-03 11:11:25  Error: net_verify_conn(2260): Connect sock: 600.
+2020-01-03 11:11:25  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:11:25  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:11:25  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:11:25  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:11:25  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:11:25  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:11:25  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:11:25  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:11:26  Error: net_verify_conn(2260): Connect sock: 640.
+2020-01-03 11:11:26  Error: net_verify_conn(2260): Connect sock: 652.
+2020-01-03 11:11:26  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:11:26  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:11:26  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:11:26  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:11:26  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:11:26  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:11:26  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:11:26  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:13:45  Error: net_verify_conn(2260): Connect sock: 844.
+2020-01-03 11:13:45  Error: net_verify_conn(2260): Connect sock: 856.
+2020-01-03 11:13:45  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:13:45  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:13:45  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:13:45  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:13:45  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:13:45  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:13:45  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:13:45  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:14:35  Error: net_verify_conn(2260): Connect sock: 1052.
+2020-01-03 11:14:35  Error: net_verify_conn(2260): Connect sock: 1060.
+2020-01-03 11:14:35  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:14:35  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:14:35  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:14:35  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:14:35  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:14:35  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:14:35  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:14:35  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:15:02  Error: net_verify_conn(2260): Connect sock: 1044.
+2020-01-03 11:15:03  Error: net_verify_conn(2260): Connect sock: 1072.
+2020-01-03 11:15:03  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:15:03  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:15:03  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:15:03  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:15:03  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:15:03  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:15:03  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:15:03  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:21:26  Error: net_verify_conn(2260): Connect sock: 1844.
+2020-01-03 11:21:26  Error: net_verify_conn(2260): Connect sock: 1864.
+2020-01-03 11:21:26  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:21:26  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:21:26  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:21:26  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:21:26  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:21:26  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:21:26  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:21:26  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:22:05  Error: net_verify_conn(2260): Connect sock: 2792.
+2020-01-03 11:22:05  Error: net_verify_conn(2260): Connect sock: 2996.
+2020-01-03 11:22:05  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:22:05  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:22:05  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:22:05  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:22:05  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:22:05  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:22:05  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:22:05  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:24:33  Error: net_verify_conn(2260): Connect sock: 364.
+2020-01-03 11:24:33  Error: net_verify_conn(2260): Connect sock: 628.
+2020-01-03 11:24:33  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:24:33  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:24:33  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:24:33  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:24:33  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:24:33  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:24:33  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:24:33  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:24:34  Error: net_verify_conn(2260): Connect sock: 644.
+2020-01-03 11:24:34  Error: net_verify_conn(2260): Connect sock: 656.
+2020-01-03 11:24:34  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:24:34  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:24:34  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:24:34  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:24:34  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:24:34  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:24:34  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:24:34  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:26:54  Error: net_verify_conn(2260): Connect sock: 356.
+2020-01-03 11:26:54  Error: net_verify_conn(2260): Connect sock: 692.
+2020-01-03 11:26:54  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:26:54  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:26:54  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:26:54  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:26:54  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:26:54  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:26:54  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:26:54  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:27:45  Error: net_verify_conn(2260): Connect sock: 740.
+2020-01-03 11:27:45  Error: net_verify_conn(2260): Connect sock: 636.
+2020-01-03 11:27:45  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:27:45  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:27:45  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:27:45  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:27:45  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:27:45  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:27:45  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:27:45  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:29:01  Error: net_verify_conn(2260): Connect sock: 696.
+2020-01-03 11:29:01  Error: net_verify_conn(2260): Connect sock: 640.
+2020-01-03 11:29:01  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:29:01  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:29:01  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:29:01  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:29:01  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:29:01  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:29:01  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:29:01  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:30:35  Error: net_verify_conn(2260): Connect sock: 1816.
+2020-01-03 11:30:35  Error: net_verify_conn(2260): Connect sock: 1836.
+2020-01-03 11:30:35  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:30:35  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:30:35  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:30:35  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:30:35  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:30:35  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:30:35  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:30:35  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:30:47  Error: net_verify_conn(2260): Connect sock: 2996.
+2020-01-03 11:30:47  Error: net_verify_conn(2260): Connect sock: 2520.
+2020-01-03 11:30:47  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:30:47  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:30:47  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:30:47  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:30:47  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:30:47  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:30:47  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:30:47  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:31:27  Error: net_verify_conn(2260): Connect sock: 2776.
+2020-01-03 11:31:27  Error: net_verify_conn(2260): Connect sock: 2996.
+2020-01-03 11:31:27  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:31:27  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:31:27  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:31:28  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:31:28  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:31:28  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:31:28  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:31:28  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:33:27  Error: net_verify_conn(2260): Connect sock: 644.
+2020-01-03 11:33:28  Error: net_verify_conn(2260): Connect sock: 660.
+2020-01-03 11:33:28  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:33:28  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:33:28  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:33:28  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:33:28  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:33:28  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:33:28  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:33:28  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:33:28  Error: net_verify_conn(2260): Connect sock: 356.
+2020-01-03 11:33:28  Error: net_verify_conn(2260): Connect sock: 676.
+2020-01-03 11:33:28  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:33:28  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:33:28  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:33:28  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:33:28  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:33:28  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:33:28  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:33:28  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:34:09  Error: net_verify_conn(2260): Connect sock: 340.
+2020-01-03 11:34:09  Error: net_verify_conn(2260): Connect sock: 772.
+2020-01-03 11:34:09  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:34:09  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:34:09  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:34:09  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:34:09  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:34:09  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:34:09  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:34:09  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:34:41  Error: net_verify_conn(2260): Connect sock: 868.
+2020-01-03 11:34:41  Error: net_verify_conn(2260): Connect sock: 364.
+2020-01-03 11:34:41  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:34:41  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:34:41  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:34:41  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:34:41  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:34:41  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:34:41  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:34:41  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:36:19  Error: net_verify_conn(2260): Connect sock: 920.
+2020-01-03 11:36:19  Error: net_verify_conn(2260): Connect sock: 924.
+2020-01-03 11:36:19  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:36:19  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:36:19  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:36:19  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:36:19  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:36:19  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:36:19  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:36:19  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:36:54  Error: net_verify_conn(2260): Connect sock: 408.
+2020-01-03 11:36:54  Error: net_verify_conn(2260): Connect sock: 472.
+2020-01-03 11:36:54  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:36:54  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:36:54  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:36:54  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:36:54  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:36:54  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:36:54  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:36:54  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:39:02  Error: net_verify_conn(2260): Connect sock: 1488.
+2020-01-03 11:39:02  Error: net_verify_conn(2260): Connect sock: 1796.
+2020-01-03 11:39:02  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:39:02  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:39:02  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:39:02  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:39:02  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:39:02  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:39:02  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:39:02  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:39:27  Error: net_verify_conn(2260): Connect sock: 2792.
+2020-01-03 11:39:27  Error: net_verify_conn(2260): Connect sock: 2908.
+2020-01-03 11:39:27  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:39:27  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:39:27  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:39:27  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:39:27  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:39:27  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:39:27  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:39:27  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-01-03 11:40:49  Error: net_verify_conn(2260): Connect sock: 2528.
+2020-01-03 11:40:49  Error: net_verify_conn(2260): Connect sock: 2276.
+2020-01-03 11:40:49  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-01-03 11:40:49  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-01-03 11:40:49  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-01-03 11:40:49  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-01-03 11:40:49  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:40:49  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-01-03 11:40:49  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-01-03 11:40:49  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 11:24:11  Error: net_verify_conn(2260): Connect sock: 588.
+2020-02-29 11:24:11  Error: net_verify_conn(2260): Connect sock: 620.
+2020-02-29 11:24:11  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 11:24:11  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 11:24:11  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 11:24:11  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 11:24:11  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 11:24:11  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 11:24:11  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 11:24:11  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 11:24:11  Error: net_verify_conn(2260): Connect sock: 632.
+2020-02-29 11:24:11  Error: net_verify_conn(2260): Connect sock: 644.
+2020-02-29 11:24:12  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 11:24:12  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 11:24:12  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 11:24:12  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 11:24:12  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 11:24:12  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 11:24:12  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 11:24:12  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 11:27:34  Error: net_verify_conn(2260): Connect sock: 644.
+2020-02-29 11:27:34  Error: net_verify_conn(2260): Connect sock: 232.
+2020-02-29 11:27:34  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 11:27:34  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 11:27:34  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 11:27:34  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 11:27:34  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 11:27:34  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 11:27:34  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 11:27:34  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 11:27:35  Error: net_verify_conn(2260): Connect sock: 680.
+2020-02-29 11:27:35  Error: net_verify_conn(2260): Connect sock: 684.
+2020-02-29 11:27:35  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 11:27:35  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 11:27:35  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 11:27:35  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 11:27:35  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 11:27:35  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 11:27:35  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 11:27:35  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 11:44:47  Error: net_verify_conn(2260): Connect sock: 984.
+2020-02-29 11:44:47  Error: net_verify_conn(2260): Connect sock: 992.
+2020-02-29 11:44:47  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 11:44:47  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 11:44:47  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 11:44:47  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 11:44:47  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 11:44:47  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 11:44:47  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 11:44:47  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 11:47:57  Error: net_verify_conn(2260): Connect sock: 1056.
+2020-02-29 11:47:57  Error: net_verify_conn(2260): Connect sock: 1032.
+2020-02-29 11:47:57  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 11:47:57  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 11:47:57  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 11:47:57  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 11:47:57  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 11:47:57  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 11:47:57  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 11:47:57  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 11:50:03  Error: net_verify_conn(2260): Connect sock: 288.
+2020-02-29 11:50:03  Error: net_verify_conn(2260): Connect sock: 632.
+2020-02-29 11:50:04  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 11:50:04  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 11:50:04  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 11:50:04  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 11:50:04  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 11:50:04  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 11:50:04  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 11:50:04  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 11:50:04  Error: net_verify_conn(2260): Connect sock: 344.
+2020-02-29 11:50:04  Error: net_verify_conn(2260): Connect sock: 652.
+2020-02-29 11:50:04  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 11:50:04  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 11:50:04  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 11:50:04  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 11:50:04  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 11:50:04  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 11:50:04  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 11:50:04  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 11:51:47  Error: net_verify_conn(2260): Connect sock: 316.
+2020-02-29 11:51:47  Error: net_verify_conn(2260): Connect sock: 540.
+2020-02-29 11:51:47  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 11:51:47  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 11:51:47  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 11:51:47  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 11:51:47  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 11:51:47  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 11:51:47  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 11:51:47  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:25:18  Error: net_verify_conn(2260): Connect sock: 604.
+2020-02-29 14:25:18  Error: net_verify_conn(2260): Connect sock: 624.
+2020-02-29 14:25:18  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:25:18  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:25:18  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:25:18  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:25:18  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:25:18  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:25:18  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:25:18  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:25:19  Error: net_verify_conn(2260): Connect sock: 684.
+2020-02-29 14:25:19  Error: net_verify_conn(2260): Connect sock: 692.
+2020-02-29 14:25:19  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:25:19  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:25:19  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:25:19  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:25:19  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:25:19  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:25:19  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:25:19  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:26:28  Error: net_verify_conn(2260): Connect sock: 720.
+2020-02-29 14:26:28  Error: net_verify_conn(2260): Connect sock: 724.
+2020-02-29 14:26:28  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:26:28  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:26:28  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:26:28  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:26:28  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:26:28  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:26:28  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:26:28  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:27:08  Error: net_verify_conn(2260): Connect sock: 628.
+2020-02-29 14:27:08  Error: net_verify_conn(2260): Connect sock: 128.
+2020-02-29 14:27:08  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:27:08  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:27:08  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:27:08  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:27:08  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:27:08  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:27:08  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:27:08  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:27:49  Error: net_verify_conn(2260): Connect sock: 1008.
+2020-02-29 14:27:49  Error: net_verify_conn(2260): Connect sock: 996.
+2020-02-29 14:27:49  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:27:49  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:27:49  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:27:49  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:27:49  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:27:49  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:27:49  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:27:49  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:41:32  Error: net_verify_conn(2260): Connect sock: 208.
+2020-02-29 14:41:32  Error: net_verify_conn(2260): Connect sock: 644.
+2020-02-29 14:41:32  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:41:32  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:41:32  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:41:32  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:41:32  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:41:32  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:41:32  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:41:32  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:41:33  Error: net_verify_conn(2260): Connect sock: 644.
+2020-02-29 14:41:33  Error: net_verify_conn(2260): Connect sock: 692.
+2020-02-29 14:41:33  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:41:33  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:41:33  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:41:33  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:41:33  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:41:33  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:41:33  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:41:33  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:42:23  Error: net_verify_conn(2260): Connect sock: 368.
+2020-02-29 14:42:23  Error: net_verify_conn(2260): Connect sock: 216.
+2020-02-29 14:42:23  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:42:23  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:42:23  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:42:23  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:42:23  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:42:23  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:42:23  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:42:23  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:48:31  Error: net_verify_conn(2260): Connect sock: 600.
+2020-02-29 14:48:31  Error: net_verify_conn(2260): Connect sock: 612.
+2020-02-29 14:48:31  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:48:31  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:48:31  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:48:31  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:48:31  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:48:31  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:48:31  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:48:31  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:48:32  Error: net_verify_conn(2260): Connect sock: 672.
+2020-02-29 14:48:32  Error: net_verify_conn(2260): Connect sock: 296.
+2020-02-29 14:48:32  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:48:32  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:48:32  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:48:32  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:48:32  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:48:32  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:48:32  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:48:32  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:49:53  Error: net_verify_conn(2260): Connect sock: 352.
+2020-02-29 14:49:53  Error: net_verify_conn(2260): Connect sock: 608.
+2020-02-29 14:49:53  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:49:53  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:49:53  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:49:53  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:49:53  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:49:53  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:49:53  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:49:53  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:49:54  Error: net_verify_conn(2260): Connect sock: 352.
+2020-02-29 14:49:54  Error: net_verify_conn(2260): Connect sock: 676.
+2020-02-29 14:49:54  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:49:54  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:49:54  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:49:54  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:49:54  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:49:54  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:49:54  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:49:54  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:50:58  Error: net_verify_conn(2260): Connect sock: 280.
+2020-02-29 14:50:58  Error: net_verify_conn(2260): Connect sock: 636.
+2020-02-29 14:50:58  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:50:58  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:50:58  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:50:58  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:50:58  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:50:58  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:50:58  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:50:58  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:50:58  Error: net_verify_conn(2260): Connect sock: 672.
+2020-02-29 14:50:58  Error: net_verify_conn(2260): Connect sock: 640.
+2020-02-29 14:50:58  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:50:58  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:50:58  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:50:58  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:50:58  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:50:58  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:50:58  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:50:58  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:54:49  Error: net_verify_conn(2260): Connect sock: 620.
+2020-02-29 14:54:49  Error: net_verify_conn(2260): Connect sock: 636.
+2020-02-29 14:54:49  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:54:49  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:54:49  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:54:49  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:54:49  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:54:49  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:54:49  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:54:49  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:54:50  Error: net_verify_conn(2260): Connect sock: 676.
+2020-02-29 14:54:50  Error: net_verify_conn(2260): Connect sock: 688.
+2020-02-29 14:54:50  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:54:50  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:54:50  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:54:50  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:54:50  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:54:50  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:54:50  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:54:50  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:56:11  Error: net_verify_conn(2260): Connect sock: 580.
+2020-02-29 14:56:11  Error: net_verify_conn(2260): Connect sock: 612.
+2020-02-29 14:56:12  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:56:12  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:56:12  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:56:12  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:56:12  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:56:12  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:56:12  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:56:12  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:56:12  Error: net_verify_conn(2260): Connect sock: 644.
+2020-02-29 14:56:12  Error: net_verify_conn(2260): Connect sock: 656.
+2020-02-29 14:56:12  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:56:12  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:56:12  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:56:12  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:56:12  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:56:12  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:56:12  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:56:12  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:59:12  Error: net_verify_conn(2260): Connect sock: 304.
+2020-02-29 14:59:12  Error: net_verify_conn(2260): Connect sock: 640.
+2020-02-29 14:59:12  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:59:12  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:59:12  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:59:12  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:59:12  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:59:12  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:59:12  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:59:12  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:59:13  Error: net_verify_conn(2260): Connect sock: 656.
+2020-02-29 14:59:13  Error: net_verify_conn(2260): Connect sock: 684.
+2020-02-29 14:59:13  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:59:13  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:59:13  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:59:13  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:59:13  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:59:13  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:59:13  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:59:13  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:59:13  Error: net_verify_conn(2260): Connect sock: 696.
+2020-02-29 14:59:13  Error: net_verify_conn(2260): Connect sock: 324.
+2020-02-29 14:59:14  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:59:14  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:59:14  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:59:14  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:59:14  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:59:14  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:59:14  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:59:14  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:59:14  Error: net_verify_conn(2260): Connect sock: 700.
+2020-02-29 14:59:14  Error: net_verify_conn(2260): Connect sock: 324.
+2020-02-29 14:59:14  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:59:14  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:59:14  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:59:14  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:59:14  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:59:14  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:59:14  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:59:14  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 14:59:14  Error: net_verify_conn(2260): Connect sock: 720.
+2020-02-29 14:59:14  Error: net_verify_conn(2260): Connect sock: 664.
+2020-02-29 14:59:14  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 14:59:14  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 14:59:14  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 14:59:14  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 14:59:14  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:59:14  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 14:59:14  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 14:59:14  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:01:16  Error: net_verify_conn(2260): Connect sock: 572.
+2020-02-29 15:01:16  Error: net_verify_conn(2260): Connect sock: 612.
+2020-02-29 15:01:16  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:01:16  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:01:16  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:01:16  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:01:16  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:01:16  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:01:16  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:01:16  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:01:17  Error: net_verify_conn(2260): Connect sock: 640.
+2020-02-29 15:01:17  Error: net_verify_conn(2260): Connect sock: 656.
+2020-02-29 15:01:17  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:01:17  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:01:17  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:01:17  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:01:17  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:01:17  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:01:17  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:01:17  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:04:26  Error: net_verify_conn(2260): Connect sock: 244.
+2020-02-29 15:04:26  Error: net_verify_conn(2260): Connect sock: 648.
+2020-02-29 15:04:26  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:04:26  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:04:26  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:04:26  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:04:26  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:04:26  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:04:26  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:04:26  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:04:27  Error: net_verify_conn(2260): Connect sock: 664.
+2020-02-29 15:04:27  Error: net_verify_conn(2260): Connect sock: 684.
+2020-02-29 15:04:27  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:04:27  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:04:27  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:04:27  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:04:27  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:04:27  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:04:27  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:04:27  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:06:30  Error: net_verify_conn(2260): Connect sock: 588.
+2020-02-29 15:06:30  Error: net_verify_conn(2260): Connect sock: 612.
+2020-02-29 15:06:30  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:06:30  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:06:30  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:06:30  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:06:30  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:06:30  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:06:30  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:06:30  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:06:31  Error: net_verify_conn(2260): Connect sock: 648.
+2020-02-29 15:06:31  Error: net_verify_conn(2260): Connect sock: 660.
+2020-02-29 15:06:31  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:06:31  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:06:31  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:06:31  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:06:31  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:06:31  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:06:31  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:06:31  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:07:56  Error: net_verify_conn(2260): Connect sock: 344.
+2020-02-29 15:07:56  Error: net_verify_conn(2260): Connect sock: 316.
+2020-02-29 15:07:56  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:07:56  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:07:56  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:07:56  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:07:56  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:07:56  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:07:56  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:07:56  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:07:57  Error: net_verify_conn(2260): Connect sock: 700.
+2020-02-29 15:07:57  Error: net_verify_conn(2260): Connect sock: 712.
+2020-02-29 15:07:57  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:07:57  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:07:57  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:07:57  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:07:57  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:07:57  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:07:57  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:07:57  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:09:19  Error: net_verify_conn(2260): Connect sock: 372.
+2020-02-29 15:09:19  Error: net_verify_conn(2260): Connect sock: 640.
+2020-02-29 15:09:19  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:09:19  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:09:19  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:09:19  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:09:19  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:09:19  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:09:19  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:09:19  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:09:19  Error: net_verify_conn(2260): Connect sock: 212.
+2020-02-29 15:09:19  Error: net_verify_conn(2260): Connect sock: 636.
+2020-02-29 15:09:20  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:09:20  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:09:20  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:09:20  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:09:20  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:09:20  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:09:20  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:09:20  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:15:39  Error: net_verify_conn(2260): Connect sock: 588.
+2020-02-29 15:15:39  Error: net_verify_conn(2260): Connect sock: 612.
+2020-02-29 15:15:39  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:15:39  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:15:39  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:15:39  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:15:39  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:15:39  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:15:39  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:15:39  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:15:39  Error: net_verify_conn(2260): Connect sock: 628.
+2020-02-29 15:15:39  Error: net_verify_conn(2260): Connect sock: 644.
+2020-02-29 15:15:39  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:15:39  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:15:39  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:15:39  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:15:39  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:15:39  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:15:39  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:15:39  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:16:42  Error: net_verify_conn(2260): Connect sock: 912.
+2020-02-29 15:16:42  Error: net_verify_conn(2260): Connect sock: 924.
+2020-02-29 15:16:42  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:16:42  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:16:42  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:16:42  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:16:42  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:16:42  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:16:42  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:16:42  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:17:55  Error: net_verify_conn(2260): Connect sock: 1012.
+2020-02-29 15:17:56  Error: net_verify_conn(2260): Connect sock: 908.
+2020-02-29 15:17:56  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:17:56  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:17:56  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:17:56  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:17:56  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:17:56  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:17:56  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:17:56  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:17:56  Error: net_verify_conn(2260): Connect sock: 972.
+2020-02-29 15:17:56  Error: net_verify_conn(2260): Connect sock: 888.
+2020-02-29 15:17:56  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:17:56  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:17:56  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:17:56  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:17:56  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:17:56  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:17:56  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:17:56  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:17:56  Error: net_verify_conn(2260): Connect sock: 1020.
+2020-02-29 15:17:56  Error: net_verify_conn(2260): Connect sock: 972.
+2020-02-29 15:17:56  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:17:56  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:17:56  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:17:56  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:17:57  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:17:57  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:17:57  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:17:57  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:17:57  Error: net_verify_conn(2260): Connect sock: 644.
+2020-02-29 15:17:57  Error: net_verify_conn(2260): Connect sock: 880.
+2020-02-29 15:17:57  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:17:57  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:17:57  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:17:57  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:17:57  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:17:57  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:17:57  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:17:57  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:18:25  Error: net_verify_conn(2260): Connect sock: 896.
+2020-02-29 15:18:25  Error: net_verify_conn(2260): Connect sock: 672.
+2020-02-29 15:18:25  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:18:25  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:18:25  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:18:25  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:18:25  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:18:25  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:18:25  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:18:25  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:18:25  Error: net_verify_conn(2260): Connect sock: 676.
+2020-02-29 15:18:25  Error: net_verify_conn(2260): Connect sock: 656.
+2020-02-29 15:18:25  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:18:25  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:18:25  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:18:25  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:18:25  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:18:25  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:18:25  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:18:25  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:18:26  Error: net_verify_conn(2260): Connect sock: 656.
+2020-02-29 15:18:26  Error: net_verify_conn(2260): Connect sock: 896.
+2020-02-29 15:18:26  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:18:26  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:18:26  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:18:26  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:18:26  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:18:26  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:18:26  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:18:26  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:18:26  Error: net_verify_conn(2260): Connect sock: 652.
+2020-02-29 15:18:26  Error: net_verify_conn(2260): Connect sock: 668.
+2020-02-29 15:18:26  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:18:26  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:18:26  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:18:26  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:18:26  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:18:26  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:18:26  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:18:26  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:18:51  Error: net_verify_conn(2260): Connect sock: 620.
+2020-02-29 15:18:52  Error: net_verify_conn(2260): Connect sock: 688.
+2020-02-29 15:18:52  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:18:52  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:18:52  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:18:52  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:18:52  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:18:52  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:18:52  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:18:52  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:18:52  Error: net_verify_conn(2260): Connect sock: 496.
+2020-02-29 15:18:52  Error: net_verify_conn(2260): Connect sock: 884.
+2020-02-29 15:18:52  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:18:52  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:18:52  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:18:52  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:18:52  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:18:52  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:18:52  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:18:52  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:18:52  Error: net_verify_conn(2260): Connect sock: 688.
+2020-02-29 15:18:52  Error: net_verify_conn(2260): Connect sock: 388.
+2020-02-29 15:18:53  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:18:53  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:18:53  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:18:53  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:18:53  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:18:53  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:18:53  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:18:53  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:18:53  Error: net_verify_conn(2260): Connect sock: 388.
+2020-02-29 15:18:53  Error: net_verify_conn(2260): Connect sock: 884.
+2020-02-29 15:18:53  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:18:53  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:18:53  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:18:53  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:18:53  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:18:53  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:18:53  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:18:53  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:27:08  Error: net_verify_conn(2260): Connect sock: 680.
+2020-02-29 15:27:08  Error: net_verify_conn(2260): Connect sock: 696.
+2020-02-29 15:27:08  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:27:08  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:27:08  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:27:08  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:27:08  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:27:08  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:27:08  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:27:08  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-02-29 15:27:08  Error: net_verify_conn(2260): Connect sock: 360.
+2020-02-29 15:27:08  Error: net_verify_conn(2260): Connect sock: 396.
+2020-02-29 15:27:08  Error: net_read_reply(2587): server return error code: 90, fun: 41, len: 4
+2020-02-29 15:27:08  Error: s32ProLv_set_tx_conn_local_info(3921): net_set_tx_conn_local_info failed !
+2020-02-29 15:27:08  Error: net_read_reply(2587): server return error code: 90, fun: 44, len: 4
+2020-02-29 15:27:08  Error: s32ProLv_set_dac_reset_enable(4016): Set DAC reset enable failed !
+2020-02-29 15:27:09  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:27:09  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-02-29 15:27:09  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-02-29 15:27:09  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 10:32:30  Error: net_verify_conn(2260): Connect sock: 620.
+2020-03-04 10:32:30  Error: net_verify_conn(2260): Connect sock: 340.
+2020-03-04 10:32:30  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 10:32:30  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 10:32:30  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 10:32:30  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 10:32:31  Error: net_verify_conn(2260): Connect sock: 656.
+2020-03-04 10:32:31  Error: net_verify_conn(2260): Connect sock: 664.
+2020-03-04 10:32:31  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 10:32:31  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 10:32:31  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 10:32:31  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 10:37:43  Error: net_verify_conn(2260): Connect sock: 532.
+2020-03-04 10:37:43  Error: net_verify_conn(2260): Connect sock: 524.
+2020-03-04 10:37:43  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 10:37:43  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 10:37:43  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 10:37:43  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 10:55:37  Error: net_verify_conn(2260): Connect sock: 348.
+2020-03-04 10:55:37  Error: net_verify_conn(2260): Connect sock: 360.
+2020-03-04 10:55:37  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 10:55:37  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 10:55:37  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 10:55:37  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 10:55:38  Error: net_verify_conn(2260): Connect sock: 612.
+2020-03-04 10:55:38  Error: net_verify_conn(2260): Connect sock: 316.
+2020-03-04 10:55:38  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 10:55:38  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 10:55:38  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 10:55:38  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 20:42:17  Error: net_verify_conn(2260): Connect sock: 1808.
+2020-03-04 20:42:17  Error: net_verify_conn(2260): Connect sock: 1828.
+2020-03-04 20:42:17  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:42:17  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 20:42:17  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:42:17  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 20:43:28  Error: net_verify_conn(2260): Connect sock: 324.
+2020-03-04 20:43:28  Error: net_verify_conn(2260): Connect sock: 636.
+2020-03-04 20:43:28  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:43:28  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 20:43:28  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:43:28  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 20:43:29  Error: net_verify_conn(2260): Connect sock: 656.
+2020-03-04 20:43:29  Error: net_verify_conn(2260): Connect sock: 664.
+2020-03-04 20:43:29  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:43:29  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 20:43:29  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:43:29  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 20:45:57  Error: net_verify_conn(2260): Connect sock: 388.
+2020-03-04 20:45:57  Error: net_verify_conn(2260): Connect sock: 368.
+2020-03-04 20:45:57  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:45:57  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 20:45:57  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:45:57  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 20:48:49  Error: net_verify_conn(2260): Connect sock: 204.
+2020-03-04 20:48:49  Error: net_verify_conn(2260): Connect sock: 688.
+2020-03-04 20:48:49  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:48:49  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 20:48:49  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:48:49  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 20:49:48  Error: net_verify_conn(2260): Connect sock: 668.
+2020-03-04 20:49:49  Error: net_verify_conn(2260): Connect sock: 376.
+2020-03-04 20:49:49  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:49:49  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 20:49:49  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:49:49  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 20:53:24  Error: net_verify_conn(2260): Connect sock: 604.
+2020-03-04 20:53:24  Error: net_verify_conn(2260): Connect sock: 620.
+2020-03-04 20:53:24  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:53:24  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 20:53:24  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:53:24  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 20:53:25  Error: net_verify_conn(2260): Connect sock: 656.
+2020-03-04 20:53:25  Error: net_verify_conn(2260): Connect sock: 668.
+2020-03-04 20:53:25  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:53:25  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 20:53:25  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:53:25  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 20:54:55  Error: net_verify_conn(2260): Connect sock: 360.
+2020-03-04 20:54:55  Error: net_verify_conn(2260): Connect sock: 352.
+2020-03-04 20:54:55  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:54:56  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 20:54:56  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:54:56  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 20:56:29  Error: net_verify_conn(2260): Connect sock: 684.
+2020-03-04 20:56:29  Error: net_verify_conn(2260): Connect sock: 352.
+2020-03-04 20:56:29  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:56:29  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 20:56:29  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:56:29  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 20:57:47  Error: net_verify_conn(2260): Connect sock: 356.
+2020-03-04 20:57:47  Error: net_verify_conn(2260): Connect sock: 1060.
+2020-03-04 20:57:47  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:57:47  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 20:57:47  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:57:47  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 20:58:53  Error: net_verify_conn(2260): Connect sock: 368.
+2020-03-04 20:58:53  Error: net_verify_conn(2260): Connect sock: 648.
+2020-03-04 20:58:53  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:58:53  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 20:58:53  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 20:58:53  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:00:08  Error: net_verify_conn(2260): Connect sock: 656.
+2020-03-04 21:00:08  Error: net_verify_conn(2260): Connect sock: 812.
+2020-03-04 21:00:08  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:00:08  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:00:08  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:00:08  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:00:33  Error: net_verify_conn(2260): Connect sock: 1556.
+2020-03-04 21:00:33  Error: net_verify_conn(2260): Connect sock: 1544.
+2020-03-04 21:00:33  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:00:33  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:00:33  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:00:33  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:02:05  Error: net_verify_conn(2260): Connect sock: 356.
+2020-03-04 21:02:05  Error: net_verify_conn(2260): Connect sock: 340.
+2020-03-04 21:02:05  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:02:05  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:02:05  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:02:05  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:03:06  Error: net_verify_conn(2260): Connect sock: 1672.
+2020-03-04 21:03:06  Error: net_verify_conn(2260): Connect sock: 484.
+2020-03-04 21:03:06  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:03:06  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:03:06  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:03:06  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:04:25  Error: net_verify_conn(2260): Connect sock: 1588.
+2020-03-04 21:04:25  Error: net_verify_conn(2260): Connect sock: 1616.
+2020-03-04 21:04:25  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:04:25  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:04:25  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:04:25  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:05:26  Error: net_verify_conn(2260): Connect sock: 2100.
+2020-03-04 21:05:26  Error: net_verify_conn(2260): Connect sock: 2128.
+2020-03-04 21:05:27  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:05:27  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:05:27  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:05:27  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:06:48  Error: net_verify_conn(2260): Connect sock: 2076.
+2020-03-04 21:06:48  Error: net_verify_conn(2260): Connect sock: 996.
+2020-03-04 21:06:48  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:06:48  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:06:48  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:06:48  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:10:42  Error: net_verify_conn(2260): Connect sock: 1500.
+2020-03-04 21:10:42  Error: net_verify_conn(2260): Connect sock: 2448.
+2020-03-04 21:10:43  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:10:43  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:10:43  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:10:43  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:11:12  Error: net_verify_conn(2260): Connect sock: 2456.
+2020-03-04 21:11:13  Error: net_verify_conn(2260): Connect sock: 2440.
+2020-03-04 21:11:13  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:11:13  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:11:13  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:11:13  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:11:39  Error: net_verify_conn(2260): Connect sock: 1920.
+2020-03-04 21:11:39  Error: net_verify_conn(2260): Connect sock: 2008.
+2020-03-04 21:11:39  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:11:39  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:11:39  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:11:39  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:18:41  Error: net_verify_conn(2260): Connect sock: 648.
+2020-03-04 21:18:41  Error: net_verify_conn(2260): Connect sock: 360.
+2020-03-04 21:18:41  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:18:41  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:18:41  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:18:41  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:18:42  Error: net_verify_conn(2260): Connect sock: 364.
+2020-03-04 21:18:42  Error: net_verify_conn(2260): Connect sock: 680.
+2020-03-04 21:18:42  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:18:42  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:18:42  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:18:42  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:20:04  Error: net_verify_conn(2260): Connect sock: 704.
+2020-03-04 21:20:04  Error: net_verify_conn(2260): Connect sock: 392.
+2020-03-04 21:20:04  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:20:04  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:20:04  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:20:04  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:20:30  Error: net_verify_conn(2260): Connect sock: 596.
+2020-03-04 21:20:30  Error: net_verify_conn(2260): Connect sock: 572.
+2020-03-04 21:20:30  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:20:30  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:20:30  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:20:30  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:22:53  Error: net_verify_conn(2260): Connect sock: 184.
+2020-03-04 21:22:53  Error: net_verify_conn(2260): Connect sock: 312.
+2020-03-04 21:22:53  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:22:53  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:22:53  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:22:53  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:22:53  Error: net_verify_conn(2260): Connect sock: 656.
+2020-03-04 21:22:54  Error: net_verify_conn(2260): Connect sock: 668.
+2020-03-04 21:22:54  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:22:54  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:22:54  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:22:54  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:25:00  Error: net_verify_conn(2260): Connect sock: 744.
+2020-03-04 21:25:00  Error: net_verify_conn(2260): Connect sock: 668.
+2020-03-04 21:25:00  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:25:00  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:25:00  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:25:00  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:30:15  Error: net_verify_conn(2260): Connect sock: 596.
+2020-03-04 21:30:15  Error: net_verify_conn(2260): Connect sock: 608.
+2020-03-04 21:30:15  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:30:15  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:30:15  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:30:15  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:30:16  Error: net_verify_conn(2260): Connect sock: 596.
+2020-03-04 21:30:16  Error: net_verify_conn(2260): Connect sock: 628.
+2020-03-04 21:30:16  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:30:16  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:30:16  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:30:16  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:33:38  Error: net_verify_conn(2260): Connect sock: 596.
+2020-03-04 21:33:38  Error: net_verify_conn(2260): Connect sock: 604.
+2020-03-04 21:33:38  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:33:38  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:33:38  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:33:38  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:33:38  Error: net_verify_conn(2260): Connect sock: 644.
+2020-03-04 21:33:39  Error: net_verify_conn(2260): Connect sock: 632.
+2020-03-04 21:33:39  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:33:39  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:33:39  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:33:39  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:35:30  Error: net_verify_conn(2260): Connect sock: 988.
+2020-03-04 21:35:30  Error: net_verify_conn(2260): Connect sock: 992.
+2020-03-04 21:35:30  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:35:30  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:35:30  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:35:30  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:41:21  Error: net_verify_conn(2260): Connect sock: 312.
+2020-03-04 21:41:21  Error: net_verify_conn(2260): Connect sock: 620.
+2020-03-04 21:41:21  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:41:21  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:41:21  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:41:21  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:41:22  Error: net_verify_conn(2260): Connect sock: 664.
+2020-03-04 21:41:22  Error: net_verify_conn(2260): Connect sock: 328.
+2020-03-04 21:41:22  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:41:22  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:41:22  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:41:22  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:45:23  Error: net_verify_conn(2260): Connect sock: 192.
+2020-03-04 21:45:23  Error: net_verify_conn(2260): Connect sock: 628.
+2020-03-04 21:45:23  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:45:23  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:45:23  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:45:23  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:45:24  Error: net_verify_conn(2260): Connect sock: 668.
+2020-03-04 21:45:24  Error: net_verify_conn(2260): Connect sock: 684.
+2020-03-04 21:45:24  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:45:24  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:45:24  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:45:24  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-04 21:46:20  Error: net_verify_conn(2260): Connect sock: 984.
+2020-03-04 21:46:20  Error: net_verify_conn(2260): Connect sock: 672.
+2020-03-04 21:46:20  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:46:20  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-04 21:46:20  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-04 21:46:20  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-05 09:47:50  Error: net_verify_conn(2260): Connect sock: 644.
+2020-03-05 09:47:50  Error: net_verify_conn(2260): Connect sock: 668.
+2020-03-05 09:47:50  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 09:47:50  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-05 09:47:50  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 09:47:50  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-05 09:47:51  Error: net_verify_conn(2260): Connect sock: 644.
+2020-03-05 09:47:51  Error: net_verify_conn(2260): Connect sock: 336.
+2020-03-05 09:47:51  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 09:47:51  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-05 09:47:51  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 09:47:51  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-05 09:53:24  Error: net_verify_conn(2260): Connect sock: 380.
+2020-03-05 09:53:24  Error: net_verify_conn(2260): Connect sock: 348.
+2020-03-05 09:53:24  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 09:53:24  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-05 09:53:24  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 09:53:24  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-05 09:53:25  Error: net_verify_conn(2260): Connect sock: 660.
+2020-03-05 09:53:25  Error: net_verify_conn(2260): Connect sock: 648.
+2020-03-05 09:53:25  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 09:53:25  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-05 09:53:25  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 09:53:25  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-05 10:13:07  Error: net_verify_conn(2260): Connect sock: 616.
+2020-03-05 10:13:07  Error: net_verify_conn(2260): Connect sock: 216.
+2020-03-05 10:13:07  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 10:13:07  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-05 10:13:07  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 10:13:07  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-05 10:13:08  Error: net_verify_conn(2260): Connect sock: 660.
+2020-03-05 10:13:08  Error: net_verify_conn(2260): Connect sock: 316.
+2020-03-05 10:13:08  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 10:13:08  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-05 10:13:08  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 10:13:08  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-05 10:17:18  Error: net_verify_conn(2260): Connect sock: 360.
+2020-03-05 10:17:18  Error: net_verify_conn(2260): Connect sock: 628.
+2020-03-05 10:17:18  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 10:17:18  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-05 10:17:18  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 10:17:18  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-05 10:17:18  Error: net_verify_conn(2260): Connect sock: 632.
+2020-03-05 10:17:18  Error: net_verify_conn(2260): Connect sock: 664.
+2020-03-05 10:17:19  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 10:17:19  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-05 10:17:19  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 10:17:19  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-05 10:18:24  Error: net_verify_conn(2260): Connect sock: 592.
+2020-03-05 10:18:24  Error: net_verify_conn(2260): Connect sock: 604.
+2020-03-05 10:18:24  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 10:18:24  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-05 10:18:24  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 10:18:24  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-05 10:18:24  Error: net_verify_conn(2260): Connect sock: 644.
+2020-03-05 10:18:24  Error: net_verify_conn(2260): Connect sock: 648.
+2020-03-05 10:18:24  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 10:18:24  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-05 10:18:24  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 10:18:24  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+
+2020-03-05 10:19:13  Error: net_verify_conn(2260): Connect sock: 640.
+2020-03-05 10:19:13  Error: net_verify_conn(2260): Connect sock: 560.
+2020-03-05 10:19:13  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 10:19:13  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:SpectrumOffsetCalc.csv
+
+2020-03-05 10:19:13  Error: net_read_reply(2587): server return error code: 11, fun: 7, len: 4
+2020-03-05 10:19:13  Error: s32ProLv_get_file(2053): net_read_file failed !, file name:rx_dc_offset.csv
+

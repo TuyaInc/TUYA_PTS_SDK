@@ -1,0 +1,177 @@
+//******************************************************************************
+//                  		MAC address control file
+//******************************************************************************
+// Note: MAC address is 48-bit = (24-bit vendor ID) + (24-bit range no.)
+//******************************************************************************
+
+					
+//------------------------------------------------------------------------------
+// 列举各MAC地址是否写入	1：写入		0：不写入，取值范围(0-1)，默认值0
+//------------------------------------------------------------------------------
+//				WIFI 	LAN 	WAN 	WIFI_5G   BT   WAN0_1    WAN0_2    WAN0_3   WAN0_4   WAN1_1  WAN1_2  WAN1_3   WAN1_4   EX0   EX1
+WT_MAC_WRITE_ENABLE		1	0	0	0	  0      0         0        0          0       0       0       0        0        0    0
+
+//MAC地址获取顺序，取值范围(1-15)，默认值0
+WT_MAC_WRITE_ORDER		1	2	3	4	  5 	 6         7        8          9       10      11      12       13       14    15 
+					
+// MAC所占用的MAC地址个数,写入第一个。为0表示使用上一次获取的MAC
+// 例如：默认order，当前MAC=8C882B000000，WT_MAC_WIFI_INCREMENT=2，WT_MAC_LAN_INCREMENT=1；WT_MAC_WAN_INCREMENT=1时
+//       则WIFI写入8C882B000000，LAN写入8C882B000002，WAN写入8C882B000003
+WT_MAC_WIFI_INCREMENT 		= 1 	// WiFi MAC占用个数		
+WT_MAC_LAN_INCREMENT 		= 0 	// LAN MAC占用个数									
+WT_MAC_WAN_INCREMENT 		= 0 	// WAN MAC占用个数			
+WT_MAC_WIFI_INCREMENT_5G	= 0	// 5G WiFi MAC占用个数
+WT_MAC_BT_INCREMENT             = 0	// BT MAC
+WT_MAC_WAN0_1_INCREMENT		= 0
+WT_MAC_WAN0_2_INCREMENT         = 0
+WT_MAC_WAN0_3_INCREMENT         = 0
+WT_MAC_WAN0_4_INCREMENT         = 0
+WT_MAC_WAN1_1_INCREMENT		= 0
+WT_MAC_WAN1_2_INCREMENT		= 0
+WT_MAC_WAN1_3_INCREMENT		= 0
+WT_MAC_WAN1_4_INCREMENT		= 0
+WT_MAC_EX0_INCREMENT		= 0	
+WT_MAC_EX1_INCREMENT		= 0
+
+WT_MAC_SHOW			= 0	//选择GUI上显示的MAC
+					//0:WIFI(默认值)
+					//1:LAN
+					//2:WAN
+					//3:5GWIFI
+					//4:BT
+
+WT_MAC_SOURCE			= 0 	// MAC地址来源
+					// 0: 当前配置文件(默认值)
+					// 1：外部输入，如扫描枪、键盘
+					// 2: 外部服务器
+					// 3: 外部文件（Barcode.ini）
+
+WT_MAC_GET_FROM_SERVER_POSITION = 0     //MAC来源服务器的获取位置
+					//0: 开始测试时获取(默认值)
+					//1: 写MAC地址时获取
+					
+WT_MAC_SCANNER_TYPE		= 0	// 扫描枪输入MAC的方式
+					// 0:每次只扫描第一个写入的MAC,其他写入的MAC按MAC占用个数增加(默认值)
+					// 1:MAC占用个数无效，所有写入的MAC都通过扫描枪输入
+
+WT_MAC_EXT_FILE_TYPE		= 0	// 从外部文件读取MAC的方式
+					// 0:每次只读取第一个写入的MAC,其他写入的MAC按MAC占用个数增加(默认值)
+					// 1:MAC占用个数无效，所有写入的MAC都通过外部文件读取			
+					
+WT_IS_COMPULSORY_CONSUMPTION_OF_MAC  = 0   //是否强制消耗MAC 0:测试失败不清耗MAC， 1:测试失败强制消耗MAC
+
+
+WT_MAC_VENDOR_ID        = C8478C	//BK:C8478C  厂家ID，MAC前6位地址，16进制，长度为6
+
+//******************************************************************************
+
+// DUT1
+WT_MAC_RANGE_BEGIN_1 	= 000000        // 产品ID，MAC后6位地址，16进制，长度为6
+WT_MAC_RANGE_END_1 	= 1FFFFF
+WT_MAC_CURRENT_1	= 000023	// 当前的产品ID
+//******************************************************************************
+
+// DUT2
+WT_MAC_RANGE_BEGIN_2 	= 200000        // 产品ID，MAC后6位地址，16进制，长度为6
+WT_MAC_RANGE_END_2	= 3FFFFF
+WT_MAC_CURRENT_2	= 200000	// 当前的产品ID
+//******************************************************************************
+
+// DUT3
+WT_MAC_RANGE_BEGIN_3 	= 400000        // 产品ID，MAC后6位地址，16进制，长度为6
+WT_MAC_RANGE_END_3	= 5FFFFF
+WT_MAC_CURRENT_3	= 400000	// 当前的产品ID
+//******************************************************************************
+
+// DUT4
+WT_MAC_RANGE_BEGIN_4 	= 600000        // 产品ID，MAC后6位地址，16进制，长度为6
+WT_MAC_RANGE_END_4	= 7FFFFF
+WT_MAC_CURRENT_4	= 600000	// 当前的产品ID
+//******************************************************************************
+
+// DUT5
+WT_MAC_RANGE_BEGIN_5 	= 800000        // 产品ID，MAC后6位地址，16进制，长度为6
+WT_MAC_RANGE_END_5 	= 9FFFFF
+WT_MAC_CURRENT_5	= 800002	// 当前的产品ID
+//******************************************************************************
+
+// DUT6
+WT_MAC_RANGE_BEGIN_6 	= A00000        // 产品ID，MAC后6位地址，16进制，长度为6
+WT_MAC_RANGE_END_6	= BFFFFF
+WT_MAC_CURRENT_6	= A00000	// 当前的产品ID
+//******************************************************************************
+
+// DUT7
+WT_MAC_RANGE_BEGIN_7 	= C00000        // 产品ID，MAC后6位地址，16进制，长度为6
+WT_MAC_RANGE_END_7	= DFFFFF
+WT_MAC_CURRENT_7	= C00000	// 当前的产品ID
+//******************************************************************************
+
+// DUT8
+WT_MAC_RANGE_BEGIN_8 	= E00000        // 产品ID，MAC后6位地址，16进制，长度为6
+WT_MAC_RANGE_END_8	= FFFFFF
+WT_MAC_CURRENT_8	= E00000	// 当前的产品ID
+//******************************************************************************
+
+
+
+WT_BT_BD_INDENPENDENT	= 0		// 当使用独立的Mac地址池时，下面的配置有效
+					// 0:蓝牙的MAC地址与wifi的MAC使用相同的MAC池(默认值)
+					// 1:蓝牙使用独立的MAC地址池
+					
+										
+WT_BT_BD_INCREMENT 	= 1 		// BT MAC 增量.
+
+WT_BT_BD_VENDOR		= 8C882B	// 厂家ID
+//******************************************************************************
+
+// DUT1
+WT_BT_BD_RANGE_BEGIN_1	= 000000
+WT_BT_BD_RANGE_END_1	= 1FFFFF
+WT_BT_BD_CURRENT_1	= 000000	// 当前BD Addr
+//******************************************************************************
+
+// DUT2
+WT_BT_BD_RANGE_BEGIN_2	= 200000
+WT_BT_BD_RANGE_END_2	= 3FFFFF
+WT_BT_BD_CURRENT_2	= 200000	// 当前BD Addr
+//******************************************************************************
+
+// DUT3
+WT_BT_BD_RANGE_BEGIN_3	= 400000
+WT_BT_BD_RANGE_END_3	= 5FFFFF
+WT_BT_BD_CURRENT_3	= 400000	// 当前BD Addr
+//******************************************************************************
+
+// DUT4
+WT_BT_BD_RANGE_BEGIN_4	= 600000
+WT_BT_BD_RANGE_END_4	= 7FFFFF
+WT_BT_BD_CURRENT_4	= 600000	// 当前BD Addr
+
+//******************************************************************************
+
+// DUT5
+WT_BT_BD_RANGE_BEGIN_5	= 800000
+WT_BT_BD_RANGE_END_5	= 9FFFFF
+WT_BT_BD_CURRENT_5	= 800000	// 当前BD Addr
+//******************************************************************************
+
+// DUT6
+WT_BT_BD_RANGE_BEGIN_6	= A00000
+WT_BT_BD_RANGE_END_6	= BFFFFF
+WT_BT_BD_CURRENT_6	= A00000	// 当前BD Addr
+//******************************************************************************
+
+// DUT7
+WT_BT_BD_RANGE_BEGIN_7	= C00000
+WT_BT_BD_RANGE_END_7	= DFFFFF
+WT_BT_BD_CURRENT_7	= C00000	// 当前BD Addr
+//******************************************************************************
+
+// DUT8
+WT_BT_BD_RANGE_BEGIN_8	= E00000
+WT_BT_BD_RANGE_END_8	= FFFFFF
+WT_BT_BD_CURRENT_8	= E00000	// 当前BD Addr
+//******************************************************************************
+//                              END OF FILE
+//******************************************************************************

@@ -1,0 +1,996 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>InstrumentRFTest</name>
+    </assembly>
+    <members>
+        <member name="M:InstrumentRFTest.Helper.ZipHelper.ZipDirectory(System.String,ICSharpCode.SharpZipLib.Zip.ZipOutputStream,System.String)">
+            <summary>   
+            递归压缩文件夹的内部方法   
+            </summary>   
+            <param name="folderToZip">要压缩的文件夹路径</param>   
+            <param name="zipStream">压缩输出流</param>   
+            <param name="parentFolderName">此文件夹的上级文件夹</param>   
+            <returns></returns>   
+        </member>
+        <member name="M:InstrumentRFTest.Helper.ZipHelper.ZipDirectory(System.String,System.String,System.String)">
+            <summary>   
+            压缩文件夹    
+            </summary>   
+            <param name="folderToZip">要压缩的文件夹路径</param>   
+            <param name="zipedFile">压缩文件完整路径</param>   
+            <param name="password">密码</param>   
+            <returns>是否压缩成功</returns>   
+        </member>
+        <member name="M:InstrumentRFTest.Helper.ZipHelper.ZipDirectory(System.String,System.String)">
+            <summary>   
+            压缩文件夹   
+            </summary>   
+            <param name="folderToZip">要压缩的文件夹路径</param>   
+            <param name="zipedFile">压缩文件完整路径</param>   
+            <returns>是否压缩成功</returns>   
+        </member>
+        <member name="M:InstrumentRFTest.Helper.ZipHelper.ZipFile(System.String,System.String,System.String)">
+            <summary>   
+            压缩文件   
+            </summary>   
+            <param name="fileToZip">要压缩的文件全名</param>   
+            <param name="zipedFile">压缩后的文件名</param>   
+            <param name="password">密码</param>   
+            <returns>压缩结果</returns>   
+        </member>
+        <member name="M:InstrumentRFTest.Helper.ZipHelper.ZipFile(System.String,System.String)">
+            <summary>   
+            压缩文件   
+            </summary>   
+            <param name="fileToZip">要压缩的文件全名</param>   
+            <param name="zipedFile">压缩后的文件名</param>   
+            <returns>压缩结果</returns>   
+        </member>
+        <member name="M:InstrumentRFTest.Helper.ZipHelper.Zip(System.String,System.String,System.String)">
+            <summary>   
+            压缩文件或文件夹   
+            </summary>   
+            <param name="fileToZip">要压缩的路径</param>   
+            <param name="zipedFile">压缩后的文件名</param>   
+            <param name="password">密码</param>   
+            <returns>压缩结果</returns>   
+        </member>
+        <member name="M:InstrumentRFTest.Helper.ZipHelper.Zip(System.String,System.String)">
+            <summary>   
+            压缩文件或文件夹   
+            </summary>   
+            <param name="fileToZip">要压缩的路径</param>   
+            <param name="zipedFile">压缩后的文件名</param>   
+            <returns>压缩结果</returns>   
+        </member>
+        <member name="M:InstrumentRFTest.Helper.ZipHelper.UnZip(System.String,System.String,System.String)">
+            <summary>   
+            解压功能(解压压缩文件到指定目录)   
+            </summary>   
+            <param name="fileToUnZip">待解压的文件</param>   
+            <param name="zipedFolder">指定解压目标目录</param>   
+            <param name="password">密码</param>   
+            <returns>解压结果</returns>   
+        </member>
+        <member name="M:InstrumentRFTest.Helper.ZipHelper.UnZip(System.String,System.String)">
+            <summary>   
+            解压功能(解压压缩文件到指定目录)   
+            </summary>   
+            <param name="fileToUnZip">待解压的文件</param>   
+            <param name="zipedFolder">指定解压目标目录</param>   
+            <returns>解压结果</returns>   
+        </member>
+        <member name="T:InstrumentRFTest.InstrumentRF">
+            <summary>
+            RF测试类
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.InstrumentRF.ChipPlatform">
+            <summary>
+            芯片平台信息
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.InstrumentRF.LineLossMax">
+            <summary>
+            金板标准中线损最大值
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.InstrumentRF.InstrumentSN">
+            <summary>
+            测试仪器的SN
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.InstrumentRF.GoldPlateVer">
+            <summary>
+            金板版本
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.InstrumentRF.standardparameterVer">
+            <summary>
+            标准参数版本
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.InstrumentRF.productmodel">
+            <summary>
+            产品型号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.InstrumentRF.TestEquipment">
+            <summary>
+            测试设备
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.InstrumentRF.GoldPlateparamaintaintime">
+            <summary>
+            金板参数维护时间
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.InstrumentRF.GoldPlateSN">
+            <summary>
+            金板编号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.InstrumentRF.LinelossFileTimeDic">
+            <summary>
+            线损文件时间字典
+            </summary>
+        </member>
+        <member name="F:InstrumentRFTest.InstrumentRF.ItestPortMapList">
+            <summary>
+            极致汇仪COM ->RF口->TCP客户端端口列表
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.InstrumentRF.LoginUrl">
+            <summary>
+            云端环境
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.InstrumentRF.SftVersion">
+            <summary>
+            软件版本
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.InstrumentRF.TestMode">
+            <summary>
+            仪器厂家
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.InstrumentRF.IsCloud">
+            <summary>
+            是否在有云环境   有云环境 true  无云环境 false
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.InstrumentRF.InstrumentIPaddress">
+            <summary>
+            极致汇仪的IP地址
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.InstrumentRF.LocalIPaddress">
+            <summary>
+            本机地址
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.InstrumentRF.ItestTCPServerPort">
+            <summary>
+            极致汇仪TCP服务端的端口号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.InstrumentRF.ItestOrginRFPort">
+            <summary>
+            极致汇仪起始RF端口
+            </summary>
+        </member>
+        <member name="F:InstrumentRFTest.InstrumentRF.ini">
+            <summary>
+            ini文件配置器
+            </summary>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.InitRFTestEnvironment(InstrumentRFTest.RF.InitRFPara,System.String@,System.String@)">
+            <summary>
+            RF测试环境初始化
+            </summary>
+            <param name="initRFPara"></param>
+            <param name="error"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.ChipPlatformMap(System.String)">
+            <summary>
+            云端芯片平台和仪器商dll的芯片平台对应关系
+            </summary>
+            <param name="chipplatform"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.TestEnded">
+            <summary>
+             结束测试
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.Do_RF_test(InstrumentRFTest.RF.Com2RFport,System.Int32,System.String,System.String@,System.String@)">
+            <summary>
+            RF测试
+            </summary>
+            <param name="portInfo">端口信息</param>
+            <param name="ch">测试通道号 （第一路、第二路） </param>
+            <param name="PlatFormName">芯片平台名称</param>
+            <param name="errormsg">异常信息</param>
+            <returns>0成功 1失败</returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.GetRFtestBaudrate(System.String)">
+            <summary>
+            获取芯片平台的RF测试波特率
+            </summary>
+            <param name="PlatFormName">芯片平台</param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.GetDllPlatform(System.String)">
+            <summary>
+            获取芯片平台的文件夹
+            </summary>
+            <param name="chipplatform"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.LineLossCalibration(InstrumentRFTest.RF.DocablePara,System.Int32,System.String,System.String@,System.String@)">
+            <summary>
+            线损校准
+            </summary>
+            <param name="docablepara">线损校准参数</param>
+            <param name="TestMode">测试模式</param>
+            <param name="ch">测试通道号 （第一路、第二路）</param>
+            <param name="PlatFormName">芯片平台</param>
+            <param name="errormsg">异常</param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.GetStandardfromCloud(InstrumentRFTest.RF.GetStandardPara,System.String@,System.String@)">
+            <summary>
+            从云端拉取标准文件、金板文件
+            </summary>
+            <param name="TestMode">测试模式</param>
+            <param name="para">接口参数</param>
+            <param name="errormsg">异常</param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.GetStandardParameter(InstrumentRFTest.RF.GetStandardPara,System.String@,System.String@)">
+            <summary>
+            获取标准参数
+            </summary>
+            <param name="TestMode">测试模式</param>
+            <param name="para">入参</param>
+            <param name="errormsg">异常</param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.GetGoldPlateStandard(InstrumentRFTest.RF.GetStandardPara,System.String@,System.String@)">
+            <summary>
+            获取金板标准
+            </summary>
+            <param name="TestMode">测试模式</param>
+            <param name="para">接口入参</param>
+            <param name="errormsg">异常</param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.GetLineLossFile(InstrumentRFTest.RF.GetLineLossFilePara,System.String@,System.String@)">
+            <summary>
+            获取线损文件
+            </summary>
+            <param name="TestMode">测试模式</param>
+            <param name="para">接口入参</param>
+            <param name="errormsg">异常</param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.DownloadLinelossFile(InstrumentRFTest.RF.GetLineLossFilePara,System.String,System.String@,System.String@)">
+            <summary>
+            下载线损文件
+            </summary>
+            <param name="para">接口入参</param>
+            <param name="Filepath">线损存放路径</param>
+            <param name="errormsg">异常</param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.UploadLineLoss(InstrumentRFTest.RF.UploadLineLossPara,System.String@,System.String@)">
+            <summary>
+            上传线损文件
+            </summary>
+            <param name="TestMode">测试模式</param>
+            <param name="para">接口入参</param>
+            <param name="errormsg">异常</param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.GetFileSize(System.String)">
+            <summary>
+            获取文件大小
+            </summary>
+            <param name="filepath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.FileUploadtoOSS(System.String,System.String,System.String,System.String,System.String,System.String,System.String@)">
+            <summary>
+            上传文件到OSS 阿里云
+            </summary>
+            <param name="address">上传地址</param>
+            <param name="OSSAccessKeyId"></param>
+            <param name="Signature"></param>
+            <param name="key"></param>
+            <param name="policy"></param>
+            <param name="filepath">带文件名称的文件路径</param>
+            <param name="errormsg">异常信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.FileToStream(System.String)">
+            <summary>
+            文件转流
+            </summary>
+            <param name="fileName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.DownloadFile(System.String,System.String)">
+            <summary>
+            文件下载
+            </summary>
+            <param name="URLpath"></param>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.MD5EncryptFile(System.String)">
+              <summary>
+              给一个File进行MD5加密
+              </summary>
+              <param   name="strText">待加密文件路径</param>
+              <returns>加密后的字符串</returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.Cloudstr2DateTime(System.String)">
+            <summary>
+            云端的时间戳字符串转换成本地时间
+            </summary>
+            <param name="timetampstr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.InitCloudLogParam(System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            RF测试日志
+            </summary>
+            <param name="ManufacturerModel"></param>
+            <param name="GoldPlateSN"></param>
+            <param name="InstrumentSN"></param>
+            <param name="CH"></param>
+            <param name="OrderCode"></param>
+            <param name="Sn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.InitTCPServer(System.String,System.String,System.Collections.Generic.List{InstrumentRFTest.RF.ItestPortMap},System.String@)">
+            <summary>
+            初始化TCP服务端
+            </summary>
+            <param name="serveraddress">测试仪器IP</param>
+            <param name="portstr">服务端口号</param>
+            <param name="errormsg">异常信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.KillProcess(System.String)">
+            <summary>
+            清除进程
+            </summary>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.EditTxtFile(System.String,System.String,System.String)">
+            <summary>
+            编辑文档
+            </summary>
+            <param name="curstr">匹配字符串</param>
+            <param name="newLineValue">整行替换内容</param>
+            <param name="patch">需要编辑的文件</param>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.ModifyItestServerPort(System.String)">
+            <summary>
+            修改极致汇仪TCP服务器的端口
+            </summary>
+            <param name="portstr"></param>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.ItestDOtest(System.String,System.Int32,System.Int32,System.Int32,System.String@)">
+            <summary>
+            极致汇仪仪器RF测试接口
+            </summary>
+            <param name="address">本机地址</param>
+            <param name="remoteport"></param>
+            <param name="localport"></param>
+            <param name="channelnum"></param>
+            <param name="errormsg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.ItestDoCable(System.String,System.Int32,System.Int32,System.Int32,System.String@)">
+            <summary>
+            极致汇仪仪器金板校准接口
+            </summary>
+            <param name="address">本机地址</param>
+            <param name="remoteport"></param>
+            <param name="localport"></param>
+            <param name="channelnum"></param>
+            <param name="errormsg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.strdeal(System.String)">
+            <summary>
+            字符串处理   极致汇仪异常项抓取  
+            </summary>
+            <param name="input">输入字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.MidStrEx(System.String,System.String,System.String)">
+            <summary>
+            在字符串中找两个指定字符串之间的内容
+            </summary>
+            <param name="sourse"></param>
+            <param name="startstr"></param>
+            <param name="endstr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.ComPressZip(System.String,System.String)">
+            <summary>
+            压缩Zip
+            </summary>
+            <param name="filesFolder">待压缩的文件所在路径</param>
+            <param name="Zipname">压缩后的名字</param>
+            <returns></returns>
+        </member>
+        <member name="M:InstrumentRFTest.InstrumentRF.UnComPressZip(System.String,System.String)">
+            <summary>
+            解压Zip文件 
+            </summary>
+            <param name="Zipname">待解压文件</param>
+            <param name="SaveFolder">解压后的文件存放路径</param>
+            <returns>0成功 1失败</returns>
+        </member>
+        <member name="T:InstrumentRFTest.RF.Proxy.E_CHIP_TYPE">
+            <summary>
+            芯片型号定义
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.Proxy.E_IQ_ID">
+            <summary>
+            测试通道定义
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.Proxy.E_IQ_RF_PORT">
+            <summary>
+            仪器RF口定义
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.RFTestMode">
+            <summary>
+            测试模式
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.TestObject">
+            <summary>
+            待测模块类型
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.InitRFPara">
+            <summary>
+            初始化RF测试输入参数
+            </summary>
+        </member>
+        <member name="F:InstrumentRFTest.RF.InitRFPara.SelectedTestMode">
+            <summary>
+            RF测试模式  IQ   Itest
+            </summary>
+        </member>
+        <member name="F:InstrumentRFTest.RF.InitRFPara.InstrumentSN">
+             <summary>
+            仪器SN
+             </summary>
+        </member>
+        <member name="F:InstrumentRFTest.RF.InitRFPara.loginurltmp">
+            <summary>
+            云端地址设定
+            </summary>
+        </member>
+        <member name="F:InstrumentRFTest.RF.InitRFPara.sftversiontmp">
+            <summary>
+            软件版本
+            </summary>
+        </member>
+        <member name="F:InstrumentRFTest.RF.InitRFPara.ChipPlatform">
+            <summary>
+            芯片平台
+            </summary>
+        </member>
+        <member name="F:InstrumentRFTest.RF.InitRFPara.IsCloud">
+            <summary>
+            是否连接涂鸦云
+            </summary>
+        </member>
+        <member name="F:InstrumentRFTest.RF.InitRFPara.InstrumentIP">
+            <summary>
+            极致汇仪IP
+            </summary>
+        </member>
+        <member name="F:InstrumentRFTest.RF.InitRFPara.LocalIP">
+            <summary>
+            本机IP
+            </summary>
+        </member>
+        <member name="F:InstrumentRFTest.RF.InitRFPara.ItestTCPServerPort">
+            <summary>
+            极致汇仪TCP服务器的端口
+            </summary>
+        </member>
+        <member name="F:InstrumentRFTest.RF.InitRFPara.ItestPortMapList">
+            <summary>
+            极致汇仪COM ->RF口->TCP客户端端口列表
+            </summary>
+        </member>
+        <member name="F:InstrumentRFTest.RF.InitRFPara.ItestOrginRFPort">
+            <summary>
+            极致汇仪起始RF端口
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.Com2RFport">
+            <summary>
+            串口和RF口映射
+            </summary>
+        </member>
+        <member name="F:InstrumentRFTest.RF.Com2RFport.Comname">
+            <summary>
+            串口名称
+            </summary>
+        </member>
+        <member name="F:InstrumentRFTest.RF.Com2RFport.RFport">
+            <summary>
+            RF口名称
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.DocablePara">
+            <summary>
+            线损校准参数
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.UploadLineLossPara">
+            <summary>
+            上传线损文件参数
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.GetStandardPara">
+            <summary>
+            从云端拉取标准文件、金板文件的参数
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.GetLineLossFilePara">
+            <summary>
+            获取线损文件参数
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.StandardparamReq">
+            <summary>
+            标准数据请求参数
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.StandardparamReq.manufacturerModel">
+            <summary>
+            产品型号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.StandardparamReq.deviceCode">
+            <summary>
+            测试设备
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.StandardparamRsp">
+            <summary>
+            标准数据响应参数
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.StandardparamRspdata">
+            <summary>
+            标准数据响应参数data
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.StandardparamRspdata.id">
+            <summary>
+            记录id
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.StandardparamRspdata.manufacturerModel">
+            <summary>
+            产品型号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.StandardparamRspdata.deviceCode">
+            <summary>
+            测试设备
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.StandardparamRspdata.fileName">
+            <summary>
+            文件名
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.StandardparamRspdata.version">
+            <summary>
+            版本号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.StandardparamRspdata.memo">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.StandardparamRspdata.modifier">
+            <summary>
+            责任人
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.StandardparamRspdata.gmtCreate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.StandardparamRspdata.gmtModified">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.StandardparamRspdata.fileUrl">
+            <summary>
+            下载链接
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.GoldParamReq">
+            <summary>
+            金板数据请求参数
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.GoldParamReq.goldCode">
+            <summary>
+            金板编号
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.GoldParamRsp">
+            <summary>
+            金板数据响应参数
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.GoldParamRspdata">
+            <summary>
+            金板数据响应参数data
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.GoldParamRspdata.id">
+            <summary>
+            记录ID
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.GoldParamRspdata.goldCode">
+            <summary>
+            金板编号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.GoldParamRspdata.status">
+            <summary>
+            状态 PASS WAIT_STANDARD SCRAPPED
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.GoldParamRspdata.manufacturerModel">
+            <summary>
+            产品型号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.GoldParamRspdata.param">
+            <summary>
+            参数
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.GoldParamRspdata.maxLineLoss">
+            <summary>
+            最大线损
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.GoldParamRspdata.version">
+            <summary>
+            版本号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.GoldParamRspdata.memo">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.GoldParamRspdata.modifier">
+            <summary>
+            责任人
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.GoldParamRspdata.gmtCreate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.GoldParamRspdata.gmtModified">
+            <summary>
+            最后更新时间
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.GoldParamRspdata.fileUrl">
+            <summary>
+            下载链接
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.LinelossReq">
+            <summary>
+            线损文件请求参数
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossReq.goldCode">
+            <summary>
+            金版编号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossReq.manufacturerModel">
+            <summary>
+            产品型号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossReq.instrumentCode">
+            <summary>
+            仪器编号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossReq.portNum">
+            <summary>
+            RF口
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.LinelossRsp">
+            <summary>
+            线损文件响应参数
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.LinelossRspdata">
+            <summary>
+            线损文件响应参数data
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossRspdata.id">
+            <summary>
+            记录Id
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossRspdata.fileName">
+            <summary>
+            文件名
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossRspdata.manufacturerModel">
+            <summary>
+            产品型号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossRspdata.instrumentCode">
+            <summary>
+            仪器编号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossRspdata.goldCode">
+            <summary>
+            金板编号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossRspdata.fileUrl">
+            <summary>
+            下载链接
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossRspdata.fileTime">
+            <summary>
+            线损文件上次更新的时间戳
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.LinelossaddReq">
+            <summary>
+            添加线损记录请求
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossaddReq.goldCode">
+            <summary>
+            金板编号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossaddReq.manufacturerModel">
+            <summary>
+            产品型号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossaddReq.instrumentCode">
+            <summary>
+            仪器编号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossaddReq.fileName">
+            <summary>
+            文件名
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossaddReq.portNum">
+            <summary>
+            RF口号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossaddReq.fileTime">
+             <summary>
+            线损文件开始上传的时间戳 毫秒级
+             </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.LinelossaddRsp">
+            <summary>
+            添加线损记录响应
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.LinelossaddRspdata">
+            <summary>
+            添加线损记录响应data
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossaddRspdata.id">
+            <summary>
+            记录id
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossaddRspdata.fileName">
+            <summary>
+            文件名
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossaddRspdata.manufacturerModel">
+            <summary>
+            产品型号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossaddRspdata.instrumentCode">
+            <summary>
+            仪器编号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossaddRspdata.goldCode">
+            <summary>
+            金板编号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LinelossaddRspdata.portNum">
+            <summary>
+            RF口号
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.FileUploadReq">
+            <summary>
+            前端获取上传信息请求
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.FileUploadReq.bizId">
+            <summary>
+            线损记录Id
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.FileUploadReq.bizType">
+            <summary>
+            业务类型
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.FileUploadReq.name">
+            <summary>
+            文件名
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.FileUploadReq.isIE">
+            <summary>
+            是否是IE浏览器
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.FileUploadRsp">
+            <summary>
+            前端获取上传信息响应
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.FileUploadRspresult">
+            <summary>
+            前端获取上传信息响应结果
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.FileUploadSaveReq">
+            <summary>
+            上传文件记录请求
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.FileUploadSaveReq.bizId">
+            <summary>
+            线损记录Id
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.FileUploadSaveReq.bizType">
+            <summary>
+            业务类型
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.FileUploadSaveReq.name">
+            <summary>
+            文件名
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.FileUploadSaveReq.url">
+            <summary>
+            oss文件key
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.FileUploadSaveReq.md5">
+            <summary>
+            文件md5值
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.FileUploadSaveReq.size">
+            <summary>
+            文件大小byte
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.FileUploadSaveRsp">
+            <summary>
+            上传文件记录响应
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.ItestPortMap">
+            <summary>
+            RF口和tcp客户端映射
+            </summary>
+        </member>
+        <member name="T:InstrumentRFTest.RF.LogRFtest">
+            <summary>
+            RF测试日志
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LogRFtest.orderCode">
+            <summary>
+            工单编号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LogRFtest.productmodel">
+            <summary>
+            产品型号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LogRFtest.sn">
+            <summary>
+            SN
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LogRFtest.GoldPlateSN">
+            <summary>
+            金板编号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LogRFtest.GoldPlateVer">
+            <summary>
+            金板版本
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LogRFtest.linelossdate">
+            <summary>
+            线损日期
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LogRFtest.InstrumentSN">
+            <summary>
+            仪器编号
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LogRFtest.standardparameterVer">
+            <summary>
+            标准参数版本
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LogRFtest.RFTestResult">
+            <summary>
+            RF测试结果
+            </summary>
+        </member>
+        <member name="P:InstrumentRFTest.RF.LogRFtest.ErrorMsg">
+            <summary>
+            RF异常信息
+            </summary>
+        </member>
+    </members>
+</doc>

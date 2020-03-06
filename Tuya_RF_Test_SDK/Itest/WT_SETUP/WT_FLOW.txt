@@ -1,0 +1,200 @@
+//******************************************************************************
+//                   WLAN Facility test flow control file
+//******************************************************************************
+// [FREQ]    1    2    3    4    5    6    7    8    9   10    11   12   13   14
+// 2.4GHz : 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 2484
+//
+//          36	 38   40   42   44   46   48   52   54    56   58   60   62   64	
+// 5GHz   : 5180 5190 5200 5210 5220 5230 5240 5260 5270  5280 5290 5300 5310 5320
+//
+//          100  102  104  106  108  110  112  116  118  120  122  124  126  128  
+//          5500 5510 5520 5530 5540 5550 5560 5580 5590 5600 5610 5620 5630 5640 
+//	    
+//          132  134  136  138  140  142  144
+//	    5660 5670 5680 5690 5700 5710 5720
+//
+//	    149  151  153  155  157  159  161  165  167  169  171  173  175  177
+//          5745 5755 5765 5775 5785 5795 5805 5825 5835 5845 5855 5865 5875 5885
+//******************************************************************************
+// [Data Rate]
+// 	11bg:	54M 48M 36M 24M 18M 12M 9M 6M 11M 5.5M 2M 1M
+
+//	   HT20	      HT40	   AC20	       AC40	   AC80
+//	HT20-MCS0  HT40-MCS0    AC20-MCS0   AC40-MCS0    AC80-MCS0
+//	HT20-MCS1  HT40-MCS1    AC20-MCS1   AC40-MCS1    AC80-MCS1
+//	HT20-MCS2  HT40-MCS2    AC20-MCS2   AC40-MCS2    AC80-MCS2
+//	HT20-MCS3  HT40-MCS3    AC20-MCS3   AC40-MCS3    AC80-MCS3
+//	HT20-MCS4  HT40-MCS4    AC20-MCS4   AC40-MCS4    AC80-MCS4
+//	HT20-MCS5  HT40-MCS5    AC20-MCS5   AC40-MCS5    AC80-MCS5
+//	HT20-MCS6  HT40-MCS6    AC20-MCS6   AC40-MCS6    AC80-MCS6
+//	HT20-MCS7  HT40-MCS7    AC20-MCS7   AC40-MCS7    AC80-MCS7
+//				AC20-MCS8   AC40-MCS8    AC80-MCS8
+//					    AC40-MCS9    AC80-MCS9
+//******************************************************************************
+// [CHAIN]
+//
+//	CHAIN0	CHAIN1
+//
+//******************************************************************************
+//[程序内置的常用变量]：
+//$result$, $DUTIP$, $WIFI_MAC_2_4G$, $LAN_MAC$, $WAN_MAC$, $WIFI_MAC_5G$, $BT_MAC$, $DUT_SN$
+//******************************************************************************
+
+
+WT_CONNECT_TESTER				//连接测试仪
+
+WT_INSERT_DUT					//连接DUT
+
+//WT_DELAY  100					//延时处理 单位毫秒
+
+//WT_SHOW_MSGBOX				//提示框					
+
+//------------------------------------------------------------------------------------
+//金机校线功能	
+//格式如下：
+//WT_VERIFY_TX_TO_CAL_LOSS	2412	54M 	CHAIN0 	  目标功率 
+//------------------------------------------------------------------------------------
+
+	// WT_VERIFY_TX_TO_CAL_LOSS	0       BLE 		CHAIN0	6
+	// WT_VERIFY_TX_TO_CAL_LOSS	19      BLE 		CHAIN0	6
+	// WT_VERIFY_TX_TO_CAL_LOSS	39      BLE 		CHAIN0	6
+	
+	// WT_VERIFY_TX_TO_CAL_LOSS	1	54M 		CHAIN0 	14
+	// WT_VERIFY_TX_TO_CAL_LOSS	2	54M 		CHAIN0  14
+	// WT_VERIFY_TX_TO_CAL_LOSS	3	54M 		CHAIN0 	14
+	// WT_VERIFY_TX_TO_CAL_LOSS	4	54M 		CHAIN0 	14
+	// WT_VERIFY_TX_TO_CAL_LOSS	5	54M 		CHAIN0 	14
+	// WT_VERIFY_TX_TO_CAL_LOSS	6	54M 		CHAIN0 	14
+	// WT_VERIFY_TX_TO_CAL_LOSS	7	54M 		CHAIN0 	14
+	// WT_VERIFY_TX_TO_CAL_LOSS	8	54M 		CHAIN0 	14
+	// WT_VERIFY_TX_TO_CAL_LOSS	9	54M 		CHAIN0 	14
+	// WT_VERIFY_TX_TO_CAL_LOSS	10	54M 		CHAIN0 	14
+	// WT_VERIFY_TX_TO_CAL_LOSS	11	54M 		CHAIN0 	14
+	// WT_VERIFY_TX_TO_CAL_LOSS	12	54M  		CHAIN0 	14
+	// WT_VERIFY_TX_TO_CAL_LOSS	13	54M  		CHAIN0 	14
+	// WT_VERIFY_TX_TO_CAL_LOSS	14	54M 		CHAIN0 	14
+
+	// WT_GOLD_SAMPLE_CABLELOSS_CAL          	//将校线数据回写到线衰配置文件
+	// WT_SHOW_MSGBOX				//提示框
+//******************************************************************************
+// Start calibration test categories
+// Power/Freq Calibration Example: 
+// Freq Calibration Example: WT_CAL_FREQ [FREQ][DATA RATE] [CHAIN]
+// POW Calibration Example:  WT_CAL_PWR [FREQ] [DATA RATE] [CHAIN]
+// POW Calibration Example:  WT_CAL_PWR [FREQ] [DATA RATE] [CHAIN] [TARGET POWER][RANGE_MIN][RANGE_MAX]
+//******************************************************************************
+WT_CAL_START
+
+	WT_CAL_PWR  		1	11M		CHAIN0
+	WT_CAL_PWR  		7	11M		CHAIN0
+	WT_CAL_PWR  		13	11M		CHAIN0
+
+	WT_CAL_PWR  		1	54M		CHAIN0
+	WT_CAL_PWR  		7	54M		CHAIN0
+	WT_CAL_PWR  		13	54M		CHAIN0
+
+	WT_CAL_PWR  		3	HT40-MCS7	CHAIN0
+	WT_CAL_PWR  		7	HT40-MCS7	CHAIN0
+	WT_CAL_PWR  		11	HT40-MCS7	CHAIN0
+
+	WT_CAL_FREQ  		1	54M		CHAIN0
+	
+	WT_READ_THERMAL					//温度读取
+
+//	WT_USER_COMMAND [txevm -d 0 2] 	[#] 	[2000]
+	WT_USER_COMMAND [txevm -d 1 3] 	[#] 	[2000]
+	
+	//BT
+//	WT_CAL_FREQ_FRAME_BT  	2402	BLE 		CHAIN0	
+
+//	WT_CAL_PWR_BT		2402    BLE 		CHAIN0	
+//	WT_CAL_PWR_BT		2440    BLE 		CHAIN0	
+//	WT_CAL_PWR_BT		2480    BLE 		CHAIN0	
+
+WT_CAL_END
+
+WT_SAVE_CAL_DATA				//保存校准数据到测试DUT内存
+
+WT_WRITE_FLASH				        //写校准数据到测试DUT Flash
+
+//------------------------------------------------------------------------------------
+// TX&RX Verifing 
+// Example: CMD [FREQ] [DATA RATE] [CHAIN]
+// Example: WT_VERIFY_TX_ALL [FREQ] [DATA RATE] [CHAIN] [TARGET POWER][RANGE_MIN][RANGE_MAX]
+//------------------------------------------------------------------------------------
+
+	WT_VERIFY_TX_ALL	1	11M  		CHAIN0
+	WT_VERIFY_TX_ALL  	7	54M		CHAIN0
+	WT_VERIFY_TX_ALL	13	HT20-MCS7  	CHAIN0
+	WT_VERIFY_TX_ALL	11	HT40-MCS7  	CHAIN0
+	
+	//BT
+//	WT_VERIFY_BT_TX		2402    BLE 		CHAIN0	
+//	WT_VERIFY_BT_TX		2440    BLE 		CHAIN0	
+//	WT_VERIFY_BT_TX		2480    BLE 		CHAIN0		
+//------------------------------------------------------------------------------------
+
+//	WT_VERIFY_RX_PER	1 	11M		CHAIN0
+//	WT_VERIFY_RX_PER	7 	54M		CHAIN0
+//	WT_VERIFY_RX_PER	13 	HT20-MCS7	CHAIN0
+//	WT_VERIFY_RX_PER	7 	HT40-MCS7	CHAIN0
+
+	//BT
+//	WT_VERIFY_BT_RX_PER	2402    BLE 		CHAIN0	
+//	WT_VERIFY_BT_RX_PER	2440    BLE 		CHAIN0	
+//	WT_VERIFY_BT_RX_PER	2480    BLE 		CHAIN0	
+	
+//------------------------------------------------------------------------------------
+//    	WT_VERIFY_RX_SWEEP	2412	54M		CHAIN0   -65  -77   -1  // 扫描WIFI灵敏度                                                                             
+//  	WT_VERIFY_RX_SWEEP	2402	BLE		CHAIN0   -80  -99   -1	// 扫描BLE灵敏度
+//******************************************************************************
+	
+WT_SHOW_VERIFY_SUMMARY				//显示Verify汇总结果
+
+//******************************************************************************
+WT_WRITE_MAC_ADDRESS				//写MAC地址到测试DUT Efuse
+
+WT_REMOVE_DUT            			//关闭DUT
+
+WT_DISCONNECT_TESTER				//断开仪器连接  
+
+//WT_USER_EXT_APP MideaLicenseDecryption $WIFI_MAC_2_4G$ $TESTPORT$ [10000] [-F]	//解密License
+//WT_DELAY  500	
+//WT_USER_COMMAND [bk_writer_V1.51_20190403 -pCOM&DUT_PORT&@115200 -tBK7231 -f.\License_$TESTPORT$.bin@1fd000] [] [5000] [-F]	    //写入License到DUT
+//WT_DELAY  500	
+//WT_USER_COMMAND [bk_writer_V1.51_20190403 -pCOM&DUT_PORT&@115200 -tBK7231 -r.\LicenseFromDUT_$TESTPORT$.bin@1fd000-800] [] [5000] [-F] //导出DUT的License
+//WT_DELAY  1000	
+//WT_USER_COMMAND [CheckWriteLicense] [] [5000] [-F]  //检查是否烧写License成功
+
+// WT_INSERT_DUT				//连接DUT
+
+// WT_USER_COMMAND	[prov] [#]	[3000]
+// WT_USER_COMMAND	[lock] [#]	[3000]
+
+// WT_REMOVE_DUT            			//关闭DUT
+
+//WT_USER_EXT_APP  User_Application param1 param2 ...[timeout]	  // 执行用户扩展程序,支持传入多个参数
+                                                                  // User_Application；APP名字
+								  // param1:传入的参数。
+								  // 特殊参数：$result$，当前FLOW测试结果；$DUTIP$，当前DUT IP; $TESTERIP$,仪器IP; $TESTPORT$, 仪器端口号
+								  // timeout: 等待扩展程序结束的超时时间	
+								  // 功能参数[-F] 测试FAIL不执行
+								  // 功能参数[-P] 测试PASS不执行
+								  
+
+//WT_USER_COMMAND [Command] [ok] [timeout] [option]	  	  //发送用户自定义命令							
+								  // command: 待发送命令
+								  // ack: 返回字符
+								  // timeout: 指令延时
+								  // Option:
+                                                                  // 不填[-P]或[-F]表示不管测试PASS或FAILed都执行
+                                                                  // [-P] 测试PASS不执行 
+                                                                  // [-F] 测试FAIL不执行 
+
+//WT_OPETATE_EXTERNAL_DEV [type] [command] [ack] 	 	  // type:设备类型，目前只支持串口：COM；
+								  // command: 待发送命令
+								  // ack: 返回字符
+						 
+//******************************************************************************
+//                              END OF FILE
+//******************************************************************************

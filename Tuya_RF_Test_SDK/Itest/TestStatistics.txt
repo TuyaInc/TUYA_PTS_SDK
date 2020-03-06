@@ -1,0 +1,29 @@
+//测试结果统计
+=======================================
+WT_PASS_NUMBER			= 61
+WT_FAIL_NUMBER			= 40
+
+WT_PASS_NUMBER_1		= 58
+WT_FAIL_NUMBER_1		= 22
+
+WT_PASS_NUMBER_2		= 1
+WT_FAIL_NUMBER_2		= 14
+
+WT_PASS_NUMBER_3		= 0
+WT_FAIL_NUMBER_3		= 1
+
+WT_PASS_NUMBER_4		= 0
+WT_FAIL_NUMBER_4		= 0
+
+WT_PASS_NUMBER_5		= 2
+WT_FAIL_NUMBER_5		= 3
+
+WT_PASS_NUMBER_6		= 0
+WT_FAIL_NUMBER_6		= 0
+
+WT_PASS_NUMBER_7		= 0
+WT_FAIL_NUMBER_7		= 0
+
+WT_PASS_NUMBER_8		= 0
+WT_FAIL_NUMBER_8		= 0
+=======================================

@@ -1,0 +1,100 @@
+//******************************************************************************
+//                   WLAN Facility test flow control file
+//******************************************************************************
+// [FREQ]    1    2    3    4    5    6    7    8    9   10    11   12   13   14
+// 2.4GHz : 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 2484
+//
+//          36	 38   40   42   44   46   48   52   54    56   58   60   62   64	
+// 5GHz   : 5180 5190 5200 5210 5220 5230 5240 5260 5270  5280 5290 5300 5310 5320
+//
+//          100  102  104  106  108  110  112  116  118  120  122  124  126  128  
+//          5500 5510 5520 5530 5540 5550 5560 5580 5590 5600 5610 5620 5630 5640 
+//	    
+//          132  134  136  138  140  142  144
+//	    5660 5670 5680 5690 5700 5710 5720
+//
+//	    149  151  153  155  157  159  161  165  167  169  171  173  175  177
+//          5745 5755 5765 5775 5785 5795 5805 5825 5835 5845 5855 5865 5875 5885
+//******************************************************************************
+// [Data Rate]
+// 	11bg:	54M 48M 36M 24M 18M 12M 9M 6M 11M 5.5M 2M 1M
+
+//	   HT20	      HT40	   AC20	       AC40	   AC80
+//	HT20-MCS0  HT40-MCS0    AC20-MCS0   AC40-MCS0    AC80-MCS0
+//	HT20-MCS1  HT40-MCS1    AC20-MCS1   AC40-MCS1    AC80-MCS1
+//	HT20-MCS2  HT40-MCS2    AC20-MCS2   AC40-MCS2    AC80-MCS2
+//	HT20-MCS3  HT40-MCS3    AC20-MCS3   AC40-MCS3    AC80-MCS3
+//	HT20-MCS4  HT40-MCS4    AC20-MCS4   AC40-MCS4    AC80-MCS4
+//	HT20-MCS5  HT40-MCS5    AC20-MCS5   AC40-MCS5    AC80-MCS5
+//	HT20-MCS6  HT40-MCS6    AC20-MCS6   AC40-MCS6    AC80-MCS6
+//	HT20-MCS7  HT40-MCS7    AC20-MCS7   AC40-MCS7    AC80-MCS7
+//				AC20-MCS8   AC40-MCS8    AC80-MCS8
+//					    AC40-MCS9    AC80-MCS9
+//******************************************************************************
+// [CHAIN]
+//
+//	CHAIN0	CHAIN1
+//
+//******************************************************************************
+//[程序内置的常用变量]：
+//$result$, $DUTIP$, $WIFI_MAC_2_4G$, $LAN_MAC$, $WAN_MAC$, $WIFI_MAC_5G$, $BT_MAC$, $DUT_SN$
+//******************************************************************************
+
+WT_CONNECT_TESTER				//连接测试仪
+
+WT_INSERT_DUT					//连接DUT
+
+//WT_DELAY  100					//延时处理 单位毫秒
+
+//WT_SHOW_MSGBOX				//提示框
+					
+//------------------------------------------------------------------------------------
+//金机校线功能	
+//格式如下：
+//WT_VERIFY_TX_TO_CAL_LOSS	2412	54M 	CHAIN0 	  目标功率 
+//------------------------------------------------------------------------------------
+	WT_VERIFY_TX_TO_CAL_LOSS	2412	54M 		CHAIN0 	13.42
+	WT_VERIFY_TX_TO_CAL_LOSS	2417	54M			CHAIN0  13.62
+	WT_VERIFY_TX_TO_CAL_LOSS	2422	54M 		CHAIN0 	13.72
+	WT_VERIFY_TX_TO_CAL_LOSS	2427	54M 		CHAIN0 	14.00
+	WT_VERIFY_TX_TO_CAL_LOSS	2432	54M 		CHAIN0 	14.05
+	WT_VERIFY_TX_TO_CAL_LOSS	2437	54M 		CHAIN0 	14.26
+	WT_VERIFY_TX_TO_CAL_LOSS	2442	54M 		CHAIN0 	13.65
+	WT_VERIFY_TX_TO_CAL_LOSS	2447	54M 		CHAIN0 	13.73
+	WT_VERIFY_TX_TO_CAL_LOSS	2452	54M 		CHAIN0 	13.84
+	WT_VERIFY_TX_TO_CAL_LOSS	2457	54M 		CHAIN0 	13.83
+	WT_VERIFY_TX_TO_CAL_LOSS	2462	54M 		CHAIN0 	13.73
+	WT_VERIFY_TX_TO_CAL_LOSS	2467	54M 		CHAIN0 	13.67
+	WT_VERIFY_TX_TO_CAL_LOSS	2472	54M  		CHAIN0 	13.54
+	WT_VERIFY_TX_TO_CAL_LOSS	2484	54M			CHAIN0 	13.04
+	WT_GOLD_SAMPLE_CABLELOSS_CAL          	//将校线数据回写到线衰配置文件
+
+WT_REMOVE_DUT            			//关闭DUT
+
+WT_DISCONNECT_TESTER				//断开仪器连接  
+
+//WT_USER_EXT_APP	User_Application  param1 param2 ...[timeout]	  // 执行用户扩展程序,支持传入多个参数
+                                                                  // User_Application；APP名字
+								  // param1:传入的参数。
+								  // 特殊参数：$result$，当前FLOW测试结果；$DUTIP$，当前DUT IP; $TESTERIP$,仪器IP; $TESTPORT$, 仪器端口号
+								  // timeout: 等待扩展程序结束的超时时间
+								  // 功能参数[-F] 测试FAIL不执行
+								  // 功能参数[-P] 测试PASS不执行
+								 
+
+//WT_USER_COMMAND [Command] [ok]	[timeout] [option]	 	  //发送用户自定义命令							
+								  // command: 待发送命令
+								  // ack: 返回字符
+								  // timeout: 指令延时
+								  // Option:
+                                                                  // 不填[-P]或[-F]表示不管测试PASS或FAILed都执行
+                                                                  // [-P] 测试PASS不执行 
+                                                                  // [-F] 测试FAIL不执行 
+
+//WT_OPETATE_EXTERNAL_DEV [type] [command] [ack] 	 		  // type:设备类型，目前只支持串口：COM；
+								  // command: 待发送命令
+								  // ack: 返回字符
+						 
+//******************************************************************************
+//                              END OF FILE
+//******************************************************************************

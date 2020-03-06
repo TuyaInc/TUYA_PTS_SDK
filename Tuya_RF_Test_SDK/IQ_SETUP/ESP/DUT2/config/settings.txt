@@ -1,0 +1,26 @@
+#define   CHIP_TYPE     ESP32  #ESP32 or ESP8266
+#define   COMPORT       COM22
+#define   BAUDRATE      460800
+#define   RAM_PATH      ./image/ESP32_RF_TEST_BIN_V1.4.6_20181019.bin
+#define   CYST_FREQ	40
+#define   PO_NUMBER     c0392
+
+#define ESP_WRITE_CUS_MAC_EN   0  # 0:Disable , 1:Enable  ESP32 ONLY
+#define ESP_DOWNLOAD_MODE      1  # 1:Ram download mode, 2:Flash download mode
+#define ESP_DOWNLOAD_TOOL_VER  v1.1.7.0  # for tool version ctrl
+#define ESP_DOWNLOAD_CUS_TYPE  0000    # reserve the parameter now
+#define EFUSE_CHECK_MODE       1  # 0:disable , 1:ESP normal , 2:for xiaomi
+
+#define CONNECT_WAITING_MAX_TIME  15  # seconds
+#define READ_FLASH_INFO        1  # 0:Disable,  1:Enable
+
+#define   FLASH_FREQ   40m    # 40m or 26m or 20m or 80m
+#define   FLASH_MODE   dio    # qio or qout or dio or dout
+#define   FLASH_SIZE   4MB    # 1MB or 2MB or 4MB or 8MB or 16MB
+
+#define   FW_NUM       1      # the number of firmware needs to download
+#define   FLASH_PATH_0    ./image/ESP32_RF_TEST_BIN_V1.4.6_20181019.bin
+#define   FLASH_ADDR_0   0x0
+
+#define   ESP_CHECK_BIN_VER_EN  0  # 0:Disable, 1:Enable
+#define   ESP_CHECK_BIN_STR     v1.0.0
