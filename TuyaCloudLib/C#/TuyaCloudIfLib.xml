@@ -4,67 +4,67 @@
         <name>TuyaCloudIfLib</name>
     </assembly>
     <members>
-        <member name="P:TuyaCloudIfLib.AuthCheckReq.muid">
+        <member name="F:TuyaCloudIfLib.AuthCheckReq.muid">
             <summary>
             乐鑫MUID
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthCheckReq.wifiHotspotName">
+        <member name="F:TuyaCloudIfLib.AuthCheckReq.wifiHotspotName">
             <summary>
             热点名称
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthCheckReq.tokenId">
+        <member name="F:TuyaCloudIfLib.AuthCheckReq.tokenId">
             <summary>
             tokenId
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthCheckReq.accessKey">
+        <member name="F:TuyaCloudIfLib.AuthCheckReq.accessKey">
             <summary>
             accessKey
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthCheckReq.nodeCode">
+        <member name="F:TuyaCloudIfLib.AuthCheckReq.nodeCode">
             <summary>
             站位名称
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthCheckReq.wifiPassword">
+        <member name="F:TuyaCloudIfLib.AuthCheckReq.wifiPassword">
             <summary>
             热点密码
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthCheckReq.sn">
+        <member name="F:TuyaCloudIfLib.AuthCheckReq.sn">
             <summary>
             产品SN
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthCheckReq.uuid">
+        <member name="F:TuyaCloudIfLib.AuthCheckReq.uuid">
             <summary>
             uuid
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthCheckReq.chipId">
+        <member name="F:TuyaCloudIfLib.AuthCheckReq.chipId">
             <summary>
             
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthCheckReq.mac">
+        <member name="F:TuyaCloudIfLib.AuthCheckReq.mac">
             <summary>
             mac
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthCheckReq.sftVersion">
+        <member name="F:TuyaCloudIfLib.AuthCheckReq.sftVersion">
             <summary>
             应用软件版本
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthCheckRspResult.result">
+        <member name="F:TuyaCloudIfLib.AuthCheckRspResult.result">
             <summary>
             授权检查结果
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthCheckRspResult.failureDepict">
+        <member name="F:TuyaCloudIfLib.AuthCheckRspResult.failureDepict">
             <summary>
             失败原因
             </summary>
@@ -1167,32 +1167,32 @@
             工位状态重置
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.StationResetReq.orderCode">
+        <member name="F:TuyaCloudIfLib.StationResetReq.orderCode">
             <summary>
             工单号，不可为空
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.StationResetReq.sn">
+        <member name="F:TuyaCloudIfLib.StationResetReq.sn">
             <summary>
             SN,不可为空
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.StationResetReq.stationCode">
+        <member name="F:TuyaCloudIfLib.StationResetReq.stationCode">
             <summary>
             站位编号，不可为空
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.StationResetResult.requestId">
+        <member name="F:TuyaCloudIfLib.StationResetRsp.StationResetResult.requestId">
             <summary>
             
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.StationResetResult.amount">
+        <member name="F:TuyaCloudIfLib.StationResetRsp.StationResetResult.amount">
             <summary>
             过站数量
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.StationResetRsp.result">
+        <member name="F:TuyaCloudIfLib.StationResetRsp.result">
             <summary>
             
             </summary>
@@ -1217,32 +1217,32 @@
             工位测试状态，true表示已测试通过，false表示未测试或测试失败
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.StationStatusCommitReq.stationCode">
+        <member name="F:TuyaCloudIfLib.StationStatusCommitReq.stationCode">
             <summary>
             站位名称
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.StationStatusCommitReq.requestId">
+        <member name="F:TuyaCloudIfLib.StationStatusCommitReq.requestId">
             <summary>
             
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.StationStatusCommitReq.orderCode">
+        <member name="F:TuyaCloudIfLib.StationStatusCommitReq.orderCode">
             <summary>
             工单号
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.StationStatusCommitReq.sn">
+        <member name="F:TuyaCloudIfLib.StationStatusCommitReq.sn">
             <summary>
             
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.StationStatusCommitReq.status">
+        <member name="F:TuyaCloudIfLib.StationStatusCommitReq.status">
             <summary>
             状态1 成功 0 失败
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.StationStatusCommitRsp.result">
+        <member name="F:TuyaCloudIfLib.StationStatusCommitRsp.result">
             <summary>
             过站数量
             </summary>
@@ -2282,9 +2282,129 @@
             此类型已经废弃，请用具有相同功能的QueryMacSNReqParas替代
             </summary>
         </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNReqParas_2.orderCode">
+            <summary>
+            workorder
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNReqParas_2.tokenId">
+            <summary>
+            授权码
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNReqParas_2.keyType">
+            <summary>
+            sn,mac,可以不填
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNReqParas_2.key">
+            <summary>
+            sn或mac地址，可以不填，填了就找与之绑定的mac,sn,cmei
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNReqParas_2.printed">
+            <summary>
+            是否打印,N表示返回未打印的记录、Y返回已打印的记录、空字符串返回所有记录
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNReqParas_2.offset">
+            <summary>
+            偏移量
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNReqParas_2.limit">
+            <summary>
+            查询返回记录数量限制
+            </summary>
+        </member>
         <member name="T:TuyaCloudIfLib.QueryMacSNRspParas_2">
             <summary>
             此类型已经废弃，请用具有相同功能的QueryMacSNReqParas替代
+            </summary>
+        </member>
+        <member name="T:TuyaCloudIfLib.QueryMacSNRspParas_2.MacSNQueryResult">
+            <summary>
+            查询mac-sn绑定返回的结果的数据结构定义
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNRspParas_2.MacSNQueryResult.totalCount">
+            <summary>
+            记录总数
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNRspParas_2.MacSNQueryResult.datas">
+            <summary>
+            一系列的sn-mac数据
+            </summary>
+        </member>
+        <member name="T:TuyaCloudIfLib.QueryMacSNRspParas_2.MacSNData">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNRspParas_2.MacSNData.code">
+            <summary>
+            编码（该编码作为彩包的包装编码）
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNRspParas_2.MacSNData.sn">
+            <summary>
+            SN号
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNRspParas_2.MacSNData.mac">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNRspParas_2.MacSNData.tokenId">
+            <summary>
+            授权码
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNRspParas_2.MacSNData.printed">
+            <summary>
+            是否已经打印,Y:已打印；N:未打印
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNRspParas_2.MacSNData.packed">
+            <summary>
+            是否已经打包,Y:已打包；N:未打包
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNRspParas_2.MacSNData.channelType">
+            <summary>
+            运营商类型
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNRspParas_2.MacSNData.channelDeviceId">
+            <summary>
+            运营商编码
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNRspParas_2.MacSNData.psk">
+            <summary>
+            psk秘钥
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNRspParas_2.MacSNData.imei">
+            <summary>
+            IMEI
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNRspParas_2.MacSNData.patchSn">
+            <summary>
+            贴片SN
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNRspParas_2.MacSNData.jdSecretKey">
+            <summary>
+            京东云秘钥
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.QueryMacSNRspParas_2.result">
+            <summary>
+            查询mac-sn绑定返回的结果
             </summary>
         </member>
         <member name="T:TuyaCloudIfLib.CheckMacUniqueReqParas">
@@ -4294,12 +4414,12 @@
             故障代码查询入参定义
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.GetErrorCodeInfoReq.code">
+        <member name="F:TuyaCloudIfLib.GetErrorCodeInfoReq.code">
             <summary>
             故障代码
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.GetErrorCodeInfoReq.lang">
+        <member name="F:TuyaCloudIfLib.GetErrorCodeInfoReq.lang">
             <summary>
             语言,中文zh，英文en
             </summary>
@@ -4384,37 +4504,37 @@
             工单授权接口
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthReq.requestId">
+        <member name="F:TuyaCloudIfLib.AuthReq.requestId">
             <summary>
             不可为空，该字段从reset工位获取
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthReq.tokenId">
+        <member name="F:TuyaCloudIfLib.AuthReq.tokenId">
             <summary>
             不可为空
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthReq.sn">
+        <member name="F:TuyaCloudIfLib.AuthReq.sn">
             <summary>
             不可为空，sn
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthReq.muid">
+        <member name="F:TuyaCloudIfLib.AuthReq.muid">
             <summary>
             wifi乐鑫模块才上传芯片ID
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthReq.mac">
+        <member name="F:TuyaCloudIfLib.AuthReq.mac">
             <summary>
             如果是zigbee和乐鑫，这里需要上传mac（Mac是从模块读出来的，不从打标签分配）
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthReq.chipId">
+        <member name="F:TuyaCloudIfLib.AuthReq.chipId">
             <summary>
             安全芯片ID，安全模组的项目才会传
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthReq.sftVersion">
+        <member name="F:TuyaCloudIfLib.AuthReq.sftVersion">
             <summary>
             不可为空，表示产测工具软件的版本
             </summary>
@@ -4424,42 +4544,42 @@
             提交授权数量校正接口请求，校正数据可能需要10秒钟
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthRspResult.uuid">
+        <member name="F:TuyaCloudIfLib.AuthRsp.AuthRspResult.uuid">
             <summary>
             模块uuid（模块的uuid这里由云端生成，生成规则沿用老逻辑，根据不同的联网模式来生成uuid）
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthRspResult.mac">
+        <member name="F:TuyaCloudIfLib.AuthRsp.AuthRspResult.mac">
             <summary>
             mac地址
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthRspResult.accessKey">
+        <member name="F:TuyaCloudIfLib.AuthRsp.AuthRspResult.accessKey">
             <summary>
             accessKey
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthRspResult.pskKey">
+        <member name="F:TuyaCloudIfLib.AuthRsp.AuthRspResult.pskKey">
             <summary>
             pskKey
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthRspResult.certificateContent">
+        <member name="F:TuyaCloudIfLib.AuthRsp.AuthRspResult.certificateContent">
             <summary>
             安全认证证书
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthRspResult.privateKey">
+        <member name="F:TuyaCloudIfLib.AuthRsp.AuthRspResult.privateKey">
             <summary>
             安全私钥
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthRspResult.crc32CertificateContent">
+        <member name="F:TuyaCloudIfLib.AuthRsp.AuthRspResult.crc32CertificateContent">
             <summary>
             安全证书CRC校验码
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthRspResult.crc32PrivateKey">
+        <member name="F:TuyaCloudIfLib.AuthRsp.AuthRspResult.crc32PrivateKey">
             <summary>
             私钥CRC校验码
             </summary>
@@ -4539,52 +4659,52 @@
             无工单新版本授权二次检测接口入参定义
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthCheckReq.tokenId">
+        <member name="F:TuyaCloudIfLib.TokenAuthCheckReq.tokenId">
             <summary>
              授权码
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthCheckReq.sn">
+        <member name="F:TuyaCloudIfLib.TokenAuthCheckReq.sn">
             <summary>
             sn
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthCheckReq.mac">
+        <member name="F:TuyaCloudIfLib.TokenAuthCheckReq.mac">
             <summary>
             mac
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthCheckReq.uuid">
+        <member name="F:TuyaCloudIfLib.TokenAuthCheckReq.uuid">
             <summary>
             uuid
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthCheckReq.muid">
+        <member name="F:TuyaCloudIfLib.TokenAuthCheckReq.muid">
             <summary>
             muid
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthCheckReq.accessKey">
+        <member name="F:TuyaCloudIfLib.TokenAuthCheckReq.accessKey">
             <summary>
             
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthCheckReq.wifiHotspotName">
+        <member name="F:TuyaCloudIfLib.TokenAuthCheckReq.wifiHotspotName">
             <summary>
             
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthCheckReq.wifiPassword">
+        <member name="F:TuyaCloudIfLib.TokenAuthCheckReq.wifiPassword">
             <summary>
             
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthCheckReq.chipId">
+        <member name="F:TuyaCloudIfLib.TokenAuthCheckReq.chipId">
             <summary>
             加密芯片的芯片ID
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthCheckReq.sftVersion">
+        <member name="F:TuyaCloudIfLib.TokenAuthCheckReq.sftVersion">
             <summary>
             产测工具版本 不可为空
             </summary>
@@ -4614,32 +4734,32 @@
             无工单新版本授权接口入参定义
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthReq.sn">
+        <member name="F:TuyaCloudIfLib.TokenAuthReq.sn">
             <summary>
             SN,非必填
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthReq.tokenId">
+        <member name="F:TuyaCloudIfLib.TokenAuthReq.tokenId">
             <summary>
             tokenId,必填
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthReq.sftVersion">
+        <member name="F:TuyaCloudIfLib.TokenAuthReq.sftVersion">
             <summary>
             工具版本，必填
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthReq.muid">
+        <member name="F:TuyaCloudIfLib.TokenAuthReq.muid">
             <summary>
             muid,芯片ID,wifi乐鑫模块才上传芯片ID  
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthReq.mac">
+        <member name="F:TuyaCloudIfLib.TokenAuthReq.mac">
             <summary>
             mac,工具从模块读取mac，然后上传云端
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthReq.chipId">
+        <member name="F:TuyaCloudIfLib.TokenAuthReq.chipId">
             <summary>
             chipId,安全芯片ID
             </summary>
@@ -4674,22 +4794,22 @@
             psk通讯秘钥
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthRspResult.certificateContent">
+        <member name="F:TuyaCloudIfLib.TokenAuthRspResult.certificateContent">
             <summary>
             安全证书内容
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthRspResult.privateKey">
+        <member name="F:TuyaCloudIfLib.TokenAuthRspResult.privateKey">
             <summary>
             私钥
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthRspResult.crc32CertificateContent">
+        <member name="F:TuyaCloudIfLib.TokenAuthRspResult.crc32CertificateContent">
             <summary>
             安全证书内容CRC校验码
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthRspResult.crc32PrivateKey">
+        <member name="F:TuyaCloudIfLib.TokenAuthRspResult.crc32PrivateKey">
             <summary>
             私钥CRC校验码
             </summary>
@@ -4699,52 +4819,52 @@
             无工单新版本授权校验接口入参定义
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthValidateReq.tokenId">
+        <member name="F:TuyaCloudIfLib.TokenAuthValidateReq.tokenId">
             <summary>
              授权码
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthValidateReq.sn">
+        <member name="F:TuyaCloudIfLib.TokenAuthValidateReq.sn">
             <summary>
             sn
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthValidateReq.mac">
+        <member name="F:TuyaCloudIfLib.TokenAuthValidateReq.mac">
             <summary>
             mac
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthValidateReq.uuid">
+        <member name="F:TuyaCloudIfLib.TokenAuthValidateReq.uuid">
             <summary>
             uuid
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthValidateReq.muid">
+        <member name="F:TuyaCloudIfLib.TokenAuthValidateReq.muid">
             <summary>
             muid
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthValidateReq.accessKey">
+        <member name="F:TuyaCloudIfLib.TokenAuthValidateReq.accessKey">
             <summary>
             
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthValidateReq.wifiHotspotName">
+        <member name="F:TuyaCloudIfLib.TokenAuthValidateReq.wifiHotspotName">
             <summary>
             
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthValidateReq.wifiPassword">
+        <member name="F:TuyaCloudIfLib.TokenAuthValidateReq.wifiPassword">
             <summary>
             
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthValidateReq.chipId">
+        <member name="F:TuyaCloudIfLib.TokenAuthValidateReq.chipId">
             <summary>
             加密芯片的芯片ID
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.TokenAuthValidateReq.sftVersion">
+        <member name="F:TuyaCloudIfLib.TokenAuthValidateReq.sftVersion">
             <summary>
             产测工具版本 不可为空
             </summary>
@@ -4759,12 +4879,12 @@
              查询的结果
             </summary>
         </member>
-        <member name="F:TuyaCloudIfLib.TokenAuthValidateRspResult.result">
+        <member name="F:TuyaCloudIfLib.TokenAuthValidateResult.result">
             <summary>
             授权检测结果
             </summary>
         </member>
-        <member name="F:TuyaCloudIfLib.TokenAuthValidateRspResult.failureDepict">
+        <member name="F:TuyaCloudIfLib.TokenAuthValidateResult.failureDepict">
             <summary>
             授权失败原因描述
             </summary>
