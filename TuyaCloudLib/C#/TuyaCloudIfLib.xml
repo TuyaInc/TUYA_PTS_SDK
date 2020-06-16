@@ -144,6 +144,22 @@
             <param name="apiVer">接口版本</param>
             <returns></returns>
         </member>
+        <member name="M:TuyaCloudIfLib.TuyaCloudIf.GetShortLink(TuyaCloudIfLib.GetShortLinkReq,System.String)">
+            <summary>
+            根据SN获取短链接和短码   [ s.pt.dev.shortlink.get.by.sn ]
+            </summary>
+            <param name="ReqParas"></param>
+            <param name="apiVer">接口版本2.0</param>
+            <returns></returns>
+        </member>
+        <member name="M:TuyaCloudIfLib.TuyaCloudIf.GetSmartConfigQRCode(TuyaCloudIfLib.GetSmartConfigQRCodeReq,System.String)">
+            <summary>
+            根据SN和PID获取配网二维码   [ s.pt.dev.shortlink.get.by.sn ]
+            </summary>
+            <param name="ReqParas"></param>
+            <param name="apiVer">接口版本3.0</param>
+            <returns></returns>
+        </member>
         <member name="M:TuyaCloudIfLib.TuyaCloudIf.UnBindSN(TuyaCloudIfLib.UnbindSNReqParas,System.String)">
             <summary>
             SN解绑[s.pt.dev.sn.unbind]
@@ -1345,6 +1361,66 @@
         <member name="F:TuyaCloudIfLib.AuthorizedAmountResult.result">
             <summary>
             授权成功数量
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetShortLinkReq.orderCode">
+            <summary>
+            必填，工单号
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetShortLinkReq.sn">
+            <summary>
+            必填，SN
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetShortLinkReq.appId">
+            <summary>
+            非必填，为空则为默认值168
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetShortLinkRsp.GetShortLinkResult.sn">
+            <summary>
+            授权sn，和传参里的sn可能不同
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetShortLinkRsp.GetShortLinkResult.shortUrl">
+            <summary>
+            //短域名
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetShortLinkRsp.GetShortLinkResult.deviceCode">
+            <summary>
+            //短码
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetSmartConfigQRCodeReq.orderCode">
+            <summary>
+            工单号
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetSmartConfigQRCodeReq.sn">
+            <summary>
+            SN
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetSmartConfigQRCodeReq.pid">
+            <summary>
+            产品pid
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetSmartConfigQRCodeRsp.GetSmartConfigQRCodeResult.sn">
+            <summary>
+            //授权sn，和传参里的sn可能不同
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetSmartConfigQRCodeRsp.GetSmartConfigQRCodeResult.shortUrl">
+            <summary>
+            //短域名
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetSmartConfigQRCodeRsp.GetSmartConfigQRCodeResult.deviceCode">
+            <summary>
+            //短码
             </summary>
         </member>
         <member name="F:TuyaCloudIfLib.UnbindSNReqParas.terminalSN">
