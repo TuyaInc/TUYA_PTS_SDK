@@ -59,17 +59,17 @@
             应用软件版本
             </summary>
         </member>
-        <member name="F:TuyaCloudIfLib.AuthCheckRspResult.result">
+        <member name="F:TuyaCloudIfLib.AuthCheckRsp.AuthValidateResult.result">
             <summary>
             授权检查结果
             </summary>
         </member>
-        <member name="F:TuyaCloudIfLib.AuthCheckRspResult.failureDepict">
+        <member name="F:TuyaCloudIfLib.AuthCheckRsp.AuthValidateResult.failureDepict">
             <summary>
             失败原因
             </summary>
         </member>
-        <member name="P:TuyaCloudIfLib.AuthCheckRsp.result">
+        <member name="F:TuyaCloudIfLib.AuthCheckRsp.result">
             <summary>
             授权检查结果
             </summary>
@@ -4505,29 +4505,29 @@
             故障代码查询出参定义
             </summary>
         </member>
-        <member name="F:TuyaCloudIfLib.GetErrorCodeInfoRsp.result">
-            <summary>
-             查询的结果
-            </summary>
-        </member>
-        <member name="F:TuyaCloudIfLib.GetErrorCodeInfoResult.code">
+        <member name="F:TuyaCloudIfLib.GetErrorCodeInfoRsp.GetErrorCodeInfoResult.code">
             <summary>
             故障代码
             </summary>
         </member>
-        <member name="F:TuyaCloudIfLib.GetErrorCodeInfoResult.lang">
+        <member name="F:TuyaCloudIfLib.GetErrorCodeInfoRsp.GetErrorCodeInfoResult.lang">
             <summary>
             语言
             </summary>
         </member>
-        <member name="F:TuyaCloudIfLib.GetErrorCodeInfoResult.desc">
+        <member name="F:TuyaCloudIfLib.GetErrorCodeInfoRsp.GetErrorCodeInfoResult.desc">
             <summary>
             故障描述
             </summary>
         </member>
-        <member name="F:TuyaCloudIfLib.GetErrorCodeInfoResult.solution">
+        <member name="F:TuyaCloudIfLib.GetErrorCodeInfoRsp.GetErrorCodeInfoResult.solution">
             <summary>
             故障处理方案
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.GetErrorCodeInfoRsp.result">
+            <summary>
+             查询的结果
             </summary>
         </member>
         <member name="T:TuyaCloudIfLib.GetMacByTerminalSnReq">
@@ -4795,12 +4795,12 @@
              查询的结果
             </summary>
         </member>
-        <member name="F:TuyaCloudIfLib.TokenAuthCheckRspResult.result">
+        <member name="F:TuyaCloudIfLib.TokenAuthCheckResult.result">
             <summary>
             授权检测结果
             </summary>
         </member>
-        <member name="F:TuyaCloudIfLib.TokenAuthCheckRspResult.failureDepict">
+        <member name="F:TuyaCloudIfLib.TokenAuthCheckResult.failureDepict">
             <summary>
             授权失败原因描述
             </summary>
