@@ -8,7 +8,7 @@
 
 [工具下载](https://github.com/TuyaInc/TUYA_PTS_SDK/raw/master/Tools/TYDA_Setup_Online.exe)
 
-[工具使用说明](<https://docs.tuya.com/zh/iot/smart-production/production-test-solution/production-testing-service-scope/production-test-tool/test>)
+[工具使用说明](<https://developer.tuya.com/cn/docs/iot/smart-production/production-test-solution/performances/module-test-system?id=K9v1glvgxrtov>)
 
 ### 运行环境要求：
 * WIN7及以上操作系统
