@@ -25,9 +25,9 @@
 
 ### 工具下载及说明文档
 
-[工具下载地址](https://github.com/TuyaInc/TUYA_PTS_SDK/raw/master/Tools/Tuya.PTP.Installer(v1.0.7_release).msi)
+[工具下载地址](https://raw.githubusercontent.com/TuyaInc/TUYA_PTS_SDK/master/Tools/Tuya.SPTP.Installer_2.0.0.exe)
 
-[工具使用说明](<https://docs.tuya.com/zh/iot/smart-production/production-test-solution/production-testing-service-scope/production-test-tool/tuya-ptp>)
+[工具使用说明](<https://developer.tuya.com/cn/docs/iot/smart-production/production-test-solution/performances/tuya-ptp?id=K9g39db4bswsg>)
 
 ### 运行环境要求：
 * WIN7及以上操作系统
