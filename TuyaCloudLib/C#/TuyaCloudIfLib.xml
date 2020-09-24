@@ -296,6 +296,16 @@
             <param name="apiVer">接口版本</param>
             <returns></returns>
         </member>
+        <!-- 对于成员“M:TuyaCloudIfLib.TuyaCloudIf.GetStationInfo(TuyaCloudIfLib.GetStationInfoReq,System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:TuyaCloudIfLib.TuyaCloudIf.GetNonInductiveInfo(TuyaCloudIfLib.GetNonInductiveInfoReq,System.String)">
+            <summary>
+            查询无感配网信息接口   [ s.pt.dev.production.non.inductive.info.get ]
+            在token信息中的supportNonInductive为true时，调用该接口获取写入信息
+            </summary>
+            <param name="ReqParas"></param>
+            <param name="apiVer"></param>
+            <returns></returns>
+        </member>
         <member name="M:TuyaCloudIfLib.TuyaCloudIf.GetSecretKey(TuyaCloudIfLib.GetSecretKeyReqParas,System.String)">
             <summary>
             提交加密芯片ID，并下载对应的子秘钥   [s.pt.dev.secret.key.get]
@@ -1871,6 +1881,91 @@
         <member name="T:TuyaCloudIfLib.UnpackageRspParas">
             <summary>
             解除包装返回的数据包
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.GetStationInfoReq.sn">
+            <summary>
+            SN，不可为空
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.StationInfoResultItem.node">
+            <summary>
+            站位节点编码
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.StationInfoResultItem.craftLineCode">
+            <summary>
+            工艺路线编码
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.StationInfoResultItem.nodeDesc">
+            <summary>
+            站位描述
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.StationInfoResultItem.orderCode">
+            <summary>
+            工单
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.StationInfoResultItem.time">
+            <summary>
+            最近一次过站时间
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.StationInfoResultItem.sn">
+            <summary>
+            SN
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.StationInfoResultItem.status">
+            <summary>
+            是否过站
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetStationInfoRsp.result">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetNonInductiveInfoReq.sn">
+            <summary>
+            sn
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetNonInductiveInfoReq.orderCode">
+            <summary>
+            工单
+            </summary>
+        </member>
+        <member name="F:TuyaCloudIfLib.GetNonInductiveInfoRsp.result">
+            <summary>
+            查询到的无感配网信息
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetNonInductiveInfoResult.sn">
+            <summary>
+            SN
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetNonInductiveInfoResult.channelCode">
+            <summary>
+            //运营商编码 CTCC / CMCC / CUCC, 目前只支持CTCC
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetNonInductiveInfoResult.identificationName">
+            <summary>
+            //设备标识名 CTEI / CMEI / CUEI, 目前只支持CTEI
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetNonInductiveInfoResult.identificationValue">
+            <summary>
+            //CTEI等对应的值,例如1900003410000099
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetNonInductiveInfoResult.customerProductModel">
+            <summary>
+            成品型号，例如“TWER"
             </summary>
         </member>
         <member name="T:TuyaCloudIfLib.GetSecretKeyReqParas">
@@ -4044,6 +4139,11 @@
             激活码以旧换新
             </summary>
         </member>
+        <member name="F:TuyaCloudIfLib.TokenInfo.supportNonInductive">
+            <summary>
+            是否支持无感配网(例如电信无感配网)
+            </summary>
+        </member>
         <member name="F:TuyaCloudIfLib.GetAuthKeyBySnReq.sn">
             <summary>
             sn
@@ -4175,6 +4275,16 @@
         <member name="P:TuyaCloudIfLib.GetHomeKitDataRsp.GetHomeKitDataResult.setupId">
             <summary>
             
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetHomeKitDataRsp.GetHomeKitDataResult.fileUrl">
+            <summary>
+             zigbee homekit 专用,是一个压缩文件
+            </summary>
+        </member>
+        <member name="P:TuyaCloudIfLib.GetHomeKitDataRsp.GetHomeKitDataResult.md5">
+            <summary>
+            zigbee homekit 压缩文件的md5
             </summary>
         </member>
         <member name="F:TuyaCloudIfLib.SetCraftRouteNodePassedReq.nodeCode">
