@@ -18,5 +18,5 @@ Tuya WiFi Device Production Test SDK provides the interface package for the comm
 
 ## Doc
 
-Refer to details: [Tuya Production Test SDK Doc](<https://docs.tuya.com/zh/iot/smart-production/production-test-solution/production-testing-service-scope/production-test-sdk/wifi-device-sdk>)
+Refer to details: [Tuya Production Test SDK Doc](<https://developer.tuya.com/cn/docs/iot/smart-production/production-test-solution/presentations/wifi-device-authorize-instruction?id=K9fz8sj0j88ki>)
 
