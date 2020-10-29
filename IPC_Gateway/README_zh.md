@@ -18,5 +18,5 @@
 
 ## 开发文档
 
-更多参考: [涂鸦WiFi产品产测SDK文档](<https://docs.tuya.com/zh/iot/smart-production/production-test-solution/production-testing-service-scope/production-test-sdk/linux-devices-production-test-sdk>)
+更多参考: [涂鸦IPC及网关产品产测SDK文档](<https://developer.tuya.com/cn/docs/iot/smart-production/production-test-solution/presentations/tuya-ipcgateway-authorize-instruction?id=K9fz94ddv8xud>)
 

@@ -18,5 +18,5 @@ Tuya IPC or Gateway Production Test SDK provides the interface package for the c
 
 ## Doc
 
-Refer to details: [Tuya Production Test SDK Doc](<https://docs.tuya.com/zh/iot/smart-production/production-test-solution/production-testing-service-scope/production-test-sdk/linux-devices-production-test-sdk>)
+Refer to details: [Tuya Production Test SDK Doc](<https://developer.tuya.com/cn/docs/iot/smart-production/production-test-solution/presentations/tuya-ipcgateway-authorize-instruction?id=K9fz94ddv8xud>)
 

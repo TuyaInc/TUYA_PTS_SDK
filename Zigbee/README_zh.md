@@ -18,5 +18,5 @@
 
 ## 开发文档
 
-更多参考: [涂鸦WiFi产品产测SDK文档](<https://developer.tuya.com/cn/docs/iot/smart-production/production-test-solution/presentations/tuya-zigbee-device-authorize-instruction?id=K9fz90h74w7wz>)
+更多参考: [涂鸦Zigbee产品产测SDK文档](<https://developer.tuya.com/cn/docs/iot/smart-production/production-test-solution/presentations/tuya-zigbee-device-authorize-instruction?id=K9fz90h74w7wz>)
 

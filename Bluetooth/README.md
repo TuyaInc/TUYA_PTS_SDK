@@ -18,5 +18,5 @@ Tuya Bluetooth Device Production Test SDK provides the interface package for the
 
 ## Doc
 
-Refer to details: [Tuya Production Test SDK Doc](<https://docs.tuya.com/zh/iot/smart-production/production-test-solution/production-testing-service-scope/production-test-sdk/bluetooth-devices-sdk>)
+Refer to details: [Tuya Production Test SDK Doc](<https://developer.tuya.com/cn/docs/iot/smart-production/production-test-solution/presentations/tuya-ble-device-authorize-instruction?id=K9fz8xfpjm9gd>)
 
