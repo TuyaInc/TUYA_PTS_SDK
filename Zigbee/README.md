@@ -18,5 +18,5 @@ Tuya Zigbee Device Production Test SDK provides the interface package for the co
 
 ## Doc
 
-Refer to details: [Tuya Production Test SDK Doc](<https://docs.tuya.com/zh/iot/smart-production/production-test-solution/production-testing-service-scope/production-test-sdk/zigbee-devices-sdk>)
+Refer to details: [Tuya Production Test SDK Doc](<https://developer.tuya.com/cn/docs/iot/smart-production/production-test-solution/presentations/tuya-zigbee-device-authorize-instruction?id=K9fz90h74w7wz>)
 
