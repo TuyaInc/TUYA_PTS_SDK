@@ -18,5 +18,5 @@ Tuya Independent authorize Production Test SDK provides the interface package fo
 
 ## Doc
 
-Refer to details: [Tuya Production Test SDK Doc](<https://developer.tuya.com/cn/docs/iot/smart-production/production-test-solution/presentations/tuya-zigbee-device-authorize-instruction?id=K9fz90h74w7wz>)
+Refer to details: [Tuya Production Test SDK Doc](<https://developer.tuya.com/cn/docs/iot/smart-production/production-test-solution/presentations/independent-authorize-instruction?id=Ka62eitr51r11>)
 
