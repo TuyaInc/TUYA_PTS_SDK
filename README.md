@@ -18,5 +18,5 @@ Tuya Smart Production test SDK provides the interface package for the communicat
 
 ## Doc
 
-Refer to details: [Tuya Production Test SDK Doc](<https://docs.tuya.com/zh/iot/smart-production/production-test-solution/production-testing-service-scope/production-test-sdk/wifi-device-sdk>)
+Refer to details: [Tuya Production Test SDK Doc](<https://developer.tuya.com/cn/docs/iot/smart-production/production-test-solution/production-test-solution?id=Ka5nxrkr6mdkj>)
 

@@ -18,5 +18,5 @@
 
 ## 开发文档
 
-更多参考: [涂鸦产测SDK文档](<https://docs.tuya.com/zh/iot/smart-production/production-test-solution/production-testing-service-scope/production-test-sdk/wifi-device-sdk>)
+更多参考: [涂鸦产测SDK文档](<https://developer.tuya.com/cn/docs/iot/smart-production/production-test-solution/production-test-solution?id=Ka5nxrkr6mdkj>)
 
