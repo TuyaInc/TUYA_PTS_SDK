@@ -20,3 +20,11 @@ Tuya Smart Production test SDK provides the interface package for the communicat
 
 Refer to details: [Tuya Production Test SDK Doc](<https://developer.tuya.com/cn/docs/iot/smart-production/production-test-solution/production-test-solution?id=Ka5nxrkr6mdkj>)
 
+
+
+### Note 
+
+This repository will be deprecated soon, please refer to the new repository in the Tuya Github Organization: <https://github.com/tuya/tuya-pts-sdk>. 
+
+
+

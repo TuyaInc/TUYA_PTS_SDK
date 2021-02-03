@@ -20,3 +20,9 @@
 
 更多参考: [涂鸦产测SDK文档](<https://developer.tuya.com/cn/docs/iot/smart-production/production-test-solution/production-test-solution?id=Ka5nxrkr6mdkj>)
 
+
+
+### 注意
+
+当前仓库将会废弃，新的涂鸦 Github 仓库地址参见： <https://github.com/tuya/tuya-pts-sdk>.
+
